@@ -138,7 +138,7 @@
             "Key": "6d3e1335-126d-41cb-8e5c-e56d22bd94e5",
             "Value": {
                 "id": "f406aa1e-ddf6-4d45-8782-786919d5be2c",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/rm_menu\/rm_menu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "75fea791-85c3-4a3a-be54-f09c40c96fb4",
             "Value": {
                 "id": "12e547a3-8cc0-4b3f-9928-f430644c2204",
-                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourcePath": "sprites\/sprite0\/sprite0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -218,7 +218,7 @@
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "671acd2b-fdd4-49e0-b9e5-034f4393072a",
-                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
             }
         },
