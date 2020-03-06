@@ -1,0 +1,2 @@
+line = "";
+line = "Hello world! This is a test to see how everything is working. Ahem...Anyway, so today's placeholder text will be talking about how The current state of this scrolling option is really bad, about how I can't wait for everything to work again....... Thats all!! Thank you for listening to TODAY'S PLACEHOLDER TEXT";
