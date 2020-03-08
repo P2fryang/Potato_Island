@@ -5,4 +5,4 @@ words = "";
 chars = 0;
 yorg = y;
 global.off = 0;
-layer_background_blend(o_dialogue,c_white);
+//layer_background_blend(o_dialogue,c_white);
