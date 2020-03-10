@@ -8,7 +8,8 @@
 	z = window_mouse_get_y();
 	global.flag = true;
 	show_debug_message("pressed");
-}*/
+}
 z = window_mouse_get_y();
 global.flg = true;
 //show_debug_message("pressed");
+*/

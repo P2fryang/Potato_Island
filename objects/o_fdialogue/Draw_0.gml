@@ -3,4 +3,7 @@
 draw_self();
 draw_set_font(font0);
 draw_set_color(c_white);
-draw_text_ext_transformed(x,yorg+50+global.off*-4,words,-1,sprite_width-70,1,1,0);
+if(dia<=diaMax){
+	draw_text_ext_transformed(x,y+sprite_height-172,string_copy(dialogue[scenenum,dia],1,chars),-1,sprite_width-70,1,1,0);
+	//show_debug_message("go");	
+}

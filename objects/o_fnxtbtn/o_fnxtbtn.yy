@@ -1,38 +1,28 @@
 {
-    "id": "022419c2-88e4-4f25-9217-6681a14d01e9",
+    "id": "77edd700-6c85-47e8-b594-cc9bdb751619",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_fmininotebook",
+    "name": "o_fnxtbtn",
     "eventList": [
         {
-            "id": "1736bc3e-e3ee-43f9-9674-1a5e8ddc2379",
+            "id": "364e578f-42e6-4ba4-9e99-e6b16366bcea",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "022419c2-88e4-4f25-9217-6681a14d01e9"
+            "m_owner": "77edd700-6c85-47e8-b594-cc9bdb751619"
         },
         {
-            "id": "e698a75e-3cf0-490d-b569-0cf6f64518d2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "022419c2-88e4-4f25-9217-6681a14d01e9"
-        },
-        {
-            "id": "6af0e9ec-912f-465f-991e-bf6174a03b42",
+            "id": "be013b31-71f5-47a4-98bf-5f8942d39d07",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "022419c2-88e4-4f25-9217-6681a14d01e9"
+            "m_owner": "77edd700-6c85-47e8-b594-cc9bdb751619"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1e8a26d0-627b-4b03-aa2c-25d6ff7a058d",
+    "spriteId": "0f356d09-fcca-48f7-bd1b-5113b3ad8acd",
     "visible": true
 }
