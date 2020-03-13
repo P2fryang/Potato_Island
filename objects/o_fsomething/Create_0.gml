@@ -1,7 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(curs!=0)
-move=1;
-else
-move=0;
-curs--;
+image_blend = make_color_rgb(0,0,0);
