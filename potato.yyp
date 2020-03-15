@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1e1a7324-9fb8-4d0d-ab9d-1eab13a6db03",
+            "Value": {
+                "id": "9eae0ee6-3a1e-42e5-b32a-8a0813ec2297",
+                "resourcePath": "objects\\o_fnxtbtnchlgdebug\\o_fnxtbtnchlgdebug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e8a26d0-627b-4b03-aa2c-25d6ff7a058d",
             "Value": {
                 "id": "46a55d2d-2ec9-4587-bc7f-0b3c14e48cc3",
@@ -156,6 +164,14 @@
                 "id": "9eece3c4-d3f7-42d3-8f97-69f9f1239dfa",
                 "resourcePath": "views\/41dbc0d7-6ec9-444e-88f7-0a02e82c31f0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "42229d08-a3d4-465f-a04d-cf68958a571d",
+            "Value": {
+                "id": "9314a0d3-61a4-4b3c-97ef-677ceb76e89e",
+                "resourcePath": "objects\\o_fbckbtnchlgdebug\\o_fbckbtnchlgdebug.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -402,7 +418,7 @@
             "Key": "c537ebf1-13b5-4841-97ad-ca80180dbbce",
             "Value": {
                 "id": "3033d2d3-8826-494f-b6b6-4f6c04ef10c5",
-                "resourcePath": "objects\\o_fHelloWorld\\o_fHelloWorld.yy",
+                "resourcePath": "objects\\o_fMultChoice\\o_fMultChoice.yy",
                 "resourceType": "GMObject"
             }
         },
