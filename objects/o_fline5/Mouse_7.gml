@@ -10,8 +10,8 @@ else{
 		for(i=global.ind[line];i<4;i++){
 			global.clc[i] = global.clc[i+1];	
 		}
-		global.clc[5] = 0;
-		for(i = 0;i<5;i++){
+		global.clc[4] = 0;
+		for(i = 0;i<=5;i++){
 			if(global.ind[i]>global.ind[line]){
 				global.ind[i]--;	
 			}
