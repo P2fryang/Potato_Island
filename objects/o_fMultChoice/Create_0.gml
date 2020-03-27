@@ -4,6 +4,8 @@ keyboard_string = "";
 rply = "";
 chlge = global.chlg;
 rpl = 0;
+//resetflag
+flgrst = true;
 //first multchoice challenge
 //rpli[challenge#,reply correctness]
 rpli[chlge,rpl++] = "Watch out for the double quotes!!";

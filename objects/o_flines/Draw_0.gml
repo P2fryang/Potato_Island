@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-draw_set_color(c_white);
+draw_set_color(c_black);
 draw_set_font(font2);
 
 if(string_length(keyboard_string)!=5){
@@ -21,6 +21,6 @@ if(keyboard_string!=""&&string_length(keyboard_string)==5){
 		}
 	}
 	if(flg){
-		draw_text(x+32,y+sprite_height*1.75,rpli[chlg,rpl]);
+		draw_text_transformed(x+32,y+sprite_height*1.75,rpli[chlg,rpl],1,1,0);
 	}
 }
