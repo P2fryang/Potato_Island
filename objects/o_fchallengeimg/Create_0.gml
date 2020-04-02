@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 keyboard_string = "";
-rply = "";
+//rply = "";
 chlge = global.chlg;
 rpl = 0;
 //resetflag
