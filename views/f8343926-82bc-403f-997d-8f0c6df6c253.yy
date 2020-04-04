@@ -6,7 +6,8 @@
     "children": [
         "b4dc4ded-a7c0-4aac-bebf-854a1afb0fdf",
         "1f17316c-5e99-4d8a-a725-83344bcc6f0e",
-        "0f356d09-fcca-48f7-bd1b-5113b3ad8acd"
+        "0f356d09-fcca-48f7-bd1b-5113b3ad8acd",
+        "0fccd694-d5d7-49e5-91dd-bbcf55df2ff2"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_dialogue",
