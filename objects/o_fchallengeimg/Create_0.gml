@@ -4,6 +4,7 @@ keyboard_string = "";
 //rply = "";
 chlge = global.chlg;
 rpl = 0;
+key = 0;
 //resetflag
 flgrst = true;
 //selected choice

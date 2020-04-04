@@ -2,8 +2,8 @@
 // You can write your code in this editor
 global.chlg=1;
 if(global.chlg == 1){
-	o_fMultChoice1.depth = -1000;
-	o_fMultChoice1.visible = false;
+	o_fMultChoice1.depth = 301;
+	//o_fMultChoice1.visible = false;
 	//o_fchallengeimg.flgrst = true;
 	instance_deactivate_layer(layer_get_id("MultipleChoice"));
 	instance_activate_layer(layer_get_id("Lines2"));

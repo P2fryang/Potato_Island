@@ -20,4 +20,6 @@ else{
 	global.crt--;
 	global.ind[line] = -1;
 	clcd = false;
+	global.clck = false;
+	global.correct = false;
 }

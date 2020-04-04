@@ -7,10 +7,10 @@ if(global.chlg == 0){
 	instance_activate_layer(layer_get_id("MultipleChoice"));
 	layer_set_visible(layer_get_id("MultipleChoice"),true);
 	instance_activate_object(o_fMultChoice1);
-	o_fMultChoice1.visible = true;
-	o_fMultChoice1.depth = 299;
+	o_fMultChoice1.depth = 99;
 	global.chce = 0;
 	o_fchallengeimg.flgrst = true;
+	o_fchallengeimg.key = 0;
 	//o_fchallengeimg.flgrst = true;
 	//o_fMultChoice1.depth -=1;
 }

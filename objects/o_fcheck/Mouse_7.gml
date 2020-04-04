@@ -3,8 +3,8 @@
 ans0 = "43125";
 ans1 = "43152";
 ans = "";
-global.clck = true;
 if(global.crt==5){
+	global.clck = true;
 	for(i = 0;i<5;i++){
 		ans += string(global.clc[i]);
 	}
