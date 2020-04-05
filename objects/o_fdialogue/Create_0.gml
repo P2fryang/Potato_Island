@@ -16,10 +16,12 @@ dialogue[scenenum,dia++] = "Coding is impossible! I'll never be able to learn Ja
 speak[scenenum,dia] = "Sun God";
 dialogue[scenenum,dia++] = "Did someone say they needed a miracle?";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Wh...Where am I?";
+dialogue[scenenum,dia++] = "Wh...What is happening?";
 speak[scenenum,dia] = "Rimac"
 dialogue[scenenum++,dia++] = "AHHHHHHHH!";
 dia = 0;
+
+
 //scene 2
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Woah, what a dump. How did I get here? And what's up with my vision. I must've hit my head.";

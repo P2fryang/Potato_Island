@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_bedroom",
+    "name": "rm_bedroom_OLD",
     "id": "962406b3-4a63-4b54-a87c-06c40256725b",
     "creationCodeFile": "",
     "inheritCode": false,
