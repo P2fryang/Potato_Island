@@ -12,7 +12,7 @@ else if scenenum == 2
 	diaMaxTemp = 15;
 	
 if(dia<=diaMaxTemp){
-	draw_set_font(font01);
+	draw_set_font(font_dia2);
 	draw_set_color(c_black);
 	draw_text(x+60,y+55,speak[scenenum,dia]);
 	if(speak[scenenum,dia] == "Loady"){
@@ -39,7 +39,7 @@ if(dia<=diaMaxTemp){
 		o_fGQ.visible = false;
 		o_fSG.visible = true;
 	}
-	draw_set_font(font0);
+	draw_set_font(font_dia);
 	draw_set_color(c_gray);
 	//draw_text_ext_transformed(x+50,y+sprite_height-500,string_copy(dialogue[scenenum,dia],1,chars),-1,sprite_width-120,1,1,0);
 	draw_text_ext_transformed(x+50,y+sprite_height-500,string_copy(string_wordwrap_width(dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars),-1,sprite_width-100,1,1,0);

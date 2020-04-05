@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_self();
 draw_set_color(c_navy);
-draw_set_font(font2);
+draw_set_font(font_chlgs3);
 if(key == 1 || global.chce == 1){
 	rpl = 0;
 	//rply = "Watch out for the double quotes!!";
