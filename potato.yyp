@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0519e340-63f1-43f9-8565-284eccd317cc",
+            "Value": {
+                "id": "3bf840ab-36f0-4c5a-9b6e-5f13ac9f0052",
+                "resourcePath": "views\/0519e340-63f1-43f9-8565-284eccd317cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "07a62dc1-6d93-4cba-8f9d-3cc648bf0a9c",
             "Value": {
                 "id": "09a44aa6-ab12-4796-9c65-b4a2dfc976f3",
@@ -187,6 +195,14 @@
             "Value": {
                 "id": "02ef935e-53f9-493b-ab97-4d902537ca57",
                 "resourcePath": "views\/30ce29d0-0da1-451d-a99b-6156ebca78fe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "31e36d14-1072-4c2c-ba2e-f0e1bfee22e0",
+            "Value": {
+                "id": "1ddba902-88bd-4c51-bf94-96f9b19fd45f",
+                "resourcePath": "views\/31e36d14-1072-4c2c-ba2e-f0e1bfee22e0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -367,6 +383,14 @@
             }
         },
         {
+            "Key": "75cfd3f5-de74-47e0-b59a-7ceb458032d4",
+            "Value": {
+                "id": "c56a79ca-04c5-46e9-a19d-a2c497da9f2c",
+                "resourcePath": "views\/75cfd3f5-de74-47e0-b59a-7ceb458032d4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "765bc71d-e901-4847-abbe-d4f994aac7b3",
             "Value": {
                 "id": "d899922d-db41-4ceb-9b6b-597bbb3dc768",
@@ -524,6 +548,14 @@
                 "id": "05df6e55-1969-4501-a8e1-8efd44f1b6a1",
                 "resourcePath": "fonts\/font_dia2\/font_dia2.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "bf869ebd-cc8c-49b1-a603-f0209a70e996",
+            "Value": {
+                "id": "fe8d34b7-9fbd-4f31-a4ad-cb67681982bb",
+                "resourcePath": "views\/bf869ebd-cc8c-49b1-a603-f0209a70e996.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
