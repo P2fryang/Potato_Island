@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00ed47a1-3ab1-4004-ab8b-c41d49616178",
+            "Value": {
+                "id": "6a194c02-8227-4c58-aefb-dca2f98184db",
+                "resourcePath": "sprites\/spr_falling_potato\/spr_falling_potato.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "028653ea-1dd5-4d76-8ef4-ae98255670ed",
             "Value": {
                 "id": "36bc70c7-7f95-47d9-88bf-4876f6dfb6cf",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "cc26ac4b-1f72-4d1c-a11e-446d7510bf62",
+            "Value": {
+                "id": "d97685c1-f941-4076-8887-12eeecdc4dd4",
+                "resourcePath": "objects\/obj_computer_screen\/obj_computer_screen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc507232-21d4-4917-b634-eac8aaf28d12",
             "Value": {
                 "id": "3da51cd4-a0eb-41fa-987b-9a170db04226",
@@ -603,6 +619,14 @@
             "Value": {
                 "id": "2361926b-caa4-49a3-a665-e9cb7fd8ba09",
                 "resourcePath": "objects\/o_fnxtbtnchlgdebug1\/o_fnxtbtnchlgdebug1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d26b214d-5e52-43ed-bdea-d0eb053645a2",
+            "Value": {
+                "id": "0ced48e1-bd16-48f0-84fb-966818238c96",
+                "resourcePath": "objects\/obj_falling_potato\/obj_falling_potato.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "e668b2a7-377d-4949-a33c-3a35bebe5c21",
+            "Value": {
+                "id": "ba69bfb2-e132-49a0-b67b-3860a109d401",
+                "resourcePath": "sprites\/spr_computer_screen\/spr_computer_screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7945b79-f28a-4aa3-925d-d2d277e250fa",
             "Value": {
                 "id": "07fa21cc-3180-499f-a80c-c5dc424df5d8",
@@ -748,6 +780,14 @@
                 "id": "0742cc68-b1d9-462b-a862-b193bc53601d",
                 "resourcePath": "objects\/obj_potato_walking\/obj_potato_walking.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fca957c4-fb0e-49ad-b808-9f5cf0973cc6",
+            "Value": {
+                "id": "43a14026-e435-4ac6-9f06-2266c38d4cb2",
+                "resourcePath": "rooms\/rm_dropping_in\/rm_dropping_in.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
