@@ -5,22 +5,18 @@ draw_set_color(c_navy);
 draw_set_font(font_chlgs3);
 if(key == 1 || global.chce == 1){
 	rpl = 0;
-	//rply = "Watch out for the double quotes!!";
 	flgrst = false;
 }
 else if(key == 2 || global.chce == 2){
 	rpl = 1;
-	//rply = "Single quotes are used for the data type char";
 	flgrst = false;
 }
 else if(key == 3 || global.chce == 3){
 	rpl = 2;
-	//rply = "Comma??....or....";
 	flgrst = false;
 }
 else if(key == 4 || global.chce == 4){
 	rpl = 3;
-	//rply = "Correct!! :)";
 	flgrst = false;
 }
 if(!flgrst){

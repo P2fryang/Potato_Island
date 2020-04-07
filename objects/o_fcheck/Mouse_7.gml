@@ -3,6 +3,8 @@
 ans0 = "43125";
 ans1 = "43152";
 ans = "";
+
+//determine if answer is correct
 if(global.crt==5){
 	global.clck = true;
 	for(i = 0;i<5;i++){

@@ -4,10 +4,7 @@ line = "";
 chars = 0;
 scenenum = 0;
 dia = 0;
-//sceneMax = 3;
-diaMax = 100;
 frwd = dia;
-i = 0;
 
 //scene 1
 //[scene #,dialogue #]

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//functionality of order of lines when clicked and unclicked etc.
 if(!clcd){
 	global.clc[global.crt] = line;
 	global.ind[line] = global.crt++;

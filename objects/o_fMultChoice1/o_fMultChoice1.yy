@@ -4,26 +4,7 @@
     "mvc": "1.0",
     "name": "o_fMultChoice1",
     "eventList": [
-        {
-            "id": "41e1f72f-2700-4afa-86e9-ce5542650090",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "09f261fb-4772-48f0-95c3-238a06dc0971"
-        },
-        {
-            "id": "8ba792ef-bc4b-4903-a908-f892fcd81651",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "09f261fb-4772-48f0-95c3-238a06dc0971"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

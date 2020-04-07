@@ -5,16 +5,6 @@
     "name": "o_fpotat",
     "eventList": [
         {
-            "id": "319bd09f-a9f4-47ad-b18b-c16548da5a7f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "19c02cfb-bfd6-4880-960b-6c6c43ca9079"
-        },
-        {
             "id": "a30cf40c-a339-4571-b891-4638cdb2a480",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,16 +12,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "19c02cfb-bfd6-4880-960b-6c6c43ca9079"
-        },
-        {
-            "id": "cee9070b-dd0c-4a5c-96ff-8eafcb6dc466",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
             "m_owner": "19c02cfb-bfd6-4880-960b-6c6c43ca9079"
         },
         {

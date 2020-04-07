@@ -1,16 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor 
-draw_self();
-diaMaxTemp = diaMax;
 
-if(scenenum == 0){
+draw_self();
+
+//diaMaxTemp in order to maintain the limit of the dialogue per scene
+//to prevent accessing dialogue that doesn't exist
+if(scenenum == 0)
 	diaMaxTemp = 3;
-}
 else if scenenum == 1
 	diaMaxTemp = 19;
 else if scenenum == 2
 	diaMaxTemp = 15;
 	
+//speak to determine the speaker image
+//also draw dialogue text
 if(dia<=diaMaxTemp){
 	draw_set_font(font_dia2);
 	draw_set_color(c_black);
@@ -41,7 +44,6 @@ if(dia<=diaMaxTemp){
 	}
 	draw_set_font(font_dia);
 	draw_set_color(c_gray);
-	//draw_text_ext_transformed(x+50,y+sprite_height-500,string_copy(dialogue[scenenum,dia],1,chars),-1,sprite_width-120,1,1,0);
 	draw_text_ext_transformed(x+50,y+sprite_height-500,string_copy(string_wordwrap_width(dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars),-1,sprite_width-100,1,1,0);
 	//show_debug_message("go");	
 }

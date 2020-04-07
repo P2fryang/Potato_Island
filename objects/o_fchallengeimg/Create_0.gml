@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 keyboard_string = "";
-//rply = "";
 chlge = global.chlg;
 rpl = 0;
+//key is the keyboard input
 key = 0;
-//resetflag
+//resetflag (true means no input false means answer inputted)
 flgrst = true;
-//selected choice
+//selected answer choice
 global.chce = 0;
 //first multchoice challenge
 //rpli[challenge#,reply correctness]
