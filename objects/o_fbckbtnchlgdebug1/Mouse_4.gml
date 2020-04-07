@@ -7,9 +7,9 @@
 //while in the same room
 global.chlg=0;
 if(global.chlg == 0){
-	instance_deactivate_layer(layer_get_id("Lines2"));
-	instance_activate_layer(layer_get_id("MultipleChoice"));
-	layer_set_visible(layer_get_id("MultipleChoice"),true);
+	instance_deactivate_layer(layer_get_id(global.Lines1));
+	instance_activate_layer(layer_get_id(global.Mult1));
+	layer_set_visible(layer_get_id(global.Mult1),true);
 	instance_activate_object(o_fMultChoice1);
 	o_fMultChoice1.depth = 99;
 	global.chce = 0;
