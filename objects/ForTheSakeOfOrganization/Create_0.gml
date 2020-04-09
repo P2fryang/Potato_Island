@@ -4,5 +4,5 @@
 //global variables
 
 //layers
-global.Mult1 = "MultipleChoice";
+global.Mult1 = "MultipleChoice2";
 global.Lines1 = "Lines1";
