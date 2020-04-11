@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(point_distance(obj_potato_walking.x, obj_potato_walking.y, 350, 350) > 1){
-	move_towards_point(350, 350, 2);
+	move_towards_point(350, 350, 3);
 	o_fSG.visible = false;
 	o_fpotat.visible = false;
 	o_floady.visible = false;
