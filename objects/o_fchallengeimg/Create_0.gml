@@ -7,8 +7,6 @@ rpl = 0;
 key = 0;
 //resetflag (true means no input false means answer inputted)
 flgrst = true;
-//selected answer choice
-global.chce = 0;
 //first multchoice challenge
 //rpli[challenge#,reply correctness]
 rpli[chlge,rpl++] = "Watch out for the double quotes!!";

@@ -5,16 +5,6 @@
     "name": "o_fpotat",
     "eventList": [
         {
-            "id": "a30cf40c-a339-4571-b891-4638cdb2a480",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "19c02cfb-bfd6-4880-960b-6c6c43ca9079"
-        },
-        {
             "id": "e4f9add0-903f-4b60-b0ba-90f1ca25b27c",
             "modelName": "GMEvent",
             "mvc": "1.0",
