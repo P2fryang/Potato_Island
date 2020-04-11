@@ -18,4 +18,4 @@ global.clck = false;
 //layers
 global.Mult1 = "inst_multiple_choice";
 global.Lines1 = "inst_lines";
-global.Free1 = "inst_challenge1";
+global.Free1 = "inst_free_response";

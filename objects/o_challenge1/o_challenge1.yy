@@ -1,8 +1,8 @@
 {
-    "id": "09f261fb-4772-48f0-95c3-238a06dc0971",
+    "id": "65490447-eb19-43b7-9ec7-5c87e4458528",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_fMultChoice1",
+    "name": "o_challenge1",
     "eventList": [
         
     ],

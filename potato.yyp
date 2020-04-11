@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "04845dfe-ee4b-4d67-94cb-30e280b4f770",
+            "Value": {
+                "id": "af865024-86b0-4e2d-beef-c1f02d105942",
+                "resourcePath": "sprites\\s_challenge2a\\s_challenge2a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0519e340-63f1-43f9-8565-284eccd317cc",
             "Value": {
                 "id": "3bf840ab-36f0-4c5a-9b6e-5f13ac9f0052",
@@ -74,7 +82,15 @@
             "Key": "09f261fb-4772-48f0-95c3-238a06dc0971",
             "Value": {
                 "id": "5311714a-6e43-4503-a850-6d75c31437e9",
-                "resourcePath": "objects\/o_fMultChoice1\/o_fMultChoice1.yy",
+                "resourcePath": "objects\\o_fMultiChoice1\\o_fMultiChoice1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0a7212f1-a913-46fe-ae08-2e9c1d078769",
+            "Value": {
+                "id": "904272dd-aff1-4e5d-b57a-3d0a0c949c2d",
+                "resourcePath": "objects\\o_scroll_up\\o_scroll_up.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "44af6ab1-a1bd-4b9b-9ec0-676bec8c45c9",
+            "Value": {
+                "id": "8cd5b0e6-acec-4645-8e53-3ebb50424ac1",
+                "resourcePath": "objects\\o_challenge2a\\o_challenge2a.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "44bf10fc-8cf3-4141-8c6f-6d126bd28523",
             "Value": {
                 "id": "c8034aec-965b-484f-99dd-dccccc6e0356",
@@ -354,7 +378,7 @@
             "Key": "5b5089b9-3437-4c6e-bd6a-69597533717c",
             "Value": {
                 "id": "c78bf1e8-89c8-47ba-abe9-cfd65fa505a4",
-                "resourcePath": "sprites\\s_HelloWorld2\\s_HelloWorld2.yy",
+                "resourcePath": "sprites\\s_challenge1\\s_challenge1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -410,7 +434,7 @@
             "Key": "65490447-eb19-43b7-9ec7-5c87e4458528",
             "Value": {
                 "id": "e4ff5d11-d3b7-443c-84cc-6a4c880ea305",
-                "resourcePath": "objects\\o_fMultChoice11\\o_fMultChoice11.yy",
+                "resourcePath": "objects\\o_challenge1\\o_challenge1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -844,6 +868,14 @@
                 "id": "aae4427b-9a87-4755-ab52-8e5fd70f8fb5",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7368a9c-46dd-44b7-bb33-faa536e49e47",
+            "Value": {
+                "id": "25f89330-208b-4c29-b792-52dc737fb283",
+                "resourcePath": "objects\\o_scroll_down\\o_scroll_down.yy",
+                "resourceType": "GMObject"
             }
         },
         {

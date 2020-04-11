@@ -3,13 +3,13 @@
 enter_clicked_and_ans_not_changed = true;
 if(global.chlg == 0){
 	if(str == "Hello, World!"){
-		rpl = "Please remember to use \"\"";	
+		rplnum = 0;	
 	}
 	else if(str == "\"Hello, World!\""){
-		rpl = "Correct!!"
+		rplnum = 1;
 	}
 	else{
-		rpl = "This won't print the target phrase";	
+		rplnum = 2;
 	}
 }
 /*else if(global.chlg == 1){
