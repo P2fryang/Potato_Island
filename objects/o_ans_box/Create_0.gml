@@ -1,5 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//to deactivate all other challenge instances before they exist
+instance_deactivate_layer(global.Lines1);
+instance_deactivate_layer(global.Mult1);
+instance_activate_layer(global.Free1);
+
 str = keyboard_string;
 enter_clicked_and_ans_not_changed = false;
 rplnum = 0;
