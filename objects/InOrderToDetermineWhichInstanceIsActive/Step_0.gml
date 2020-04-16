@@ -5,7 +5,7 @@ if(global.changechlg){
 		challenge_activate_deactivate_instances(global.Free1);
 	}
 	else if(global.chlg == 1){
-		challenge_activate_deactivate_instances(global.Free1);	
+		challenge_activate_deactivate_instances(global.Free2);	
 	}
 	global.changechlg = false;
 }
