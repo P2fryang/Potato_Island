@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle = 270;
+str = "";
+/*cursor = "|";
+delay = 20;
+alarm[0] = delay;*/

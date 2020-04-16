@@ -1,6 +1,5 @@
 /// @description Declare all variables
 // You can write your code in this editor
-
 //global variables all challenges
 global.chlg = 0;
 //multiple choice
@@ -33,6 +32,7 @@ global.fr2a[13] = o_phrase21;
 global.fr2a[14] = o_phrase22;
 global.fr2a[15] = o_phrase23;
 global.fr2a[16] = o_phrase24;
+global.txtbx = -1;
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
@@ -44,7 +44,8 @@ global.Mult1 = "inst_multiple_choice";
 global.Lines1 = "inst_lines";
 global.Free1 = "inst_challenge1";
 global.Free2 = "inst_challenge2a";
-/*//global.chlginst to make activating and deactivating instances easier;
+//global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
-global.chlginst[2] = global.Free1;*/
+global.chlginst[2] = global.Free1;
+global.chlginst[3] = global.Free2;

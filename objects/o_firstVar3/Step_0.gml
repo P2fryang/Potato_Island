@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle = 270;
+if(global.txtbx == 3){
+	str = keyboard_string;
+}

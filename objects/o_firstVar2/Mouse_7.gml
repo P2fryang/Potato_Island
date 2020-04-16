@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_angle = 270;
+global.txtbx = 2;
+keyboard_string = str;
