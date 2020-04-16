@@ -9,7 +9,8 @@
         "9c5eab00-6fdb-4b24-88cb-6259f1b29291",
         "fca957c4-fb0e-49ad-b808-9f5cf0973cc6",
         "962406b3-4a63-4b54-a87c-06c40256725b",
-        "e3f30b81-a23a-44b9-8336-161354f2703a"
+        "e3f30b81-a23a-44b9-8336-161354f2703a",
+        "086f9db3-6c8a-4b75-bc88-72be9045b770"
     ],
     "filterType": "GMRoom",
     "folderName": "rooms",
