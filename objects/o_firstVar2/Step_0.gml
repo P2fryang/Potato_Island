@@ -3,5 +3,8 @@
 
 //if this textbox is selected, then its content could be edited
 if(global.txtbx == 2){
+	if(str != keyboard_string){
+		o_challenge2a.firstVarc = true;
+	}
 	str = keyboard_string;
 }
