@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "d85f90b2-727b-427b-b295-f164d98d7894",
+            "Value": {
+                "id": "4e8b48c2-012a-4893-9726-34db96d8e519",
+                "resourcePath": "fonts\\font_challenge2a_textbox\\font_challenge2a_textbox.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "da968b41-3684-45ed-8e1b-6a3cfde86711",
             "Value": {
                 "id": "9def2436-48e8-44ff-a222-653c3c9158f2",
