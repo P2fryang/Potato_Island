@@ -4,8 +4,8 @@ draw_self();
 	var rpl = "";
 	var rpl1 = "";
 	var multErr = false;
-if(enter_clicked){
-	if(firstVar && !firstVarc){
+//if(enter_clicked){
+	if(firstVar && !firstVarc && fVEnter){
 		if(o_firstVar1.str == "int" && o_firstVar2.str == "firstVar" && o_firstVar3.str == "3"){
 			draw_set_color(c_green);
 			rpl = "Correct!"
@@ -55,7 +55,7 @@ if(enter_clicked){
 		rpl = "";
 	}
 	draw_text(o_firstVar3.x+20+o_firstVar3.sprite_width,o_firstVar3.y+5,rpl);
-	if(d && !dc){
+	if(d && !dc && dEnter){
 		rpl = "";
 		multErr = false;
 		if(o_d1.str == "double" && o_d2.str == "d" && o_d3.str == "3.05"){
@@ -107,7 +107,7 @@ if(enter_clicked){
 		rpl = "";
 	}
 	draw_text(o_d3.x+20+o_d3.sprite_width,o_d3.y+5,rpl);
-	if(e && !ec){
+	if(e && !ec && eEnter){
 		rpl = "";
 		multErr = false;
 		if(o_e1.str == "String" && o_e2.str == "e" && o_e3.str == "\"Variables!\""){
@@ -165,7 +165,7 @@ if(enter_clicked){
 		rpl = "";
 	}
 	draw_text(o_e3.x+20+o_e3.sprite_width,o_e3.y+5,rpl);
-	if(f && !fc){
+	if(f && !fc && fEnter){
 		rpl = "";
 		multErr = false;
 		if(o_f1.str == "char" && o_f2.str == "f" && o_f3.str == "\'&\'"){
@@ -223,7 +223,7 @@ if(enter_clicked){
 		rpl = "";
 	}
 	draw_text(o_f3.x+20+o_f3.sprite_width,o_f3.y+5,rpl);
-	if(phrase2 && !phrase2c){
+	if(phrase2 && !phrase2c && p2Enter){
 		rpl = "";
 		multErr = false;
 		if(o_phrase21.str == "String" && o_phrase22.str == "phrase2" && o_phrase23.str == "\"Hello, World!\""){
@@ -276,7 +276,7 @@ if(enter_clicked){
 				rpl += " Single quotes??";
 			}
 		}
-		if(phrase2last && !phrase2lastc){
+		if(phrase2last && !phrase2lastc && p2LEnter){
 			if(o_phrase24.str == "phrase2"){
 				rpl1 = "Correct!";
 			}
@@ -286,9 +286,13 @@ if(enter_clicked){
 		}
 	}
 	else{
+		if(phrase2last && !phrase2lastc && p2LEnter){
+			rpl1 = "Please finish the previous question first";
+		}
 		rpl = "";
 		rpl1 = "";
 	}
+	
 	draw_text(o_phrase23.x+20+o_phrase23.sprite_width,o_phrase23.y+5,rpl);
 	draw_text(o_phrase24.x+40+o_phrase24.sprite_width,o_phrase24.y+5,rpl1);
-}
+//}

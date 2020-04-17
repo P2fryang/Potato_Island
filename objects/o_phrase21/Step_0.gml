@@ -5,6 +5,7 @@
 if(global.txtbx == 13){
 	if(str != keyboard_string){
 		o_challenge2a.phrase2c = false;
+		o_challenge2a.p2Enter = false;
 	}
 	str = keyboard_string;
 }

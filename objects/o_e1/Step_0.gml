@@ -5,6 +5,7 @@
 if(global.txtbx == 7){
 	if(str != keyboard_string){
 		o_challenge2a.ec = false;
+		o_challenge2a.eEnter = false;
 	}
 	str = keyboard_string;
 }
