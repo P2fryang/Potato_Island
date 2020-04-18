@@ -3,7 +3,7 @@
 //act_inst = the challenge instance you want to activate
 //
 //instance_deactivate_all(true);
-for(i = 0;i<4;i++){
+for(i = 0;i<5;i++){
 	if(argument0!=global.chlginst[i]){
 		instance_deactivate_layer(layer_get_id(global.chlginst[i]));
 		layer_set_visible(layer_get_id(global.chlginst[i]),false);

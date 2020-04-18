@@ -33,6 +33,9 @@ global.fr2a[14] = o_phrase22;
 global.fr2a[15] = o_phrase23;
 global.fr2a[16] = o_phrase24;
 global.txtbx = -1;
+//challenge2b
+global.chlg2bscroll = 0;
+global.fr2b[0] = o_challenge2b;
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
@@ -44,9 +47,11 @@ global.Mult1 = "inst_multiple_choice";
 global.Lines1 = "inst_lines";
 global.Free1 = "inst_challenge1";
 global.Free2 = "inst_challenge2a";
+global.Free2b = "inst_challenge2b";
 //global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
 global.chlginst[2] = global.Free1;
 global.chlginst[3] = global.Free2;
+global.chlginst[4] = global.Free2b;
 //source control is torrible
