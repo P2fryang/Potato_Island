@@ -12,7 +12,11 @@
         "b28be8fe-b02b-47b8-9876-822971a5d97a",
         "0b56409d-3b59-4e21-a043-824de9e94b59",
         "b11925ca-a543-4b79-a99e-5337e482b092",
-        "f2bfaeb6-5310-4191-a5d5-4772ce8951d6"
+        "f2bfaeb6-5310-4191-a5d5-4772ce8951d6",
+        "dec56ea1-7822-40fc-8a9a-2aef0d89f759",
+        "ce14e5bc-0186-4572-b4b7-a7f90cc9f61b",
+        "f22c1687-efa9-43ef-b863-eac2e2cd0ba1",
+        "08116258-3440-4542-95ad-3ddc90f7d79d"
     ],
     "filterType": "GMSprite",
     "folderName": "Notebook Stuff(Epic)",
