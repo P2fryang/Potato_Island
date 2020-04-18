@@ -7,7 +7,10 @@
         "5b5089b9-3437-4c6e-bd6a-69597533717c",
         "729159b4-bd5c-410d-b2b3-e6b3eb088c75",
         "04845dfe-ee4b-4d67-94cb-30e280b4f770",
-        "1aa4d949-f518-418b-b2a4-58e781c2374d"
+        "a27b7614-a7eb-470f-9087-9ac61ce26853",
+        "1aa4d949-f518-418b-b2a4-58e781c2374d",
+        "f66a7820-de25-4da6-a898-f7df8860b617",
+        "9654a924-f378-4949-b938-cf6ba747b7e4"
     ],
     "filterType": "GMSprite",
     "folderName": "freeresponse",

@@ -7,5 +7,8 @@ if(global.changechlg){
 	else if(global.chlg == 1){
 		challenge_activate_deactivate_instances(global.Free2);	
 	}
+	else if(global.chlg == 2){
+		challenge_activate_deactivate_instances(global.Free2a);
+	}
 	global.changechlg = false;
 }
