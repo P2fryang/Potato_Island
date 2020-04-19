@@ -13,5 +13,5 @@ if ((transparency == 0) && (fade == -1)){
 
 draw_set_color(c_black);
 draw_set_alpha(transparency);
-draw_rectangle(0, 0, 1200, 900, 0);
+draw_rectangle(0, 0, 1920, 1080, 0);
 draw_set_alpha(1);
