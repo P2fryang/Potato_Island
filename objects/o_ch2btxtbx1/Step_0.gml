@@ -14,7 +14,7 @@ if(global.txtbx == bx){//if true, then this textbox is selected
 			if(str == global.challenge2b_answers[bx]){
 				rpl = 0;
 			}
-			else if(str == "5"){
+			else if(str == "3"){
 				rpl = 1;
 			}
 			else{

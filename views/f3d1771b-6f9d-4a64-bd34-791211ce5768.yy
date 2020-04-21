@@ -9,7 +9,8 @@
         "526523ee-02dd-4084-8079-fa302ba82e54",
         "179a9db3-980a-44c3-8dd7-5a8ceab07d26",
         "ddc4272b-5ab6-4a81-8842-29e2c6dedfbf",
-        "6c08bec0-cc75-4f99-ae82-55bfe9ef48f1"
+        "6c08bec0-cc75-4f99-ae82-55bfe9ef48f1",
+        "f5496dee-028c-476f-ac8f-65c2e8abd565"
     ],
     "filterType": "GMObject",
     "folderName": "challenge2b",
