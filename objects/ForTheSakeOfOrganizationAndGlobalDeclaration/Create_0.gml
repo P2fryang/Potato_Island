@@ -58,6 +58,22 @@ global.challenge2b_replies[1] = "Semicolon?";
 global.challenge2b_replies[2] = "Incorrect";
 global.challenge2b_replies[99] = "";
 
+global.fr2b[0] = o_ch2btxtbx1;
+global.fr2b[1] = o_ch2btxtbx2;
+global.fr2b[2] = o_ch2btxtbx3;
+global.fr2b[3] = o_ch2btxtbx4;
+global.fr2b[4] = o_ch2btxtbx5;
+global.fr2b[5] = o_ch2btxtbx6;
+global.fr2b[6] = o_ch2btxtbx7;
+global.fr2b[7] = o_ch2btxtbx8;
+global.fr2b[8] = o_ch2btxtbx9;
+global.fr2b[9] = o_ch2btxtbx10;
+global.fr2b[10] = o_ch2btxtbx11;
+global.fr2b[11] = o_ch2btxtbx12;
+global.fr2b[12] = o_ch2btxtbx13;
+global.fr2b[13] = o_ch2btxtbx14;
+global.fr2b[14] = o_ch2btxtbx15;
+
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
 //also in the scroll buttons, challenge screenshots to prevent constant visible/invisble commands
