@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "6c08bec0-cc75-4f99-ae82-55bfe9ef48f1",
+            "Value": {
+                "id": "feede07b-2522-44fe-85aa-1d8b79ffd4d0",
+                "resourcePath": "objects\\o_ch2btxtbx2\\o_ch2btxtbx2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d65e6ea-7962-4dc5-b5de-979fa2af5ccd",
             "Value": {
                 "id": "494e70b6-7170-4fe4-870b-ccb0257b8a5c",

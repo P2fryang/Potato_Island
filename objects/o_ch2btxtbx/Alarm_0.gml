@@ -1,6 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-if(global.txtbx != 1){
+//Determine if the cursor should show
+if(global.txtbx != bx){
 	cursor = "";
 }
 else{

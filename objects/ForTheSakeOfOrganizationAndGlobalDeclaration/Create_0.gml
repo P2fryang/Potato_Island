@@ -33,9 +33,16 @@ global.fr2a[14] = o_phrase22;
 global.fr2a[15] = o_phrase23;
 global.fr2a[16] = o_phrase24;
 global.txtbx = -1;
+
 //challenge2b
 global.chlg2bscroll = 0;
 global.fr2b[0] = o_challenge2b;
+global.challenge2b_answers[1] = "3;";
+global.challenge2b_answers[2] = "5;";
+global.challenge2b_replies[0] = "Correct!";
+global.challenge2b_replies[1] = "Semicolon?";
+global.challenge2b_replies[2] = "Incorrect";
+global.challenge2b_replies[99] = "";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
