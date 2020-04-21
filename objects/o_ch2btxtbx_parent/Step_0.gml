@@ -15,11 +15,11 @@ if(global.txtbx == bx){//if true, then this textbox is selected
 				rpl = 0;
 			}
 			else if(bx == 1 || bx == 2){//for bx1 & bx2, check for semicolon
-				if(str == string_copy(global.challenge2b_answers[bx],string_length(global.challenge2b_answers[bx]-1))){//(missing semicolon)
+				if(str == string_copy(global.challenge2b_answers[bx],1,string_length(global.challenge2b_answers[bx]-1))){//(missing semicolon)
 					rpl = 1;
 				}
 			}
-			else if(false;){
+			else if(false){
 				
 			}
 			else{
