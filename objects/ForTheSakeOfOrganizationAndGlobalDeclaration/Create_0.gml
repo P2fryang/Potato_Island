@@ -36,7 +36,6 @@ global.txtbx = -1;
 
 //challenge2b
 global.chlg2bscroll = 0;
-global.fr2b[0] = o_challenge2b;
 global.challenge2b_answers[1] = "3;";
 global.challenge2b_answers[2] = "5;";
 global.challenge2b_answers[3] = "sum";
@@ -73,6 +72,7 @@ global.fr2b[11] = o_ch2btxtbx12;
 global.fr2b[12] = o_ch2btxtbx13;
 global.fr2b[13] = o_ch2btxtbx14;
 global.fr2b[14] = o_ch2btxtbx15;
+global.fr2b[15] = o_challenge2b;
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances

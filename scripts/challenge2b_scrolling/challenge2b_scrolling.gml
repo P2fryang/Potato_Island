@@ -2,6 +2,6 @@
 //
 //amt_scroll = the amount to move objects by
 //
-for(i = 0;i<15;i++){
+for(i = 0;i<16;i++){
 	global.fr2b[i].y+=argument0;
 }
