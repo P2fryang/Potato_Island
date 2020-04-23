@@ -1,9 +1,9 @@
 bx = 0;
-rpl = 99;
+rpl = true;
 //user string changed-hide reply
 enter = false;
 //for ones with multiple textboxes to one answer, crt for locally correct
-crt = false;
+//crt = false;//no longer needed
 
 str = "";
 cursor = "|";

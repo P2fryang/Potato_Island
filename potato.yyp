@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "b5424dc2-6eaf-4e3d-a192-119555b18996",
+            "Value": {
+                "id": "6ea3d257-e3c9-4416-bc00-276ba492bd77",
+                "resourcePath": "scripts\\challenge2b_update_rpl\\challenge2b_update_rpl.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b6d72fe4-0f06-4515-8385-a6b221ff36c1",
             "Value": {
                 "id": "07f0f520-d3ab-4fd6-88c3-d38cfe661dbe",
@@ -1635,7 +1643,8 @@
         "e49aec8f-5beb-4910-8f89-5bf3e5aa7560",
         "1a33dba3-5c86-4f2f-9f34-72975ba65f60",
         "3e0d36b8-47e5-44b5-8676-189542a0f1d6",
-        "3d2c62bc-cb64-484f-9430-28ddc3b132c9"
+        "3d2c62bc-cb64-484f-9430-28ddc3b132c9",
+        "b5424dc2-6eaf-4e3d-a192-119555b18996"
     ],
     "tutorial": ""
 }
