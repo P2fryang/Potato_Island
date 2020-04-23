@@ -12,6 +12,7 @@ bx2 = -1;
 bx3 = -1;
 bx4 = -1;
 lastbx = bx1;//the textbox to reference to draw the reply text
+draw_set_color(c_red);//set reply color to red, change to green only if correct
 
 
 if(!blank){
@@ -30,15 +31,14 @@ if(!blank){
 		bx3 = 8;
 		bx4 = 9;
 	}
-	else if(bx1 == 11 || bx1 == 12 || bx1 == 13 | bx1 == 14){
+	else if(bx1 == 11 || bx1 == 12 || bx1 == 13 || bx1 == 14){
 		bx1 = 11;
 		bx2 = 12;
 		bx3 = 13;
 		bx4 = 14;
 	}
 	else{
-		draw_set_color(c_red);
-		draw_text_transformed(0,0,"ERROR404.myversion: bx_num_not_found",50,50,0);
+		draw_text_transformed(0,0,"ERROR404.myversion: bx"+string(bx1)+"_not_found",45,45,0);
 		return;
 	}
 
@@ -58,16 +58,19 @@ if(!blank){
 		}
 	}
 	else if(bx4 == -1){
-		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2].str == global.challenge2b_answers[bx2] && global.fr2b[bx3].str == global.challenge2b_answers[bx3]){
+		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3]){
 			rpl = 0;
 		}
 		lastbx = bx3;
 	}
 	else{
-		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2].str == global.challenge2b_answers[bx2] && global.fr2b[bx3].str == global.challenge2b_answers[bx3] && global.fr2b[bx4].str == global.challenge2b_answers[bx4]){
+		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3] && global.fr2b[bx4-1].str == global.challenge2b_answers[bx4]){
 			rpl = 0;
 		}
 		lastbx = bx4;
+	}
+	if(rpl == 0){
+		draw_set_color(c_green);
 	}
 	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[rpl]);
 }
