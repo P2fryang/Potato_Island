@@ -83,12 +83,12 @@ global.changechlg = false;
 global.Mult1 = "inst_multiple_choice";
 global.Lines1 = "inst_lines";
 global.Free1 = "inst_challenge1";
-global.Free2 = "inst_challenge2a";
+global.Free2a = "inst_challenge2a";
 global.Free2b = "inst_challenge2b";
 //global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
 global.chlginst[2] = global.Free1;
-global.chlginst[3] = global.Free2;
+global.chlginst[3] = global.Free2a;
 global.chlginst[4] = global.Free2b;
 //source control is torrible
