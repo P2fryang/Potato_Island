@@ -1,5 +1,6 @@
 bx = 0;
 rpl = true;
+rpl = false;
 //user string changed-hide reply
 enter = false;
 //for ones with multiple textboxes to one answer, crt for locally correct

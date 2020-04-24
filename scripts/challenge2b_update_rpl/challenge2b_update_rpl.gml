@@ -13,7 +13,7 @@ bx3 = -1;
 bx4 = -1;
 lastbx = bx1;//the textbox to reference to draw the reply text
 draw_set_color(c_red);//set reply color to red, change to green only if correct
-
+draw_set_font(font_challenge2a_textbox);
 
 if(!blank){
 	//determine bx2, bx3, bx4
@@ -66,6 +66,11 @@ if(!blank){
 	else{
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3] && global.fr2b[bx4-1].str == global.challenge2b_answers[bx4]){
 			rpl = 0;
+		}
+		else if(bx4 == 9){
+			if(global.fr2b[bx4-1].str == string_copy(global.challenge2b_answers[bx4],1,string_length(global.challenge2b_answers[bx4])-1)){
+				rpl = 1;
+			}
 		}
 		lastbx = bx4;
 	}
