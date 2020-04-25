@@ -10,7 +10,7 @@ if(global.txtbx == bx){//if true, then this textbox is selected
 	//if answer changed, dont show reply (enter = false)
 	if(keyboard_string != str){
 		str = keyboard_string;
-		//enter = false;
+		enter = false;
 		rpl = true;
 	}
 	

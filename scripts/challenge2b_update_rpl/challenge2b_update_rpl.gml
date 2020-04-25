@@ -5,13 +5,13 @@
 //
 //will draw the reply of the textboxes
 //
-bx1 = argument0;
-blank = argument1;
-rpli = 2;
-bx2 = -1;
-bx3 = -1;
-bx4 = -1;
-lastbx = bx1;//the textbox to reference to draw the reply text
+var bx1 = argument0;
+var blank = argument1;
+var rpli = 2;
+var bx2 = -1;
+var bx3 = -1;
+var bx4 = -1;
+var lastbx = bx1;//the textbox to reference to draw the reply text
 draw_set_color(c_red);//set reply color to red, change to green only if correct
 draw_set_font(font_challenge2a_textbox);
 
