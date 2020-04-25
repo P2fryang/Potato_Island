@@ -76,19 +76,26 @@ global.fr2b[15] = o_challenge2b;
 //challenge 2c
 global.fr2c[0] = o_challenge2c;
 
-global.fr2c_answers[0] = "String";
-global.fr2c_answers[0] = "full";
-global.fr2c_answers[0] = "intro";
-global.fr2c_answers[0] = "name";
-global.fr2c_answers[0] = "full";
-global.fr2c_answers[0] = "char";
-global.fr2c_answers[0] = "space";
-global.fr2c_answers[0] = " ";
-global.fr2c_answers[0] = "intro";
-global.fr2c_answers[0] = "space";
-global.fr2c_answers[0] = "name";
-global.fr2c_answers[0] = "full2";
+global.challenge2c_answers[1] = "String";
+global.challenge2c_answers[2] = "full";
+global.challenge2c_answers[3] = "intro";
+global.challenge2c_answers[4] = "name";
+global.challenge2c_answers[5] = "full";
+global.challenge2c_answers[6] = "char";
+global.challenge2c_answers[7] = "space";
+global.challenge2c_answers[8] = " ";
+global.challenge2c_answers[9] = "intro";
+global.challenge2c_answers[10] = "space";
+global.challenge2c_answers[11] = "name";
+global.challenge2c_answers[12] = "full2";
+global.challenge2c_answers[13] = "beg";
+global.challenge2c_answers[14] = "num";
+global.challenge2c_answers[15] = "end";
+global.challenge2c_answers[16] = "sentence";
 
+global.challenge2c_replies[0] = "Correct!!";
+global.challenge2c_replies[1] = "Incorrect";
+global.challenge2c_replies[2] = "\"My name isRimac\" is missing a space";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
