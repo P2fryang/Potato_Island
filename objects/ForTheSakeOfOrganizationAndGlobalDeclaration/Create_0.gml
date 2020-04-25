@@ -114,6 +114,7 @@ global.challenge2c_answers[16] = "sentence";
 global.challenge2c_replies[0] = "Correct!!";
 global.challenge2c_replies[1] = "Incorrect";
 global.challenge2c_replies[2] = "Note \"My name isRimac\" is missing a space";
+global.challenge2c_replies[99] = "";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances

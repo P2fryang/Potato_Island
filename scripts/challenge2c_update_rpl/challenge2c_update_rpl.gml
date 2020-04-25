@@ -51,23 +51,26 @@ if(!blank){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1]){
 			rpl = 0;
 		}
+		lastbx = bx1;
 	}
 	else if(bx1 == 1){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3]){
 			rpl = 2;
 		}
+		lastbx = bx4;
 	}
 	else{
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3] && global.fr2c[bx4].str == global.challenge2c_answers[bx4]){
 			rpl = 0;
 		}
+		lastbx = bx3;
 	}
 	
-	if(rpl == 0){
+	if(rpl == 0 || rpl == 2){
 		draw_set_color(c_green);
 	}
 	draw_text(global.fr2c[lastbx-1].x+20+global.fr2c[lastbx-1].sprite_width,global.fr2c[lastbx-1].y+5, global.challenge2c_replies[rpl]);
 }
-else{
+/*else{
 	draw_text(global.fr2c[lastbx-1].x+20+global.fr2c[lastbx-1].sprite_width,global.fr2c[lastbx-1].y+5, global.challenge2c_replies[99]);
-}
+}*/
