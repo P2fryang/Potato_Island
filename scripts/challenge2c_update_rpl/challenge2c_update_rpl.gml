@@ -54,7 +54,7 @@ if(!blank){
 	}
 	else if(bx1 == 1){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3]){
-			rpl = 0;
+			rpl = 2;
 		}
 	}
 	else{

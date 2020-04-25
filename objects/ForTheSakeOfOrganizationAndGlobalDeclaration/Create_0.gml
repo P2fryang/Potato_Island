@@ -75,6 +75,24 @@ global.fr2b[14] = o_ch2btxtbx15;
 global.fr2b[15] = o_challenge2b;
 //challenge 2c
 global.fr2c[0] = o_challenge2c;
+global.fr2c[1] = o_ch2ctxtbx1;
+global.fr2c[2] = o_ch2ctxtbx2;
+global.fr2c[3] = o_ch2ctxtbx3;
+global.fr2c[4] = o_ch2ctxtbx4;
+global.fr2c[5] = o_ch2ctxtbx5;
+global.fr2c[6] = o_ch2ctxtbx6;
+global.fr2c[7] = o_ch2ctxtbx7;
+global.fr2c[8] = o_ch2ctxtbx8;
+global.fr2c[9] = o_ch2ctxtbx9;
+global.fr2c[10] = o_ch2ctxtbx10;
+global.fr2c[11] = o_ch2ctxtbx11;
+global.fr2c[12] = o_ch2ctxtbx12;
+global.fr2c[13] = o_ch2ctxtbx13;
+global.fr2c[14] = o_ch2ctxtbx14;
+global.fr2c[15] = o_ch2ctxtbx15;
+global.fr2c[16] = o_ch2ctxtbx16;
+
+global.chlg2cscroll = 0;
 
 global.challenge2c_answers[1] = "String";
 global.challenge2c_answers[2] = "full";
@@ -95,7 +113,7 @@ global.challenge2c_answers[16] = "sentence";
 
 global.challenge2c_replies[0] = "Correct!!";
 global.challenge2c_replies[1] = "Incorrect";
-global.challenge2c_replies[2] = "\"My name isRimac\" is missing a space";
+global.challenge2c_replies[2] = "Note \"My name isRimac\" is missing a space";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances

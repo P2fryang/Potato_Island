@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1076845b-a202-4685-9a7f-bb1f69520664",
+            "Value": {
+                "id": "06a0be4d-1099-4ba4-8c54-8d7c397754ae",
+                "resourcePath": "objects\\o_ch2ctxtbx13\\o_ch2ctxtbx13.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "128adda5-c569-4221-94fe-52be416c9d6e",
             "Value": {
                 "id": "73f71012-09f0-4fa0-8a7a-6a6c0481e467",
@@ -236,6 +244,14 @@
                 "id": "d3e5e379-2d6d-496c-b865-756c70deec5a",
                 "resourcePath": "views\/185767d0-5f98-45de-bad9-819d525e373b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "18fc14f2-d239-47be-9a85-aae447e097c1",
+            "Value": {
+                "id": "03d51f04-e908-4d86-bb21-fb5c4893e7a3",
+                "resourcePath": "objects\\o_ch2ctxtbx10\\o_ch2ctxtbx10.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -340,6 +356,14 @@
                 "id": "3f4c4174-ad6e-44a1-80b1-300fa53e9442",
                 "resourcePath": "sprites\\s_challenge2c\\s_challenge2c.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2a96fd14-ec42-468c-ad9e-f00831d7400e",
+            "Value": {
+                "id": "de42daf3-af47-4098-b8eb-4e383416b44c",
+                "resourcePath": "objects\\o_ch2ctxtbx11\\o_ch2ctxtbx11.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -791,6 +815,14 @@
             }
         },
         {
+            "Key": "7248b60f-a09a-40ba-8b6c-f8a5d250a8ca",
+            "Value": {
+                "id": "271092a9-ba57-4715-b3af-f1a24bcdec17",
+                "resourcePath": "objects\\o_ch2ctxtbx8\\o_ch2ctxtbx8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "729159b4-bd5c-410d-b2b3-e6b3eb088c75",
             "Value": {
                 "id": "2a47e1e2-0a7e-43c2-9d61-3e632cef23ab",
@@ -883,6 +915,14 @@
             "Value": {
                 "id": "31be3035-a43d-4e96-a179-2e896f1f05e4",
                 "resourcePath": "objects\/o_f1\/o_f1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e8be7a7-23cd-4631-8f6c-59fb2d07f254",
+            "Value": {
+                "id": "04178cb8-e3a6-4d00-843e-4ee6862cd162",
+                "resourcePath": "objects\\o_ch2ctxtbx9\\o_ch2ctxtbx9.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1071,6 +1111,14 @@
             }
         },
         {
+            "Key": "9a5bb6e4-799f-45e5-96ac-8b031ed5a13e",
+            "Value": {
+                "id": "88194896-772c-43d9-ac0a-d74d3949e95f",
+                "resourcePath": "objects\\o_ch2ctxtbx16\\o_ch2ctxtbx16.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9a79dd91-b88d-41c4-a238-74daa283318c",
             "Value": {
                 "id": "25a3c483-df43-49de-9587-4296a985495b",
@@ -1092,6 +1140,14 @@
                 "id": "2a96370e-bd4e-49f5-b7dc-6897aa3bc5a8",
                 "resourcePath": "rooms\/rm_enter_computer\/rm_enter_computer.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9ce89f16-8fd1-4b0b-8c55-890e50a5ac0e",
+            "Value": {
+                "id": "b26260ec-4567-4892-836d-1932a4d613e4",
+                "resourcePath": "objects\\o_ch2ctxtbx14\\o_ch2ctxtbx14.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1588,6 +1644,22 @@
                 "id": "b1d28b63-5e5b-446c-8e89-fd70f8486866",
                 "resourcePath": "sprites\/spr_title\/spr_title.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e8db9b12-0ac6-456a-a0fa-b0c0960b6b09",
+            "Value": {
+                "id": "6bdb7b34-ff38-4b55-b70c-c03eaf4cebd9",
+                "resourcePath": "objects\\o_ch2ctxtbx12\\o_ch2ctxtbx12.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea6e0fc4-bba9-4f09-8f05-be94abb93d70",
+            "Value": {
+                "id": "48098883-b3c5-4008-8852-44601edd685a",
+                "resourcePath": "objects\\o_ch2ctxtbx15\\o_ch2ctxtbx15.yy",
+                "resourceType": "GMObject"
             }
         },
         {
