@@ -63,6 +63,9 @@ if(!blank){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3]){
 			rpli = 0;
 		}
+		else if(bx1 == 6 && global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == " "){
+			rpli = 3;
+		}
 		lastbx = bx3;
 	}
 	
@@ -73,5 +76,5 @@ if(!blank){
 	exit;
 }
 else{
-	draw_text(global.fr2c[lastbx].x+20+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[99]);
+	draw_text(global.fr2c[lastbx].x+20+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[5]);
 }

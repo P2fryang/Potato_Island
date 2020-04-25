@@ -13,7 +13,7 @@ for(i = 0;i<5;i++){
 global.correct = false;
 global.clck = false;
 //free response
-global.scrollamt = 15;//amt to scroll
+global.scrollamt = 10;//amt to scroll
 //challenge2a
 global.chlg2ascroll = 0;
 global.fr2a[0] = o_challenge2a;
@@ -56,7 +56,7 @@ global.challenge2b_answers[15] = "div_d2";
 global.challenge2b_replies[0] = "Correct!";
 global.challenge2b_replies[1] = "Semicolon?";
 global.challenge2b_replies[2] = "Incorrect";
-global.challenge2b_replies[99] = "";
+global.challenge2b_replies[5] = "";
 
 global.fr2b[0] = o_ch2btxtbx1;
 global.fr2b[1] = o_ch2btxtbx2;
@@ -102,7 +102,7 @@ global.challenge2c_answers[4] = "name";
 global.challenge2c_answers[5] = "full";
 global.challenge2c_answers[6] = "char";
 global.challenge2c_answers[7] = "space";
-global.challenge2c_answers[8] = " ";
+global.challenge2c_answers[8] = "\' \'";
 global.challenge2c_answers[9] = "intro";
 global.challenge2c_answers[10] = "space";
 global.challenge2c_answers[11] = "name";
@@ -115,7 +115,8 @@ global.challenge2c_answers[16] = "sentence";
 global.challenge2c_replies[0] = "Correct!!";
 global.challenge2c_replies[1] = "Incorrect";
 global.challenge2c_replies[2] = "Note \"My name isRimac\" is missing a space";
-global.challenge2c_replies[99] = "";
+global.challenge2c_replies[3] = "Quotes?";
+global.challenge2c_replies[5] = "";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances

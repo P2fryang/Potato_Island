@@ -80,5 +80,5 @@ if(!blank){
 	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[rpli]);
 }
 else{
-	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[99]);
+	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[5]);
 }
