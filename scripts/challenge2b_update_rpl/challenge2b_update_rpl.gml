@@ -7,7 +7,7 @@
 //
 bx1 = argument0;
 blank = argument1;
-rpl = 2;
+rpli = 2;
 bx2 = -1;
 bx3 = -1;
 bx4 = -1;
@@ -44,40 +44,40 @@ if(!blank){
 
 	if(bx1 == 1 || bx1 == 2){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1]){
-			rpl = 0;
+			rpli = 0;
 		}
 		else if(bx1 == 1 || bx1 == 2){//for bx1 & bx2, check for semicolon
 			if(global.fr2b[bx1-1].str == string_copy(global.challenge2b_answers[bx1],1,string_length(global.challenge2b_answers[bx1]-1))){//(missing semicolon)
-				rpl = 1;
+				rpli = 1;
 			}
 		}
 	}
 	else if(bx1 == 10 || bx1 == 15){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1]){
-			rpl = 0;
+			rpli = 0;
 		}
 	}
 	else if(bx4 == -1){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3]){
-			rpl = 0;
+			rpli = 0;
 		}
 		lastbx = bx3;
 	}
 	else{
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3] && global.fr2b[bx4-1].str == global.challenge2b_answers[bx4]){
-			rpl = 0;
+			rpli = 0;
 		}
 		else if(bx4 == 9){
 			if(global.fr2b[bx4-1].str == string_copy(global.challenge2b_answers[bx4],1,string_length(global.challenge2b_answers[bx4])-1)){
-				rpl = 1;
+				rpli = 1;
 			}
 		}
 		lastbx = bx4;
 	}
-	if(rpl == 0){
+	if(rpli == 0){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[rpl]);
+	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[rpli]);
 }
 else{
 	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.challenge2b_replies[99]);
