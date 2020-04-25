@@ -73,6 +73,22 @@ global.fr2b[12] = o_ch2btxtbx13;
 global.fr2b[13] = o_ch2btxtbx14;
 global.fr2b[14] = o_ch2btxtbx15;
 global.fr2b[15] = o_challenge2b;
+//challenge 2c
+global.fr2c[0] = o_challenge2c;
+
+global.fr2c_answers[0] = "String";
+global.fr2c_answers[0] = "full";
+global.fr2c_answers[0] = "intro";
+global.fr2c_answers[0] = "name";
+global.fr2c_answers[0] = "full";
+global.fr2c_answers[0] = "char";
+global.fr2c_answers[0] = "space";
+global.fr2c_answers[0] = " ";
+global.fr2c_answers[0] = "intro";
+global.fr2c_answers[0] = "space";
+global.fr2c_answers[0] = "name";
+global.fr2c_answers[0] = "full2";
+
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
@@ -85,10 +101,12 @@ global.Lines1 = "inst_lines";
 global.Free1 = "inst_challenge1";
 global.Free2a = "inst_challenge2a";
 global.Free2b = "inst_challenge2b";
+global.Free2c = "inst_challenge2c";
 //global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
 global.chlginst[2] = global.Free1;
 global.chlginst[3] = global.Free2a;
 global.chlginst[4] = global.Free2b;
+global.chlginst[5] = global.Free2c;
 //source control is torrible
