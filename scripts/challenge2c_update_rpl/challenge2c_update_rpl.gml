@@ -69,7 +69,7 @@ if(!blank){
 	if(rpli == 0 || rpli == 2){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr2c[lastbx].x+20+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[rpli]);
+	draw_text(global.fr2c[lastbx].x+40+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[rpli]);
 	exit;
 }
 else{

@@ -13,6 +13,7 @@ for(i = 0;i<5;i++){
 global.correct = false;
 global.clck = false;
 //free response
+global.scrollamt = 15;//amt to scroll
 //challenge2a
 global.chlg2ascroll = 0;
 global.fr2a[0] = o_challenge2a;
