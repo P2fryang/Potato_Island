@@ -5,6 +5,7 @@
 //
 //will draw the reply of the textboxes
 //
+
 var bx1 = argument0;
 var blank = argument1;
 var rpli = 1;
