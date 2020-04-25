@@ -114,7 +114,7 @@ global.challenge2c_answers[16] = "sentence";
 
 global.challenge2c_replies[0] = "Correct!!";
 global.challenge2c_replies[1] = "Incorrect";
-global.challenge2c_replies[2] = "Note \"My name isRimac\" is missing a space";
+global.challenge2c_replies[2] = "*Prints* \"My name isRimac\" (missing a space!!)";
 global.challenge2c_replies[3] = "Quotes?";
 global.challenge2c_replies[5] = "";
 
