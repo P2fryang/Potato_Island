@@ -12,7 +12,8 @@
         "f66a7820-de25-4da6-a898-f7df8860b617",
         "9654a924-f378-4949-b938-cf6ba747b7e4",
         "2a30cc16-2005-4188-825a-f81a0b0aae62",
-        "a24a055e-720a-43a4-9ac8-e1c4c6ceb21a"
+        "a24a055e-720a-43a4-9ac8-e1c4c6ceb21a",
+        "508c3715-1860-4e11-9fab-2e3681a2d0d7"
     ],
     "filterType": "GMSprite",
     "folderName": "freeresponse",

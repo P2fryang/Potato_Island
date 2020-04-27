@@ -6,7 +6,8 @@
     "children": [
         "d0b18c9d-8f74-4a71-b57f-3a3a26a35f18",
         "f3d1771b-6f9d-4a64-bd34-791211ce5768",
-        "8657be22-c2ed-4149-91dc-f65aa1fca310"
+        "8657be22-c2ed-4149-91dc-f65aa1fca310",
+        "ece5b1a5-330f-478d-aa6b-2190c1be10aa"
     ],
     "filterType": "GMObject",
     "folderName": "challenge2",
