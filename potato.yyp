@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "22cdedf8-8163-4912-887c-e2d3be5e6b88",
+            "Value": {
+                "id": "414501a8-a570-4bb2-86a5-1db17a518fa5",
+                "resourcePath": "objects\\o_challenge3Outline\\o_challenge3Outline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "242c0ae1-3384-44c4-9b0e-bd9c9242afd3",
             "Value": {
                 "id": "c2d04296-2665-42bf-a2d6-f36759c509c3",
@@ -452,6 +460,14 @@
                 "id": "4c4eaf6b-0568-49ee-8db6-cca1dd6d0ea4",
                 "resourcePath": "views\/33dfec77-3b3e-4d84-9944-e3ef8f3f7b96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "364ee190-09f6-4a49-b4c9-344f9c133768",
+            "Value": {
+                "id": "ab4ef2f0-55b9-41ab-bac0-b58bb7715fa3",
+                "resourcePath": "sprites\\s_challenge3Outline\\s_challenge3Outline.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
