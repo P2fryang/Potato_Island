@@ -23,7 +23,7 @@ if(!blank){
 	}
 	else if(bx1 == 2 || bx1 == 3){
 		bx1 = 2;
-		bx1 = 3;
+		bx2 = 3;
 	}
 	else{
 		draw_text_transformed(0,0,"ERROR404.myversion: bx"+string(bx1)+"_not_found",45,45,0);
@@ -33,6 +33,14 @@ if(!blank){
 	if(bx1 == 1 || bx1 == 4 || bx1 == 5){
 		if(global.fr3[bx1].str == global.challenge3_answers[bx1]){
 			rpli = 0;
+		}
+		else if(bx1 == 4){
+			if(global.fr3[bx1].str == "turnOn"){
+				rpli = 2;
+			}
+			else if(global.fr3[bx1].str == "turnon()"){
+				rpli = 3;
+			}
 		}
 	}
 	else{

@@ -131,12 +131,14 @@ global.fr3[5] = o_ch3txtbx5;
 global.challenge3_answers[1] = "true";
 global.challenge3_answers[2] = "is_on";
 global.challenge3_answers[3] = "false";
-global.challenge3_answers[4] = "turnOn";
+global.challenge3_answers[4] = "turnOn()";
 global.challenge3_answers[5] = "reboot";
 
 global.challenge3_replies[0] = "Correct!";
 global.challenge3_replies[1] = "Incorrect!";
-global.challenge3_replies[2] = "";
+global.challenge3_replies[2] = "Don't forget the parenthesis in methods!";
+global.challenge3_replies[3] = "Watch your capitalization!";
+global.challenge3_replies[4] = "";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
