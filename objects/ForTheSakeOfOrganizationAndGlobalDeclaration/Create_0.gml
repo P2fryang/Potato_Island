@@ -118,6 +118,26 @@ global.challenge2c_replies[2] = "*Prints* \"My name isRimac\" (missing a space!!
 global.challenge2c_replies[3] = "Quotes?";
 global.challenge2c_replies[5] = "";
 
+//challenge 3
+global.chlg3scroll = 0;
+
+global.fr3[0] = o_challenge3;
+global.fr3[1] = o_ch3txtbx1;
+global.fr3[2] = o_ch3txtbx2;
+global.fr3[3] = o_ch3txtbx3;
+global.fr3[4] = o_ch3txtbx4;
+global.fr3[5] = o_ch3txtbx5;
+
+global.challenge3_answers[1] = "true";
+global.challenge3_answers[2] = "is_on";
+global.challenge3_answers[3] = "false";
+global.challenge3_answers[4] = "turnOn";
+global.challenge3_answers[5] = "reboot";
+
+global.challenge3_replies[0] = "Correct!";
+global.challenge3_replies[1] = "Incorrect!";
+global.challenge3_replies[2] = "";
+
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
 //also in the scroll buttons, challenge screenshots to prevent constant visible/invisble commands
@@ -130,6 +150,7 @@ global.Free1 = "inst_challenge1";
 global.Free2a = "inst_challenge2a";
 global.Free2b = "inst_challenge2b";
 global.Free2c = "inst_challenge2c";
+global.Free3 = "inst_challenge3";
 //global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
@@ -137,4 +158,5 @@ global.chlginst[2] = global.Free1;
 global.chlginst[3] = global.Free2a;
 global.chlginst[4] = global.Free2b;
 global.chlginst[5] = global.Free2c;
+global.chlginst[6] = global.Free3;
 //source control is torrible
