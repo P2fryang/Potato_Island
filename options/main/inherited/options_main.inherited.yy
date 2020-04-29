@@ -16,9 +16,9 @@
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
                     "groupName": "txg_notebook",
-                    "targets": 461609314234257646,
+                    "targets": 316895953178185794,
                     "autocrop": true,
-                    "border": 2,
+                    "border": 8,
                     "groupParent": "00000000-0000-0000-0000-000000000000",
                     "mipsToGenerate": 0,
                     "scaled": true
