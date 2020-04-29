@@ -1,5 +1,4 @@
 bx = 0;
-rpl = true;
 rpl = false;
 //user string changed-hide reply
 enter = false;
