@@ -27,58 +27,13 @@
             {
                 "Key": 2,
                 "Value": {
-                    "id": "99b6c779-1868-4482-9d0d-b1a940f26585",
+                    "id": "7ff12082-df06-437f-bb7d-c4c3ae0ea708",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_MC",
-                    "targets": 461609314234257646,
+                    "groupName": "txg_challenges",
+                    "targets": 316895953178185954,
                     "autocrop": true,
-                    "border": 2,
-                    "groupParent": "00000000-0000-0000-0000-000000000000",
-                    "mipsToGenerate": 0,
-                    "scaled": true
-                }
-            },
-            {
-                "Key": 3,
-                "Value": {
-                    "id": "25ad3103-852c-4851-80de-99f187831029",
-                    "modelName": "GMTextureGroup",
-                    "mvc": "1.0",
-                    "groupName": "txg_frq",
-                    "targets": 461609314234257646,
-                    "autocrop": true,
-                    "border": 2,
-                    "groupParent": "00000000-0000-0000-0000-000000000000",
-                    "mipsToGenerate": 0,
-                    "scaled": true
-                }
-            },
-            {
-                "Key": 4,
-                "Value": {
-                    "id": "b7a07659-ace6-487b-b33b-e51f4dcdc37f",
-                    "modelName": "GMTextureGroup",
-                    "mvc": "1.0",
-                    "groupName": "txg_characters",
-                    "targets": 461609314234257646,
-                    "autocrop": true,
-                    "border": 2,
-                    "groupParent": "00000000-0000-0000-0000-000000000000",
-                    "mipsToGenerate": 0,
-                    "scaled": true
-                }
-            },
-            {
-                "Key": 5,
-                "Value": {
-                    "id": "5ffd23d2-8750-4615-81eb-41c23691eed0",
-                    "modelName": "GMTextureGroup",
-                    "mvc": "1.0",
-                    "groupName": "txg_dialogue",
-                    "targets": 461609314234257646,
-                    "autocrop": true,
-                    "border": 2,
+                    "border": 8,
                     "groupParent": "00000000-0000-0000-0000-000000000000",
                     "mipsToGenerate": 0,
                     "scaled": true
