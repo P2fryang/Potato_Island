@@ -140,6 +140,34 @@ global.challenge3_replies[2] = "Don't forget the parenthesis in methods!";
 global.challenge3_replies[3] = "Watch your capitalization!";
 global.challenge3_replies[4] = "";
 
+//challenge 4
+global.chlg4scroll = 0;
+
+global.fr4[0] = o_challenge4;
+glaobl.fr4[1] = o_ch4txtbx1;
+glaobl.fr4[2] = o_ch4txtbx2;
+glaobl.fr4[3] = o_ch4txtbx3;
+glaobl.fr4[4] = o_ch4txtbx4;
+glaobl.fr4[5] = o_ch4txtbx5;
+glaobl.fr4[6] = o_ch4txtbx6;
+glaobl.fr4[7] = o_ch4txtbx7;
+glaobl.fr4[8] = o_ch4txtbx8;
+glaobl.fr4[9] = o_ch4txtbx9;
+glaobl.fr4[10] = o_ch4txtbx10;
+glaobl.fr4[11] = o_ch4txtbx11;
+
+global.challenge4_answers[0] = "boolean";
+global.challenge4_answers[1] = "color;";
+global.challenge4_answers[2] = "void";
+global.challenge4_answers[3] = "setColor";
+global.challenge4_answers[4] = "boolean";
+global.challenge4_answers[5] = "inColor";
+global.challenge4_answers[6] = "color";
+global.challenge4_answers[7] = "inColor";
+global.challenge4_answers[7] = "Loady";
+global.challenge4_answers[7] = "setColor";
+global.challenge4_answers[7] = "true";
+
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
 //also in the scroll buttons, challenge screenshots to prevent constant visible/invisble commands
@@ -153,6 +181,7 @@ global.Free2a = "inst_challenge2a";
 global.Free2b = "inst_challenge2b";
 global.Free2c = "inst_challenge2c";
 global.Free3 = "inst_challenge3";
+global.Free4 = "inst_challenge4";
 //global.chlginst to make activating and deactivating instances easier
 global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;
@@ -161,4 +190,5 @@ global.chlginst[3] = global.Free2a;
 global.chlginst[4] = global.Free2b;
 global.chlginst[5] = global.Free2c;
 global.chlginst[6] = global.Free3;
+global.chlginst[7] = global.Free4;
 //source control is torrible
