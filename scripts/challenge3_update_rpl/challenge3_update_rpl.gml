@@ -8,7 +8,7 @@
 
 var bx1 = argument0;
 var blank = argument1;
-var rpli = 1;
+var rpli = 2;
 var bx2 = -1;
 /*var bx3 = -1;
 var bx4 = -1;*/ //not needed because there is a maximum of 2 boxes in a row for challenge3
@@ -36,10 +36,10 @@ if(!blank){
 		}
 		else if(bx1 == 4){
 			if(global.fr3[bx1].str == "turnOn"){
-				rpli = 2;
+				rpli = 5;
 			}
 			else if(global.fr3[bx1].str == "turnon()"){
-				rpli = 3;
+				rpli = 6;
 			}
 		}
 	}
@@ -53,9 +53,9 @@ if(!blank){
 	if(rpli == 0){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr3[lastbx].x+40+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.challenge3_replies[rpli]);
+	draw_text(global.fr3[lastbx].x+40+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.replies[rpli]);
 	exit;
 }
 else{
-	draw_text(global.fr3[lastbx].x+20+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.challenge3_replies[2]);
+	draw_text(global.fr3[lastbx].x+20+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.replies[8]);
 }

@@ -42,14 +42,34 @@ if(!blank){
 		exit;
 	}
 	//determine if correct
-	
+	if(bx1 == 1 || bx1 == 7){//series 2 txtbx
+		if(global.fr4[bx1].str == global.challenge4_answers[bx1] && global.fr4[bx2].str == global.challenge4_answers[bx2]){
+			rpli = 0;
+		}
+		else if(bx1 == 1 && global.fr4[bx1].str == global.challenge4_answers[bx1] && global.fr4[bx2].str == string_copy(global.challenge4_answers[bx2],1,string_length(global.challenge4_answers[bx2])-1)){
+			rpli = 1;
+		}
+		lastbx = bx2;
+	}
+	else if(bx1 == 9){//series 3 txtbx
+		if(global.fr4[bx1].str == global.challenge4_answers[bx1] && global.fr4[bx2].str == global.challenge4_answers[bx2] && global.fr4[bx3].str == global.challenge4_answers[bx3]){
+			rpli = 0;
+		}
+		lastbx = bx3;
+	}
+	else{//series 4 txtbx
+		if(global.fr4[bx1].str == global.challenge4_answers[bx1] && global.fr4[bx2].str == global.challenge4_answers[bx2] && global.fr4[bx3].str == global.challenge4_answers[bx3] && global.fr4[bx4].str == global.challenge4_answers[bx4]){
+			rpli = 0;
+		}
+		lastbx = bx4;
+	}
 	
 	if(rpli == 0){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr3[lastbx].x+40+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.challenge3_replies[rpli]);
+	draw_text(global.fr4[lastbx].x+40+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[rpli]);
 	exit;
 }
 else{
-	draw_text(global.fr3[lastbx].x+20+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.challenge3_replies[2]);
+	draw_text(global.fr4[lastbx].x+20+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[8]);
 }

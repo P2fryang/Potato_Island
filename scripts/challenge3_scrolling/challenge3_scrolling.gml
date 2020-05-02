@@ -1,4 +1,4 @@
-///challenge2c_scrolling(amt_scroll)
+///challenge3_scrolling(amt_scroll)
 //
 //amt_scroll = the amount to move objects by
 //

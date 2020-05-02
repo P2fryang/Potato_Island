@@ -8,7 +8,7 @@
 
 var bx1 = argument0;
 var blank = argument1;
-var rpli = 1;
+var rpli = 2;
 var bx2 = -1;
 var bx3 = -1;
 var bx4 = -1;
@@ -55,7 +55,7 @@ if(!blank){
 	}
 	else if(bx1 == 1){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3] && global.fr2c[bx4].str == global.challenge2c_answers[bx4]){
-			rpli = 2;
+			rpli = 3;
 		}
 		lastbx = bx4;
 	}
@@ -64,17 +64,17 @@ if(!blank){
 			rpli = 0;
 		}
 		else if(bx1 == 6 && global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == " "){
-			rpli = 3;
+			rpli = 4;
 		}
 		lastbx = bx3;
 	}
 	
-	if(rpli == 0 || rpli == 2){
+	if(rpli == 0 || rpli == 3){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr2c[lastbx].x+40+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[rpli]);
+	draw_text(global.fr2c[lastbx].x+40+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.replies[rpli]);
 	exit;
 }
 else{
-	draw_text(global.fr2c[lastbx].x+20+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.challenge2c_replies[5]);
+	draw_text(global.fr2c[lastbx].x+20+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.replies[8]);
 }

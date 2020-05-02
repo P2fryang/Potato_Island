@@ -1,9 +1,12 @@
 /// @description Declare all variables
 // You can write your code in this editor
+
 //global variables all challenges
 global.chlg = 0;
+
 //multiple choice
 global.chce = 0;
+
 //lines
 global.ind[0] = 0;
 global.crt = 0;
@@ -12,8 +15,18 @@ for(i = 0;i<5;i++){
 }
 global.correct = false;
 global.clck = false;
+
 //free response
 global.scrollamt = 10;//amt to scroll
+global.replies[0] = "Correct!";
+global.replies[1] = "SemiColon?";
+global.replies[2] = "Incorrect!";
+global.replies[3] = "*Prints* \"My name isRimac\" (missing a space!!)";
+global.replies[4] = "Quotes";
+global.replies[5] = "Don't forget the parenthesis in methods!";
+global.replies[6] = "Watch your capitalization!";
+global.replies[8] = "";
+
 //challenge2a
 global.chlg2ascroll = 0;
 global.fr2a[0] = o_challenge2a;
@@ -52,11 +65,6 @@ global.challenge2b_answers[12] = "div_d2";
 global.challenge2b_answers[13] = "(double)";
 global.challenge2b_answers[14] = "b";
 global.challenge2b_answers[15] = "div_d2";
-
-global.challenge2b_replies[0] = "Correct!";
-global.challenge2b_replies[1] = "Semicolon?";
-global.challenge2b_replies[2] = "Incorrect";
-global.challenge2b_replies[5] = "";
 
 global.fr2b[0] = o_ch2btxtbx1;
 global.fr2b[1] = o_ch2btxtbx2;
@@ -112,12 +120,6 @@ global.challenge2c_answers[14] = "num";
 global.challenge2c_answers[15] = "end";
 global.challenge2c_answers[16] = "sentence";
 
-global.challenge2c_replies[0] = "Correct!!";
-global.challenge2c_replies[1] = "Incorrect";
-global.challenge2c_replies[2] = "*Prints* \"My name isRimac\" (missing a space!!)";
-global.challenge2c_replies[3] = "Quotes?";
-global.challenge2c_replies[5] = "";
-
 //challenge 3
 global.chlg3scroll = 0;
 
@@ -134,39 +136,36 @@ global.challenge3_answers[3] = "false";
 global.challenge3_answers[4] = "turnOn()";
 global.challenge3_answers[5] = "reboot";
 
-global.challenge3_replies[0] = "Correct!";
-global.challenge3_replies[1] = "Incorrect!";
-global.challenge3_replies[2] = "Don't forget the parenthesis in methods!";
-global.challenge3_replies[3] = "Watch your capitalization!";
-global.challenge3_replies[4] = "";
-
 //challenge 4
 global.chlg4scroll = 0;
 
 global.fr4[0] = o_challenge4;
-glaobl.fr4[1] = o_ch4txtbx1;
-glaobl.fr4[2] = o_ch4txtbx2;
-glaobl.fr4[3] = o_ch4txtbx3;
-glaobl.fr4[4] = o_ch4txtbx4;
-glaobl.fr4[5] = o_ch4txtbx5;
-glaobl.fr4[6] = o_ch4txtbx6;
-glaobl.fr4[7] = o_ch4txtbx7;
-glaobl.fr4[8] = o_ch4txtbx8;
-glaobl.fr4[9] = o_ch4txtbx9;
-glaobl.fr4[10] = o_ch4txtbx10;
-glaobl.fr4[11] = o_ch4txtbx11;
+global.fr4[1] = o_ch4txtbx1;
+global.fr4[2] = o_ch4txtbx2;
+global.fr4[3] = o_ch4txtbx3;
+global.fr4[4] = o_ch4txtbx4;
+global.fr4[5] = o_ch4txtbx5;
+global.fr4[6] = o_ch4txtbx6;
+global.fr4[7] = o_ch4txtbx7;
+global.fr4[8] = o_ch4txtbx8;
+global.fr4[9] = o_ch4txtbx9;
+global.fr4[10] = o_ch4txtbx10;
+global.fr4[11] = o_ch4txtbx11;
 
-global.challenge4_answers[0] = "boolean";
-global.challenge4_answers[1] = "color;";
-global.challenge4_answers[2] = "void";
-global.challenge4_answers[3] = "setColor";
-global.challenge4_answers[4] = "boolean";
-global.challenge4_answers[5] = "inColor";
-global.challenge4_answers[6] = "color";
-global.challenge4_answers[7] = "inColor";
-global.challenge4_answers[7] = "Loady";
-global.challenge4_answers[7] = "setColor";
-global.challenge4_answers[7] = "true";
+global.challenge4_answers[1] = "boolean";
+global.challenge4_answers[2] = "color;";
+
+global.challenge4_answers[3] = "void";
+global.challenge4_answers[4] = "setColor";
+global.challenge4_answers[5] = "boolean";
+global.challenge4_answers[6] = "inColor";
+
+global.challenge4_answers[7] = "color";
+global.challenge4_answers[8] = "inColor";
+
+global.challenge4_answers[9] = "Loady";
+global.challenge4_answers[10] = "setColor";
+global.challenge4_answers[11] = "true";
 
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances

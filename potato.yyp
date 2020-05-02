@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "2d6249d3-4a49-4049-add6-942288e2fafa",
+            "Value": {
+                "id": "eb31bd8e-2e2e-47ef-8ab6-128a6207d90c",
+                "resourcePath": "objects\\o_scroll_down1111\\o_scroll_down1111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2eb7e31b-38f1-4fd3-affc-7b6993a3ddde",
             "Value": {
                 "id": "0e99c918-67c0-476c-b7c7-8ff59187c6c3",
@@ -1247,6 +1255,14 @@
             }
         },
         {
+            "Key": "878c1d62-56bb-4f0c-8498-417a8768858c",
+            "Value": {
+                "id": "cdaa5c47-60cc-4f5d-92ff-58bd7c00d420",
+                "resourcePath": "objects\\o_scroll_up1111\\o_scroll_up1111.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "88320a75-37a7-4f2d-814b-524b708ee3ed",
             "Value": {
                 "id": "77595c66-4d47-4e13-8242-2563ac71d7b6",
@@ -1975,6 +1991,14 @@
             }
         },
         {
+            "Key": "dfe51822-9d4f-40fb-84cb-96be028b1772",
+            "Value": {
+                "id": "88eb30f2-cd67-472e-9530-ef66c5600af9",
+                "resourcePath": "scripts\\challenge4_scrolling\\challenge4_scrolling.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e2574e97-8ef3-4bd1-bcd8-ab41faf031dc",
             "Value": {
                 "id": "2a0f520a-0191-4c9e-b170-5e30eda4b902",
@@ -2294,6 +2318,7 @@
         "3d2c62bc-cb64-484f-9430-28ddc3b132c9",
         "1e4f2bc2-952b-4c07-876d-c8c19bf4757c",
         "b0f749f6-eb91-4572-9bf5-9782e15fa223",
+        "dfe51822-9d4f-40fb-84cb-96be028b1772",
         "b5424dc2-6eaf-4e3d-a192-119555b18996",
         "c26b3b92-6849-45c2-91a8-93ab6f32a6f6",
         "f044c07e-5a0d-4cdd-a757-65792a39f5de",
