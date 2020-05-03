@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "1565f0a3-30a0-4387-971f-ef792dd031a8",
+            "Value": {
+                "id": "74dcd5cc-de30-4fec-8865-2d28b030dbd1",
+                "resourcePath": "rooms\\rm_challenge2a\\rm_challenge2a.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "159e08a2-01f2-43e8-b228-a8568f0c6887",
             "Value": {
                 "id": "0f00744b-3faf-4269-a376-72ff2ca34861",
@@ -983,6 +991,14 @@
             }
         },
         {
+            "Key": "6b90f53b-0a7f-46a3-8bbd-d059020c4aa0",
+            "Value": {
+                "id": "9499f435-ad92-4c2a-863c-4269e4082547",
+                "resourcePath": "rooms\\rm_challenge2b\\rm_challenge2b.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6c08bec0-cc75-4f99-ae82-55bfe9ef48f1",
             "Value": {
                 "id": "feede07b-2522-44fe-85aa-1d8b79ffd4d0",
@@ -1116,6 +1132,14 @@
                 "id": "4d4b0e15-2ab1-4dc6-9143-ec7e7d5393cc",
                 "resourcePath": "objects\\to_sprite13\\to_sprite13.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "79e72113-e13f-4f83-8445-7cabe837aede",
+            "Value": {
+                "id": "b2de33f8-c364-45a5-b886-d6b667605de3",
+                "resourcePath": "rooms\\rm_challenge4\\rm_challenge4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2018,7 +2042,7 @@
             "Key": "e3f30b81-a23a-44b9-8336-161354f2703a",
             "Value": {
                 "id": "541f08de-4999-4035-a1de-b73e2edaa93d",
-                "resourcePath": "rooms\/rm_challenges\/rm_challenges.yy",
+                "resourcePath": "rooms\\rm_challenge1\\rm_challenge1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2060,6 +2084,14 @@
                 "id": "07fa21cc-3180-499f-a80c-c5dc424df5d8",
                 "resourcePath": "views\/e7945b79-f28a-4aa3-925d-d2d277e250fa.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e809b3ca-d7e5-40c2-ae8e-0fbb4f04d31a",
+            "Value": {
+                "id": "1f88ed17-c40b-4d72-b237-b02dd039cb94",
+                "resourcePath": "rooms\\rm_challenge2c\\rm_challenge2c.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2204,6 +2236,14 @@
                 "id": "aae4427b-9a87-4755-ab52-8e5fd70f8fb5",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f420b6b4-0d95-4649-bb89-27798e99fa31",
+            "Value": {
+                "id": "c5ec34a3-8f68-49df-90c9-08956f50eeb3",
+                "resourcePath": "rooms\\rm_challenge3\\rm_challenge3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
