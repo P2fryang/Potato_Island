@@ -1,7 +1,7 @@
 /// @description current challenge increment
 // You can write your code in this editor
 
-if(global.chlg<1){
+if(global.chlg<7){
 	global.chlg++;
 	global.changechlg = true;
 }

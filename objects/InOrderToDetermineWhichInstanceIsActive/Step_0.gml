@@ -1,6 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if(global.changechlg){
-	challenge_activate_deactivate_instances(global.chlginst[global.chlg+2]);
+	//challenge_activate_deactivate_instances(global.chlginst[global.chlg+2]);
+	room_goto(global.chlginst[global.chlg]);
+	keyboard_string = "";
 	global.changechlg = false;
 }

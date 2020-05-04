@@ -182,12 +182,12 @@ global.Free2c = "inst_challenge2c";
 global.Free3 = "inst_challenge3";
 global.Free4 = "inst_challenge4";
 //global.chlginst to make activating and deactivating instances easier
-global.chlginst[0] = global.Mult1;
-global.chlginst[1] = global.Lines1;
-global.chlginst[2] = global.Free1;
-global.chlginst[3] = global.Free2a;
-global.chlginst[4] = global.Free2b;
-global.chlginst[5] = global.Free2c;
-global.chlginst[6] = global.Free3;
-global.chlginst[7] = global.Free4;
+/*global.chlginst[0] = global.Mult1;
+global.chlginst[1] = global.Lines1;*/
+global.chlginst[1] = global.Free1;
+global.chlginst[2] = global.Free2a;
+global.chlginst[3] = global.Free2b;
+global.chlginst[4] = global.Free2c;
+global.chlginst[5] = global.Free3;
+global.chlginst[6] = global.Free4;
 //source control is torrible

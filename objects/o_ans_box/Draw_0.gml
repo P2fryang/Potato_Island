@@ -7,7 +7,6 @@ draw_set_font(font_free_response_prompt);
 draw_text(x+20,y+25,string_copy(string_wordwrap_width(str,sprite_width-50,"\n",true),1,string_length(str)));
 if(global.changechlg){
 	enter_clicked_and_ans_not_changed = false;
-	keyboard_string = "";
 	str = "";
 }
 if(enter_clicked_and_ans_not_changed){
