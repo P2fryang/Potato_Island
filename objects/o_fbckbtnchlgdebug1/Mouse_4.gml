@@ -1,7 +1,7 @@
 /// @description current challenge decrement
 // You can write your code in this editor
 
-if(global.chlg>0){
+if(global.chlg>1){
 	global.chlg--;
 	global.changechlg = true;
 }

@@ -37,11 +37,3 @@ if(o_phrase24.str != ""){
 else{
 	phrase2last = false;
 }
-/*if(global.changechlg){
-	if(global.chlg!=1){
-		visible = false;	
-	}
-	else{
-		visible = true;	
-	}
-}*/

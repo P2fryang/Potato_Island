@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //global variables all challenges
-global.chlg = 0;
+global.chlg = 1;
 
 //multiple choice
 global.chce = 0;
@@ -181,6 +181,14 @@ global.Free2b = "inst_challenge2b";
 global.Free2c = "inst_challenge2c";
 global.Free3 = "inst_challenge3";
 global.Free4 = "inst_challenge4";
+
+global.chlgrm[1] = "rm_challenge1";
+global.chlgrm[2] = "rm_challenge2a";
+global.chlgrm[3] = "rm_challenge2b";
+global.chlgrm[4] = "rm_challenge2c";
+global.chlgrm[5] = "rm_challenge3";
+global.chlgrm[6] = "rm_challenge4";
+
 //global.chlginst to make activating and deactivating instances easier
 /*global.chlginst[0] = global.Mult1;
 global.chlginst[1] = global.Lines1;*/

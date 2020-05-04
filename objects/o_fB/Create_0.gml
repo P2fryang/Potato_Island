@@ -2,4 +2,4 @@
 // You can write your code in this editor
 chc = 2;
 letter = "B)";
-ans[0] = "\'Hello World\' ;";
+ans[1] = "\'Hello World\' ;";
