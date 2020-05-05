@@ -1351,6 +1351,14 @@
             }
         },
         {
+            "Key": "8eb3042c-76a6-463b-a3df-08c67e6ca5fc",
+            "Value": {
+                "id": "9416982a-2b4e-4aa2-b015-c5cab03b9693",
+                "resourcePath": "sprites\\s_thenewwhite\\s_thenewwhite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90b1c5c6-4001-4299-b47a-18984ac53dff",
             "Value": {
                 "id": "7179a033-536b-4d60-9fe8-53842602b9e4",
