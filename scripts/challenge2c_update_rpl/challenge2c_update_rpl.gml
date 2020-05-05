@@ -47,15 +47,21 @@ if(!blank){
 		exit;
 	}
 	//determine if correct
-	if(bx1 == 5 || bx1 == 12 || bx1 == 16){
+	if(bx1 == 12 || bx1 == 16){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1]){
 			rpli = 0;
 		}
 		lastbx = bx1;
 	}
+	else if(bx1 == 5){
+		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1]){
+			rpli = 3;
+		}
+		lastbx = bx1;
+	}
 	else if(bx1 == 1){
 		if(global.fr2c[bx1].str == global.challenge2c_answers[bx1] && global.fr2c[bx2].str == global.challenge2c_answers[bx2] && global.fr2c[bx3].str == global.challenge2c_answers[bx3] && global.fr2c[bx4].str == global.challenge2c_answers[bx4]){
-			rpli = 3;
+			rpli = 0;
 		}
 		lastbx = bx4;
 	}

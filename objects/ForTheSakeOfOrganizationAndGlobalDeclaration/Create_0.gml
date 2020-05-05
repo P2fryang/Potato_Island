@@ -134,7 +134,7 @@ global.challenge3_answers[1] = "true";
 global.challenge3_answers[2] = "is_on";
 global.challenge3_answers[3] = "false";
 global.challenge3_answers[4] = "turnOn()";
-global.challenge3_answers[5] = "reboot";
+global.challenge3_answers[5] = "reboot()";
 
 //challenge 4
 global.chlg4scroll = 0;
