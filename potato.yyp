@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05085e04-17df-442e-8a87-c3082767db48",
+            "Value": {
+                "id": "2d94ada1-aff9-4165-836c-ff0fa044b6c9",
+                "resourcePath": "rooms\\rm_challengeextra\\rm_challengeextra.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "050b5615-de52-44cc-b01d-775165e444ec",
             "Value": {
                 "id": "f64bc76f-6634-48e1-b5ad-6a17fd1beef1",
@@ -676,6 +684,14 @@
                 "id": "84667d56-d2c0-48c9-915a-0d9ba2a29ffa",
                 "resourcePath": "sprites\/bg_dino\/bg_dino.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "47339634-b113-4dd7-9597-c921788b2c9a",
+            "Value": {
+                "id": "d170b958-f8cc-4321-b42a-c5db3f4965da",
+                "resourcePath": "rooms\\rm_challenge3b\\rm_challenge3b.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1380,6 +1396,14 @@
                 "id": "a91083c0-790b-4b99-98d7-7049771fe8b1",
                 "resourcePath": "views\/918ad9db-297c-4a28-9dd0-cf8ac03e50c0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92445715-05a4-470c-a45a-eedc51f32924",
+            "Value": {
+                "id": "f2337afb-b22e-4c67-909b-959b45fc5cab",
+                "resourcePath": "objects\\o_challenge3Outlineb\\o_challenge3Outlineb.yy",
+                "resourceType": "GMObject"
             }
         },
         {
