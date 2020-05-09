@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-ans0 = "43125";
+/*ans0 = "43125";
 ans1 = "43152";
 ans = "";
 
@@ -14,3 +14,4 @@ if(global.crt==5){
 		global.correct = true;
 	}
 }
+*/

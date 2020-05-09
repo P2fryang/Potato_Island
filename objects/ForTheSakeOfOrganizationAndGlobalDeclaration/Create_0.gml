@@ -7,7 +7,7 @@ global.chlg = 1;
 //multiple choice
 global.chce = 0;
 
-//lines
+/*//lines
 global.ind[0] = 0;
 global.crt = 0;
 for(i = 0;i<5;i++){
@@ -15,7 +15,7 @@ for(i = 0;i<5;i++){
 }
 global.correct = false;
 global.clck = false;
-
+*/
 //free response
 global.scrollamt = 10;//amt to scroll
 global.replies[0] = "Correct!";
@@ -135,6 +135,16 @@ global.challenge3_answers[2] = "is_on";
 global.challenge3_answers[3] = "false";
 global.challenge3_answers[4] = "turnOn()";
 global.challenge3_answers[5] = "reboot()";
+
+//challenge3b
+global.challenge3b_lines[1] = "Robot Loady = new Robot (\"Loady\");";
+global.challenge3b_lines[2] = "Loady.reboot()";
+global.challenge3b_lines[3] = "this.turnOn()";
+global.challenge3b_lines[4] = "is_on = false;";
+global.challenge3b_lines[5] = "main()";
+global.challenge3b_lines[6] = "is_on = true;";
+global.challenge3b_lines[7] = "this.turnOff()";
+global.challenge3b_lines[8] = "name = newName;";
 
 //challenge 4
 global.chlg4scroll = 0;

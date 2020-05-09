@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "19c6d26e-f337-4568-9510-91da72d0c9b0",
+            "Value": {
+                "id": "be5fe987-6595-4c5d-a71b-57aca29598d5",
+                "resourcePath": "objects\\o_challenge3b_parent\\o_challenge3b_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1a33dba3-5c86-4f2f-9f34-72975ba65f60",
             "Value": {
                 "id": "776b760c-5c15-412d-81ad-ccd779719285",
@@ -532,6 +540,14 @@
                 "id": "4c4eaf6b-0568-49ee-8db6-cca1dd6d0ea4",
                 "resourcePath": "views\/33dfec77-3b3e-4d84-9944-e3ef8f3f7b96.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35812e27-f05d-4ffb-82c1-ae8ff6d9539e",
+            "Value": {
+                "id": "b91eccd2-ea83-42fb-b31e-0c0478e472c9",
+                "resourcePath": "sprites\\s_challenge3b\\s_challenge3b.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -911,14 +927,6 @@
             }
         },
         {
-            "Key": "62cb4723-99f0-4a77-acd0-5f418d03af4c",
-            "Value": {
-                "id": "c13f85da-91db-4c50-8e50-c2046d61d85a",
-                "resourcePath": "objects\/o_fline2\/o_fline2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "634755f5-f94f-4a1c-be4d-235008c07e08",
             "Value": {
                 "id": "44ae60cf-4046-4a38-8c4e-a22ac91ae59b",
@@ -1028,6 +1036,14 @@
                 "id": "feede07b-2522-44fe-85aa-1d8b79ffd4d0",
                 "resourcePath": "objects\\o_ch2btxtbx1\\o_ch2btxtbx1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6d3f18a4-8453-418f-a0f5-2bff77c3ee8f",
+            "Value": {
+                "id": "3307a4e1-cbc8-40fa-9fbd-873ee6bbc2b5",
+                "resourcePath": "views\\6d3f18a4-8453-418f-a0f5-2bff77c3ee8f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1495,14 +1511,6 @@
             }
         },
         {
-            "Key": "9f950fc4-3b9a-467d-a366-738e33d7625b",
-            "Value": {
-                "id": "a7ad034c-3ccd-460b-877a-bb2895b12097",
-                "resourcePath": "objects\/o_fline3\/o_fline3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9f99e288-18af-49c8-88fa-60b01b441e6b",
             "Value": {
                 "id": "5943be10-90a1-494d-b45b-bdc1e7c48d77",
@@ -1607,6 +1615,14 @@
             }
         },
         {
+            "Key": "a9ec9fe5-97ce-4a6a-a3e7-13f0e3f105f1",
+            "Value": {
+                "id": "eaf4e4b3-8cdf-4caf-b08a-9284fead0d28",
+                "resourcePath": "objects\\o_fcheck1\\o_fcheck1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ab538175-d6cd-44ab-9e90-8c82075d991e",
             "Value": {
                 "id": "203aea84-a974-48d6-bf2b-dac456e1ed37",
@@ -1644,6 +1660,14 @@
                 "id": "15bb74ce-accc-465e-8f35-6169fd7d4998",
                 "resourcePath": "sprites\/s_fSG\/s_fSG.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b050847b-24f5-4edd-a8e9-1bdcbdc5cdd5",
+            "Value": {
+                "id": "59795899-48a3-4e01-a9ae-99091ef9cb7b",
+                "resourcePath": "objects\\o_challenge3bprompt\\o_challenge3bprompt.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1740,14 +1764,6 @@
                 "id": "fe8d34b7-9fbd-4f31-a4ad-cb67681982bb",
                 "resourcePath": "views\/bf869ebd-cc8c-49b1-a603-f0209a70e996.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c1566e86-54ac-4950-8768-7a2b3970926c",
-            "Value": {
-                "id": "ede5d7b6-a5af-4876-865e-f5b9f5cb7ebf",
-                "resourcePath": "objects\/o_fline5\/o_fline5.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2043,14 +2059,6 @@
             "Value": {
                 "id": "970397a1-3380-4a6f-8eb8-7a63f24934f6",
                 "resourcePath": "objects\\o_ch4txtbx8\\o_ch4txtbx8.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "df9c4f36-db79-4c94-b48b-2a1c404cc210",
-            "Value": {
-                "id": "03a1ebe9-bf39-4554-a22c-e2184e9f230f",
-                "resourcePath": "objects\/o_fline4\/o_fline4.yy",
                 "resourceType": "GMObject"
             }
         },

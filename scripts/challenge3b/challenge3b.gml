@@ -1,26 +1,28 @@
-///challenge3b(int id, Obj obj, boolean clicked)
+///challenge3b(int id, boolean clicked, int ind, ind maxLines)
 //
 //int id = id of object clicked
-//Obj obj = current object
 //boolean clicked = current status of the line selected
+//int ind = index of line within *global.currentLines*
+//ind maxLines = the number of lines within the challenge
 //
 //This script should only be called if the line object is
 
 var id = argument0;
-var obj = argument1;
-var clicked = argument2;
-var maxLines = 7;//challenge3b has 7 lines to be ordered
+var clicked = argument1;
+var ind = argument2;
+var maxLines = argument3;
 if(!clicked){
-	for(var i = 1;i<maxLines<i++){
+	for(var i = 1;i<maxLines;i++){
 		if(global.currentLines[i] == -1){
 			global.currentLines[i] = id;
-		break;
+			ind = i;
+		return ind;
 		}
 	}
-	
 }
 else{
-	
+	global.currentLines[ind] = -1;
+	return -1;
 }
 
 
@@ -55,5 +57,10 @@ At the end of the code, this script should determine the order of lines clicked
 
 	of the lines if and only if the number of clicked lines, stored in variable *global.linesClicked*
 	equals *maxLines*
-	The calue of *global.challenge3bCorrect* can then be used to draw a reply to the user.
+	The value of *global.challenge3bCorrect* can then be used to draw a reply to the user.
+	
+	
+There now should be a return value of the line's index
+The two goals of this script should now be to determine the new order of *global.currentLines* and
+	return *ind* if the line was not already clicked, and -1 if the line was already clicked
 */

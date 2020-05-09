@@ -1,4 +1,4 @@
-/// @description Insert description here
+/*/// @description Insert description here
 // You can write your code in this editor
 draw_self();
 //when 5 selected, if "enter" clicked, show if correct or not
@@ -10,4 +10,4 @@ if(global.correct&&global.crt == 5){
 else if(global.clck && global.crt == 5){
 	draw_set_color(c_red);
 	draw_text(x,y+20,"No");
-}
+}*/
