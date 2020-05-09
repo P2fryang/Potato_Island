@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "49b66dd9-4a32-45a2-8fd5-3cd065917d8e",
+            "Value": {
+                "id": "7a3b5ca5-70f5-4770-a4c6-325290be36a6",
+                "resourcePath": "scripts\\challenge3b\\challenge3b.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b3db346-9a7b-4c4c-90b5-e312de035512",
             "Value": {
                 "id": "8c93bfbe-f448-4535-9464-0163cb2d94b5",
@@ -2394,6 +2402,7 @@
         "b5424dc2-6eaf-4e3d-a192-119555b18996",
         "c26b3b92-6849-45c2-91a8-93ab6f32a6f6",
         "f044c07e-5a0d-4cdd-a757-65792a39f5de",
+        "49b66dd9-4a32-45a2-8fd5-3cd065917d8e",
         "817ed617-8f51-426d-834a-451644b8f7cb"
     ],
     "tutorial": ""
