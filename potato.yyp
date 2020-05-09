@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "6d3a968b-e95e-4694-bb72-a060561d0e9a",
+            "Value": {
+                "id": "ba3863a0-0da0-496f-a837-bfaaf95c9e0e",
+                "resourcePath": "sprites\\s_fprompt3b\\s_fprompt3b.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6d3f18a4-8453-418f-a0f5-2bff77c3ee8f",
             "Value": {
                 "id": "3307a4e1-cbc8-40fa-9fbd-873ee6bbc2b5",

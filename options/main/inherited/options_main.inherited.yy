@@ -27,13 +27,58 @@
             {
                 "Key": 2,
                 "Value": {
-                    "id": "7ff12082-df06-437f-bb7d-c4c3ae0ea708",
+                    "id": "47826956-560b-4f7c-a349-f2573d5e334d",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_challenges",
-                    "targets": 316895953178185954,
+                    "groupName": "txg_challenge2",
+                    "targets": 461609314234257646,
                     "autocrop": true,
-                    "border": 8,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "4d8094f4-009e-4d55-a833-01262d20e613",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_challenge1",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 4,
+                "Value": {
+                    "id": "00fe2d1a-52dd-481d-a3f9-8855e529cf88",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_challenge3",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 5,
+                "Value": {
+                    "id": "bddc3d47-636d-4eee-bab2-7ba4ad3074a4",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_challenge4",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
                     "groupParent": "00000000-0000-0000-0000-000000000000",
                     "mipsToGenerate": 0,
                     "scaled": true
