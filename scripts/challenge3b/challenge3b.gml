@@ -50,7 +50,7 @@ Next, if the user "unclicks" a line, there needs to be a way to check if *obj* (
 	HOWEVER, if the line is "clicked", then the position of the line within *global.currentLines*
 		should be drawn on the some position on the object.
 		In order to do so, the code uses ds_list_find_index(global.currentLines,lineId) to access the index
-			of salineId line.
+			of said line.
 			
 At the end of the code, this script should determine the order of lines clicked
 	**The job of checking the answer should occur within the left released event of an 'enter' object

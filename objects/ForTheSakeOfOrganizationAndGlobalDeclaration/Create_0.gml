@@ -137,6 +137,14 @@ global.challenge3_answers[4] = "turnOn()";
 global.challenge3_answers[5] = "reboot()";
 
 //challenge3b
+global.currentLines[1] = -1;
+global.currentLines[2] = -1;
+global.currentLines[3] = -1;
+global.currentLines[4] = -1;
+global.currentLines[5] = -1;
+global.currentLines[6] = -1;
+global.currentLines[7] = -1;
+
 global.challenge3b_lines[1] = "Robot Loady = new Robot (\"Loady\");";
 global.challenge3b_lines[2] = "Loady.reboot()";
 global.challenge3b_lines[3] = "this.turnOn()";
