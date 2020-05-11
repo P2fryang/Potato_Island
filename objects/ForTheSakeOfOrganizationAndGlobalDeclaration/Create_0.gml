@@ -210,4 +210,5 @@ global.chlginst[3] = global.Free2b;
 global.chlginst[4] = global.Free2c;
 global.chlginst[5] = global.Free3;
 global.chlginst[6] = global.Free4;
+global.chlginst[1] = rm_challenge3b;
 //source control is torrible
