@@ -10,7 +10,7 @@
 var lineId = argument0;
 var clicked = argument1;
 var ind = argument2;
-var maxLines = argument3;
+var maxLines = argument3+1;
 if(!clicked){
 	for(var i = 1;i<maxLines;i++){
 		if(global.currentLines[i] == -1){

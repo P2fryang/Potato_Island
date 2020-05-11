@@ -144,6 +144,16 @@ global.currentLines[4] = -1;
 global.currentLines[5] = -1;
 global.currentLines[6] = -1;
 global.currentLines[7] = -1;
+global.currentLines[8] = -1;
+
+global.challenge3b_answers[1] = -1;
+global.challenge3b_answers[2] = -1;
+global.challenge3b_answers[3] = -1;
+global.challenge3b_answers[4] = -1;
+global.challenge3b_answers[5] = -1;
+global.challenge3b_answers[6] = -1;
+global.challenge3b_answers[7] = -1;
+global.challenge3b_answers[8] = -1;
 
 global.challenge3b_lines[1] = "Robot Loady = new Robot (\"Loady\");";
 global.challenge3b_lines[2] = "Loady.reboot()";

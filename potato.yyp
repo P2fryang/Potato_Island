@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "086c38e3-ac43-402d-bb52-e29e08660944",
+            "Value": {
+                "id": "dd06ede9-d7da-47f5-b01a-9b509424cae9",
+                "resourcePath": "objects\\o_challenge3b8\\o_challenge3b8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "086f9db3-6c8a-4b75-bc88-72be9045b770",
             "Value": {
                 "id": "9f8cf08f-6768-48dd-b58d-e0270326e1bb",
