@@ -146,14 +146,14 @@ global.currentLines[6] = -1;
 global.currentLines[7] = -1;
 global.currentLines[8] = -1;
 
-global.challenge3b_answers[1] = -1;
-global.challenge3b_answers[2] = -1;
-global.challenge3b_answers[3] = -1;
-global.challenge3b_answers[4] = -1;
-global.challenge3b_answers[5] = -1;
-global.challenge3b_answers[6] = -1;
-global.challenge3b_answers[7] = -1;
-global.challenge3b_answers[8] = -1;
+global.challenge3b_answers[1] = 5;
+global.challenge3b_answers[2] = 1;
+global.challenge3b_answers[3] = 8;
+global.challenge3b_answers[4] = 2;
+global.challenge3b_answers[5] = 3;
+global.challenge3b_answers[6] = 6;
+global.challenge3b_answers[7] = 7;
+global.challenge3b_answers[8] = 4;
 
 global.challenge3b_lines[1] = "Robot Loady = new Robot (\"Loady\");";
 global.challenge3b_lines[2] = "Loady.reboot()";
@@ -217,7 +217,7 @@ global.chlgrm[4] = rm_challenge2c;
 global.chlgrm[5] = rm_challenge3;
 global.chlgrm[6] = rm_challenge3b;
 global.chlgrm[7] = rm_challenge4;
-global.chlgrm[1] = rm_challenge3b;
+global.chlgrm[1] = rm_challenge4;
 
 //global.chlginst to make activating and deactivating instances easier
 /*global.chlginst[0] = global.Mult1;

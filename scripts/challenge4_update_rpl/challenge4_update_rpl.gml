@@ -8,7 +8,7 @@
 
 var bx1 = argument0;
 var blank = argument1;
-var rpli = 1;
+var rpli = 2;
 var bx2 = -1;
 var bx3 = -1;
 var bx4 = -1;
