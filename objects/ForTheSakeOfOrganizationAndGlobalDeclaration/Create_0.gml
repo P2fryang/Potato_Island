@@ -217,7 +217,7 @@ global.chlgrm[4] = rm_challenge2c;
 global.chlgrm[5] = rm_challenge3;
 global.chlgrm[6] = rm_challenge3b;
 global.chlgrm[7] = rm_challenge4;
-global.chlgrm[1] = rm_challenge4;
+//global.chlgrm[1] = rm_challenge4;
 
 //global.chlginst to make activating and deactivating instances easier
 /*global.chlginst[0] = global.Mult1;

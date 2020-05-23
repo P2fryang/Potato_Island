@@ -6,6 +6,7 @@ enter_clicked_and_ans_not_changed = true;
 	}
 	else if(str == "\"Hello, World!\""){
 		rplnum = 1;
+		delay = -1;
 	}
 	else{
 		rplnum = 2;

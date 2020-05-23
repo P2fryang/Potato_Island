@@ -7,6 +7,7 @@
 //
 var bx1 = argument0;
 var blank = argument1;
+var offset = 0;//for offsetting the x position of reply so that not on top of semicolon/parentheses
 var rpli = 2;
 var bx2 = -1;
 var bx3 = -1;
@@ -56,6 +57,7 @@ if(!blank){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1]){
 			rpli = 0;
 		}
+		offset = 30;
 	}
 	else if(bx4 == -1){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3]){
@@ -77,7 +79,7 @@ if(!blank){
 	if(rpli == 0){
 		draw_set_color(c_green);
 	}
-	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.replies[rpli]);
+	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width+offset,global.fr2b[lastbx-1].y+5, global.replies[rpli]);
 }
 else{
 	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width,global.fr2b[lastbx-1].y+5, global.replies[8]);
