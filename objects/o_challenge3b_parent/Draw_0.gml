@@ -9,5 +9,5 @@ draw_text(x+100,y+(sprite_height)/4,global.challenge3b_lines[lineId]);
 
 //draw the index if clicked
 if(chlg3bInd != -1){
-	draw_text(x+20,y+(sprite_height)/4,string(chlg3bInd));
+	draw_text(x+30,y+(sprite_height)/4,string(chlg3bInd));
 }
