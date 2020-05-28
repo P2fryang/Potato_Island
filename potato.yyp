@@ -1655,6 +1655,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "f254b7c5-2fb2-47dc-b9b3-31c7148c0395",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "a94d3398-f445-41b5-94b4-ed8b8624b44a",
             "Value": {
                 "id": "a3ae8e8a-8098-47e7-8079-f0108b09ecef",

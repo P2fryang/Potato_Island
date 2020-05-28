@@ -3,6 +3,9 @@
 
 //if this textbox is selected, then its content could be edited
 if(global.txtbx == 4){
+	if(string_width(keyboard_string)>sprite_width){
+		keyboard_string = str;
+	}
 	if(str != keyboard_string){
 		o_challenge2a.dc = false;
 		o_challenge2a.dEnter = false;

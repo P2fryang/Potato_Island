@@ -4,7 +4,6 @@ rpl = false;
 enter = false;
 //for ones with multiple textboxes to one answer, crt for locally correct
 //crt = false;//no longer needed
-reset_enter = true;
 
 str = "";
 cursor = "|";

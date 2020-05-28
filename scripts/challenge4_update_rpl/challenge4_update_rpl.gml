@@ -69,7 +69,7 @@ if(!blank){
 	}
 	draw_text(global.fr4[lastbx].x+40+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[rpli]);
 	exit;
-}
+}/*
 else{
 	draw_text(global.fr4[lastbx].x+20+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[8]);
-}
+}*/
