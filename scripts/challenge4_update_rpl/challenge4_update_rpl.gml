@@ -68,7 +68,22 @@ if(!blank){
 		draw_set_color(c_green);
 	}
 	draw_text(global.fr4[lastbx].x+40+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[rpli]);
-	exit;
+	if(rpli == 0){
+		global.fr4[bx1].allow = false;
+		if(bx2 != -1){
+			global.fr4[bx2].allow = false;
+			if(bx3 != -1){
+				global.fr4[bx3].allow = false;
+				if(bx4 != -1){
+					global.fr4[bx4].allow = false;
+				}
+			}
+		}
+		return true;
+	}
+	else{
+		return false;
+	}
 }/*
 else{
 	draw_text(global.fr4[lastbx].x+20+global.fr4[lastbx].sprite_width,global.fr4[lastbx].y+5, global.replies[8]);
