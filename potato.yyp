@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "4031aaff-c68c-40d2-b78c-560ec54881d8",
+            "Value": {
+                "id": "4221af50-c59f-436a-b78c-9a7f305ae749",
+                "resourcePath": "fonts\\font_chlgs3b\\font_chlgs3b.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "41dbc0d7-6ec9-444e-88f7-0a02e82c31f0",
             "Value": {
                 "id": "9eece3c4-d3f7-42d3-8f97-69f9f1239dfa",

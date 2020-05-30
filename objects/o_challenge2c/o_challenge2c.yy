@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_challenge2c",
     "eventList": [
-        {
-            "id": "6398fa4d-3c13-4174-8d24-06256b6fb596",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "88320a75-37a7-4f2d-814b-524b708ee3ed"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
