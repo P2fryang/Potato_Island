@@ -52,6 +52,10 @@ if(!blank){
 	
 	if(rpli == 0){
 		draw_set_color(c_green);
+		global.fr3[bx1].allow = false;
+		if(bx2 != -1){
+			global.fr3[bx2].allow = false;
+		}
 	}
 	draw_text(global.fr3[lastbx].x+40+global.fr3[lastbx].sprite_width,global.fr3[lastbx].y+5, global.replies[rpli]);
 	exit;

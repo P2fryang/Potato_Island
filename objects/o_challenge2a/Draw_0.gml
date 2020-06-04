@@ -9,6 +9,9 @@ draw_self();
 		if(o_firstVar1.str == "int" && o_firstVar2.str == "firstVar" && o_firstVar3.str == "3"){
 			draw_set_color(c_green);
 			rpl = "Correct!"
+			o_firstVar1.allow = false;
+			o_firstVar2.allow = false;
+			o_firstVar3.allow = false;
 		}
 		else {
 			draw_set_color(c_red);
@@ -61,6 +64,9 @@ draw_self();
 		if(o_d1.str == "double" && o_d2.str == "d" && o_d3.str == "3.05"){
 			draw_set_color(c_green);
 			rpl = "Correct!"
+			o_d1.allow = false;
+			o_d2.allow = false;
+			o_d3.allow = false;
 		}
 		else {
 			draw_set_color(c_red);
@@ -113,6 +119,9 @@ draw_self();
 		if(o_e1.str == "String" && o_e2.str == "e" && o_e3.str == "\"Variables!\""){
 			draw_set_color(c_green);
 			rpl = "Correct!"
+			o_e1.allow = false;
+			o_e2.allow = false;
+			o_e3.allow = false;
 		}
 		else {
 			draw_set_color(c_red);
@@ -171,6 +180,9 @@ draw_self();
 		if(o_f1.str == "char" && o_f2.str == "f" && o_f3.str == "\'&\'"){
 			draw_set_color(c_green);
 			rpl = "Correct!"
+			o_f1.allow = false;
+			o_f2.allow = false;
+			o_f3.allow = false;
 		}
 		else {
 			draw_set_color(c_red);
@@ -229,6 +241,9 @@ draw_self();
 		if(o_phrase21.str == "String" && o_phrase22.str == "phrase2" && o_phrase23.str == "\"Hello, World!\""){
 			draw_set_color(c_green);
 			rpl = "Correct!"
+			o_phrase21.allow = false;
+			o_phrase22.allow = false;
+			o_phrase23.allow = false;
 		}
 		else {
 			draw_set_color(c_red);
@@ -279,6 +294,7 @@ draw_self();
 		if(phrase2last && !phrase2lastc && p2LEnter){
 			if(o_phrase24.str == "phrase2"){
 				rpl1 = "Correct!";
+				o_phrase23.allow = false;
 			}
 			else{
 				rpl1 = "Try Again!";

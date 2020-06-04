@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+if(allow){
 if(delay == -1){
 	str = str;
 }
@@ -9,4 +8,5 @@ if(string_length(keyboard_string)<=15){
 }
 else{
 	keyboard_string = str;
+}
 }

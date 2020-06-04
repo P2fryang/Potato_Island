@@ -77,6 +77,16 @@ if(!blank){
 	
 	if(rpli == 0 || rpli == 3){
 		draw_set_color(c_green);
+		global.fr2c[bx1].allow = false;
+		if(bx2 != -1){
+			global.fr2c[bx2].allow = false;
+			if(bx3 != -1){
+				global.fr2c[bx3].allow = false;
+				if(bx4 != -1){
+					global.fr2c[bx4].allow = false;
+				}
+			}
+		}
 	}
 	draw_text(global.fr2c[lastbx].x+40+global.fr2c[lastbx].sprite_width,global.fr2c[lastbx].y+5, global.replies[rpli]);
 	exit;

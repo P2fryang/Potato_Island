@@ -1,3 +1,4 @@
+if(allow){
 //Decide whether the user can press enter
 if(global.txtbx == bx){//if true, then this textbox is selected
 	if(string_width(keyboard_string)>sprite_width){
@@ -13,5 +14,5 @@ if(global.txtbx == bx){//if true, then this textbox is selected
 		enter = false;
 		rpl = true;
 	}
-	
+}
 }

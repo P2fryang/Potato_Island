@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+allow = true;
 str = "";
 cursor = "|";
 delay = 20;

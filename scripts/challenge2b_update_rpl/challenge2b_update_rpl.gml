@@ -57,7 +57,6 @@ if(!blank){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1]){
 			rpli = 0;
 		}
-		offset = 30;
 	}
 	else if(bx4 == -1){
 		if(global.fr2b[bx1-1].str == global.challenge2b_answers[bx1] && global.fr2b[bx2-1].str == global.challenge2b_answers[bx2] && global.fr2b[bx3-1].str == global.challenge2b_answers[bx3]){
@@ -76,8 +75,24 @@ if(!blank){
 		}
 		lastbx = bx4;
 	}
+	if(bx1 == 10 || bx1 == 15){
+		offset = 30;
+	}
+	else if(bx1 == 11){
+		offset = 60;
+	}
 	if(rpli == 0){
 		draw_set_color(c_green);
+		global.fr2b[bx1-1].allow = false;
+		if(bx2 != -1){
+			global.fr2b[bx2-1].allow = false;
+			if(bx3 != -1){
+				global.fr2b[bx3-1].allow = false;
+				if(bx4 != -1){
+					global.fr2b[bx4-1].allow = false;
+				}
+			}
+		}
 	}
 	draw_text(global.fr2b[lastbx-1].x+20+global.fr2b[lastbx-1].sprite_width+offset,global.fr2b[lastbx-1].y+5, global.replies[rpli]);
 }
