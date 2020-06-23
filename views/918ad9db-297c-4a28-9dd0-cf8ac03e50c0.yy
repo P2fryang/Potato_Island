@@ -27,7 +27,8 @@
         "d34b41b4-ad45-4099-aa70-030b71929040",
         "b0e82b4f-ab01-4167-bfcc-8ae381cf3f25",
         "0a8283f0-16c4-4bca-8321-28f130e80484",
-        "9af08893-1b36-4b40-b380-0680ecba0679"
+        "9af08893-1b36-4b40-b380-0680ecba0679",
+        "f364dfe0-7b0b-4926-a6e7-d46ee70bd31b"
     ],
     "filterType": "GMObject",
     "folderName": "Notebook Stuff(Dank)",
