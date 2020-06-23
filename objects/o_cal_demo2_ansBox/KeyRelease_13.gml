@@ -9,6 +9,8 @@ if( (keyboard_string + aft) == target){
 
 if( !instance_exists(o_cal_demo2_whiteBox)) {
 	instance_create_depth(room_width/2, room_height/2, -1500,o_cal_demo2_arrow_)
+	instance_create_depth(room_width/2, room_height/2, -1500,to_a)
+
 }
 
 /*
