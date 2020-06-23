@@ -1,11 +1,11 @@
-/// @description Insert description here
+/// @description 
 // You can write your code in this editor
 draw_self();
 var xpos = x+20;
 var ypos = y+175;
 draw_set_font(font_free_response_prompt);
 draw_set_colour(c_black);
-draw_text(x+20,y+25,string_copy(string_wordwrap_width(str,sprite_width-50,"\n",true),1,string_length(str))+cursor);
+draw_text(x+20,y+25,string_copy(string_wordwrap_width(str,sprite_width-50,"\n",true),1,string_length(str)));
 /*if(global.changechlg){
 	enter_clicked_and_ans_not_changed = false;
 	str = "";

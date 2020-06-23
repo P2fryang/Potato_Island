@@ -1,7 +1,10 @@
   
 
-if( str == target ){
+if( (keyboard_string + aft) == target){
 	instance_destroy(global.selectedID)
+	str = "";
+	keyboard_string = "";
+	aft = "";
 }
 
 if( !instance_exists(o_cal_demo2_whiteBox)) {

@@ -10,7 +10,7 @@ if(delay == -1){
 }
 else
 if(string_length(keyboard_string)<=15){
-	str = keyboard_string;
+	str = keyboard_string + cursor + aft;
 }
 else{
 	keyboard_string = str;
