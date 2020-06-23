@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "0b27aea3-fede-4c01-97a8-aa93197af7e7",
+            "Value": {
+                "id": "d29d3621-58bf-4d7c-9241-9a8129803972",
+                "resourcePath": "sprites\\s_cal_demo2_whiteSquare\\s_cal_demo2_whiteSquare.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b56409d-3b59-4e21-a043-824de9e94b59",
             "Value": {
                 "id": "85860450-c1dd-4880-8d34-edb028c81f6d",
@@ -300,6 +308,14 @@
                 "id": "d3e5e379-2d6d-496c-b865-756c70deec5a",
                 "resourcePath": "views\/185767d0-5f98-45de-bad9-819d525e373b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "18f786f3-b416-4bc8-aa56-e7c1eb375214",
+            "Value": {
+                "id": "756d0cc0-56dc-42a8-b787-dbb5d0f5dc4d",
+                "resourcePath": "rooms\\rm_cal_demo2\\rm_cal_demo2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -631,6 +647,14 @@
             }
         },
         {
+            "Key": "3c2eb675-bb8f-450b-8a83-cada9423cc77",
+            "Value": {
+                "id": "8befe9bd-2b28-4df2-8912-bb07040786a9",
+                "resourcePath": "objects\\o_cal_demo2_whiteBox\\o_cal_demo2_whiteBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3cc5c33e-685c-45a0-adce-69b168840816",
             "Value": {
                 "id": "9e585ebd-2377-45fb-a1b7-63c643e5d602",
@@ -831,6 +855,14 @@
             }
         },
         {
+            "Key": "51004f6a-a3eb-4a19-9adb-3b9080912c51",
+            "Value": {
+                "id": "2706eb55-6287-4812-8c9b-52fc8034845f",
+                "resourcePath": "objects\\o_cal_demo2_challenge3\\o_cal_demo2_challenge3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "524d2cdc-9cb5-4230-95e5-12e7512ce0d1",
             "Value": {
                 "id": "f45fccc9-55ab-4ded-a537-4c43815abea7",
@@ -859,6 +891,14 @@
             "Value": {
                 "id": "e0d5c12b-1874-4341-a48b-822680dddf1c",
                 "resourcePath": "sprites\/spr_textbox\/spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "546b59ff-a860-43d6-b97d-d977efcf3712",
+            "Value": {
+                "id": "e0b6a164-201c-4950-908c-e9f38c98f5ac",
+                "resourcePath": "sprites\\s_cal_demo2_answerSquare\\s_cal_demo2_answerSquare.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1487,6 +1527,14 @@
             }
         },
         {
+            "Key": "91efcd0a-05d5-4759-bf04-ccc840c05ccc",
+            "Value": {
+                "id": "994e4d09-d0f6-40d3-8259-333cb8a03aaf",
+                "resourcePath": "sprites\\s_cal_demo2_challenge3\\s_cal_demo2_challenge3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92445715-05a4-470c-a45a-eedc51f32924",
             "Value": {
                 "id": "f2337afb-b22e-4c67-909b-959b45fc5cab",
@@ -1663,10 +1711,26 @@
             }
         },
         {
+            "Key": "a5d9ee63-82cb-4f81-9d16-a48a28acce6d",
+            "Value": {
+                "id": "db9fea6c-2224-4388-a44d-23c02ed50283",
+                "resourcePath": "objects\\o_cal_demo2_ansBox\\o_cal_demo2_ansBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a5fd36ee-4229-464b-b0ac-63ba12ed5305",
             "Value": {
                 "id": "0544c69e-2505-4917-abf6-e562570b8c02",
                 "resourcePath": "objects\/o_d3\/o_d3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a8792aa8-1e98-4d64-bd9a-956a7cd863f9",
+            "Value": {
+                "id": "1e0b9a0a-5088-45b4-a936-cea46a66ecde",
+                "resourcePath": "objects\\o_cal_demo2_arrow_\\o_cal_demo2_arrow_.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1764,6 +1828,14 @@
                 "id": "251ad9ce-9d61-4064-b784-af9ff4dd1cf8",
                 "resourcePath": "sprites\/tsprite2\/tsprite2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b288c169-a073-4cb5-8fbe-9ef2878f2325",
+            "Value": {
+                "id": "36d3af47-75e8-45f3-8d69-c7c631ec2343",
+                "resourcePath": "objects\\o_cal_demo2_yellowBox\\o_cal_demo2_yellowBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2084,6 +2156,14 @@
                 "id": "4f9f937f-9941-4169-8086-4f6c7dc2e845",
                 "resourcePath": "objects\\to_sprite15\\to_sprite15.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d5d050a0-ce7d-4538-a1ed-131ab70f1f5b",
+            "Value": {
+                "id": "a7963f14-5b1a-4aeb-99a8-269a25fa6348",
+                "resourcePath": "sprites\\s_cal_demo2_yellowSquare\\s_cal_demo2_yellowSquare.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
