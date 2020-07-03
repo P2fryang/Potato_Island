@@ -9,7 +9,9 @@
         "48cb14dc-3e10-42e5-9d49-e1e3196439b5",
         "dac57cf0-325e-4541-8bd2-91fc7fc4b574",
         "cea47f8f-b214-4a3a-aec4-69717aeef573",
-        "af29ca79-642a-4cbe-8226-da16782f948c"
+        "af29ca79-642a-4cbe-8226-da16782f948c",
+        "8bfa27c7-2bdf-4852-a64c-5c946a5a273e",
+        "825d65f0-a5f8-4632-b37f-08efd3c558f6"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_not",

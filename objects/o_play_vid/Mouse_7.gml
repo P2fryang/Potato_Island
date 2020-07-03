@@ -1,4 +1,4 @@
-if(!clicked){
+if(!clicked && withBack){
 	bckgndInst = instance_create_depth(0,0,-1501,o_black_pixel);
 	bckgndInst.image_alpha = .6;
 	bckgndInst.image_xscale = 1920;
@@ -7,4 +7,7 @@ if(!clicked){
 	video.image_speed = 1;
 	video.image_index = 0;
 	clicked = true;
+}
+else{
+	o_blank.vidInst.image_speed = 1;
 }
