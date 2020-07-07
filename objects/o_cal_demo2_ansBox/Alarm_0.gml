@@ -5,7 +5,7 @@ if(delay == -1){
 }
 else{
 	if(cursor=="|") 
-		cursor = ""; 
+		cursor = " "; 
 	else cursor = "|";
 }
 alarm[0] = delay;

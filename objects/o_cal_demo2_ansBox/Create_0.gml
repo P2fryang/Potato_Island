@@ -21,5 +21,4 @@ global.selectedID = false;
 
 //TODO create answers map
 answers = ds_map_create();
-ds_map_add(answers, inst_E10F436, "hewwo")
-ds_map_add(answers, inst_2EE280DB, "uwu")
+ds_map_add(answers, inst_7CDEC16F, "\"Hello, World!\"")
