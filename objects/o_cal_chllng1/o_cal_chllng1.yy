@@ -5,16 +5,6 @@
     "name": "o_cal_chllng1",
     "eventList": [
         {
-            "id": "25d62b4b-7002-40df-a8e8-1e4b3e2100cc",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d8c54495-e194-4de8-9de5-7e9d6b4cbe7c"
-        },
-        {
             "id": "a27ace04-1cbf-4227-afe8-3ab8c8049039",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "d8c54495-e194-4de8-9de5-7e9d6b4cbe7c"
+        },
+        {
+            "id": "d622995d-1d1d-4438-98c4-1261f99b6746",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "d8c54495-e194-4de8-9de5-7e9d6b4cbe7c"
         }
     ],

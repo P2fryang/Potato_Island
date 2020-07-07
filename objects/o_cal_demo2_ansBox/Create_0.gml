@@ -15,10 +15,6 @@ rpl[1,rplnum++] = "Correct!!";
 rpl[1,rplnum] = "This won't print the target phrase";
 rplnum = 0;
 
-
-target = "";
+feedback = ""
+target = false;
 global.selectedID = false;
-
-//TODO create answers map
-answers = ds_map_create();
-ds_map_add(answers, inst_7CDEC16F, "\"Hello, World!\"")
