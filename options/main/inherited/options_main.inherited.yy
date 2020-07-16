@@ -135,7 +135,22 @@
                     "id": "bcc86a49-3651-4a23-aecb-13dd621dc2c2",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_advMethodScope",
+                    "groupName": "txg_advMethodScopePt1",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 10,
+                "Value": {
+                    "id": "6644168d-d662-49e7-92a2-aca6675f1653",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_advMethodScopePt2",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
