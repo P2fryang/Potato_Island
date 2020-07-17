@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_adv_met_scope_pt1_img",
     "eventList": [
-        {
-            "id": "103599dd-dadb-4e9f-8167-48fbf1945a4b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "22fa2f48-87f1-4669-bcc9-b4774e2f58b1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
