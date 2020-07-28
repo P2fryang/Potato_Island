@@ -1,5 +1,5 @@
 if(!clicked && withBack){
-	bckgndInst = instance_create_depth(0,0,-1501,o_black_pixel);
+	bckgndInst = instance_create_depth(0,0,-1501,o_black_pixel1);
 	bckgndInst.image_alpha = .6;
 	bckgndInst.image_xscale = 1920;
 	bckgndInst.image_yscale = 1080;
