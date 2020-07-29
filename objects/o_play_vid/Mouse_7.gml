@@ -1,4 +1,7 @@
 if(!clicked && withBack){
+	if(o_not.image_index == 29){
+		o_not.image_index = 36;
+	}
 	bckgndInst = instance_create_depth(0,0,-1501,o_black_pixel1);
 	bckgndInst.image_alpha = .6;
 	bckgndInst.image_xscale = 1920;
