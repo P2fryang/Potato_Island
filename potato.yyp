@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "39b6178f-5ab6-40a1-a648-87c38ac97b7d",
+            "Value": {
+                "id": "c2cb00bb-34ea-4a08-81cc-9aa29d4cde83",
+                "resourcePath": "sprites\\s_conditionals\\s_conditionals.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a556bae-c56d-4dd9-8d89-3d1c30992419",
             "Value": {
                 "id": "8714cbaf-20cc-4f01-8045-764b6fd85c62",
