@@ -16,10 +16,7 @@
         "aecb67d9-f3c1-4efb-b7f3-ab3cf6eb0924",
         "cebc1f96-15e8-450b-abdc-e56027a98c66",
         "6dbcf1d5-e02c-45da-9e53-0655f1aca0ae",
-        "b16d8bf4-2f56-4976-a6d3-c4001087983b",
-        "c5c2e1a7-6c17-4a1d-9bba-4f5a7d32817e",
-        "6019dc29-7d21-46cd-a2dc-9486b0af259c",
-        "827eb268-7100-4cd7-a959-aad60808bd14"
+        "b16d8bf4-2f56-4976-a6d3-c4001087983b"
     ],
     "filterType": "GMObject",
     "folderName": "og_not",
