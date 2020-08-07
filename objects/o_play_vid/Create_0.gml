@@ -1,6 +1,4 @@
 image_alpha = .8;
+image_speed = 0;
+image_index = 0;
 clicked = false;
-if(room == rm_not2)
-	withBack = false;
-else
-	withBack = true;
