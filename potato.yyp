@@ -1783,6 +1783,14 @@
             }
         },
         {
+            "Key": "94aa0003-3276-4a2a-b52f-d8badd23aaf8",
+            "Value": {
+                "id": "d4995a9b-5851-4dd9-8b19-e5c81cfc6056",
+                "resourcePath": "sprites\\s_pass_var\\s_pass_var.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "94cf4f40-6647-4b5b-ad6e-3b69ca1d1543",
             "Value": {
                 "id": "dd900426-1f0f-4c9d-a72c-5e663172288b",
