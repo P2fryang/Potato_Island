@@ -1,0 +1,11 @@
+answers = ds_map_create();
+ds_map_add(answers, inst_476655C3, "3;")
+ds_map_add(answers, inst_C25EE86, "5;")
+ds_map_add(answers, inst_34E03A07, "int sum")
+ds_map_add(answers, inst_4051DDC9, "a + b;")
+ds_map_add(answers, inst_5C58C60F, "int diff")
+ds_map_add(answers, inst_262712EB, "a - b;")
+ds_map_add(answers, inst_1F2F9669, "div")
+ds_map_add(answers, inst_4C13BA7A, "double div_d2")
+ds_map_add(answers, inst_64A5E3FC, "(double) b")
+ds_map_add(answers, inst_7010D98C, "(div_d2);")
