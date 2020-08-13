@@ -1,0 +1,12 @@
+answers = ds_map_create();
+ds_map_add(answers, inst_46DD20C0, "int firstVar")
+ds_map_add(answers, inst_76C99E8C, "3;")
+ds_map_add(answers, inst_462BD8A3, "double d")
+ds_map_add(answers, inst_5C960FC, "3.05;")
+ds_map_add(answers, inst_772DB3D, "String e")
+ds_map_add(answers, inst_45381DD4, "\"Variables!\";")
+ds_map_add(answers, inst_216A2EFB, "char f;")
+ds_map_add(answers, inst_4F2FF656, "'&';")
+ds_map_add(answers, inst_7BCE58A6, "String phrase2")
+ds_map_add(answers, inst_1E9B2EC6, "\"Hello, World!\";")
+ds_map_add(answers, inst_F495C0B, "phrase2")
