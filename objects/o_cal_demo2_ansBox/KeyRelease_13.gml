@@ -13,6 +13,8 @@ else if( target == false){
 	feedback = "Did you remember the semicolon?"
 } else if(string_count("\"", target) != string_count("\"",keyboard_string + aft)){
 	feedback = "Did you have the right number of quotes (\")?"
+} else{
+	feedback = "Try again!";
 }
 
 

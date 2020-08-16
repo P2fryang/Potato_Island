@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_cal_demo2",
+    "name": "rm_cal_chllng3",
     "id": "18f786f3-b416-4bc8-aa56-e7c1eb375214",
     "creationCodeFile": "",
     "inheritCode": false,

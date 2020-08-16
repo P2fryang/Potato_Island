@@ -141,7 +141,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "00000000-0000-0000-0000-000000000000",
+    "parentId": "962406b3-4a63-4b54-a87c-06c40256725b",
     "physicsSettings":     {
         "id": "41811cf6-e36f-4a55-aef1-bf71aafca954",
         "inheritPhysicsSettings": false,
