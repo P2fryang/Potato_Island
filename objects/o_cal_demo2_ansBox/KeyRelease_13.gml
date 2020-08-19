@@ -21,7 +21,7 @@ else if( target == false){
 
 types = ["int", "double", "char", "String"];
 for(var i=0; i<4; i++){
-	if(string_count(types[i], target)!=string_count(types[i],keyboard_string + aft)){
+	if(string_count(types[i], target)==1 and string_count(types[i],keyboard_string + aft)!=1){
 		feedback = "Did you declare the type of variable?"
 	}
 	

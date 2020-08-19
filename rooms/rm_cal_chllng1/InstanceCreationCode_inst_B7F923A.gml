@@ -1,1 +1,1 @@
-prompt = "hellooooooooooooooo"
+prompt = "Click on the box in the code to the left, then type below to fill in correct text!"

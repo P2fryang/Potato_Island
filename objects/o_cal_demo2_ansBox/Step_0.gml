@@ -3,16 +3,18 @@ if(global.selectedID != false){
 	show_debug_message(target)
 }
 
-
+str = keyboard_string + cursor + aft;
+/*
 if(allow){
 if(delay == -1){
 	str = str;
 }
 else
-if(string_length(keyboard_string)<=15){
+if(string_length(keyboard_string)<=100){
 	str = keyboard_string + cursor + aft;
 }
 else{
 	keyboard_string = str;
 }
 }
+*/
