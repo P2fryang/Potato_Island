@@ -9,6 +9,8 @@ cursor = "|";
 delay = 20;
 alarm[0] = delay;
 
+rst_button = instance_create_depth(x+sprite_width-220,y+sprite_height-72,0,reset);
+
 //first challenge
 rpl[1,rplnum++] = "Please remember to use \"\"";
 rpl[1,rplnum++] = "Correct!!";
