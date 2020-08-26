@@ -8,8 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "020b33fe-46f7-4c7c-92bc-f6011847cb52",
-        "b8e95cb5-d147-42cc-b34d-41241b03ed82",
-        "3494de59-9beb-454a-a700-58141eebb34d"
+        "3494de59-9beb-454a-a700-58141eebb34d",
+        "b8e95cb5-d147-42cc-b34d-41241b03ed82"
     ],
     "IsDnD": false,
     "layers": [
@@ -117,12 +117,12 @@
     },
     "roomSettings":     {
         "id": "9abd6153-a808-418a-8081-2491c0a7aaef",
-        "Height": 1536,
+        "Height": 1080,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 2048
+        "Width": 1920
     },
     "mvc": "1.0",
     "views": [

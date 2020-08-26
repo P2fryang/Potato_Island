@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //set color initial color (not clickable color) (invisible)
-image_blend = make_color_rgb(160,65,13);
+image_blend = make_color_rgb(255,255,255);
 
 //flip the object
 image_xscale = -1;

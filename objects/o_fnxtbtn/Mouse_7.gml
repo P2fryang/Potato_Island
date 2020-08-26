@@ -3,7 +3,7 @@
 
 //used to change color at the end of the dialogue
 if(o_fdialogue.dia==o_fdialogue.diaMaxTemp){
-	image_blend = make_color_rgb(165,65,13);
+	image_blend = make_color_rgb(255,255,255);
 }
 else{
 	image_blend = make_color_rgb(50,250,50);	

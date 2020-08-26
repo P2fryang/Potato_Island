@@ -3,19 +3,11 @@
 
 //global variables all challenges
 global.chlg = 1;
+global.scenenum = -1;//for the dialogue, change when change to the dialogue scene
 
 //multiple choice
 global.chce = 0;
 
-/*//lines
-global.ind[0] = 0;
-global.crt = 0;
-for(i = 0;i<5;i++){
-	global.clc[i] = 0;	
-}
-global.correct = false;
-global.clck = false;
-*/
 //free response
 global.scrollamt = 10;//amt to scroll
 global.replies[0] = "Correct!";
@@ -201,8 +193,6 @@ global.challenge4_answers[11] = "true";
 global.changechlg = false;
 
 //layers
-global.Mult1 = "inst_multiple_choice";
-global.Lines1 = "inst_lines";
 global.Free1 = "inst_challenge1";
 global.Free2a = "inst_challenge2a";
 global.Free2b = "inst_challenge2b";
