@@ -7,7 +7,10 @@ if(keyboard_check_released(vk_space) && scenenum<5){
 if(scenenum == 0){
 	image_index = 0;
 }
-else if(scenenum == 5){
+else if(scenenum == 2 || scenenum == 3){
 	image_index = 1;
+}
+else if(scenenum == 4){
+	image_index = 2;
 }
 chars+=0.4;

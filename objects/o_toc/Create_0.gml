@@ -6,21 +6,28 @@ yP = y+70;
 draw_set_font(font_not);
 
 topics[0] = "Basics";
-topics[1] = "Variables";
-topics[2] = "Methods";
-topics[3] = "Classes";
-topics[4] = "Methods Pt.2";
-topics[5] = "Classes Pt.2";
-topics[6] = "Conditionals";
-topics[7] = "Arrays";
-topics[8] = "While Loops";
-topics[9] = "For Loops";
-
-img[0] = 1;
-img[1] = 4;
-img[2] = 7;
-img[3] = 8;
-img[4] = 10;
+topics[1] = "Variables";						
+topics[2] = "Arrays";							
+topics[3] = "Methods";							
+topics[4] = "Classes";							
+topics[5] = "Methods Pt.2";						
+topics[6] = "Reference vs Value"				
+topics[7] = "Classes Pt.2";						
+topics[8] = "Conditionals";
+topics[9] = "While Loops";						
+topics[10] = "For Loops";						
+												
+img[0] = 1;//Programming Basics
+img[1] = 4;//Variable Basics
+img[2] = 8;//Arrays Intro
+img[3] = 12;//Method Introduction
+img[4] = 20;//Classes Brief Intro
+img[5] = 24;//Advanced Methods - Scope
+img[6] = 32;//Objects/References vs Values as args
+img[7] = 33;//Classes - Constructors
+img[8] = 37;//Conditions/if/else
+img[9] = 40;//While Loop
+img[10] = 43;//For Loop
 /*image_alpha = 0;
 for(var alp = 0;alp<6;alp++){
 	image_alpha+=.1;

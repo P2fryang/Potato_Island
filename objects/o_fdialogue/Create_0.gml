@@ -7,6 +7,7 @@ dia = 0;
 diaPrev = -1;
 scenenumPrev = 0;
 frwd = 0;
+image_speed = 0;
 
 //scene 1
 //[scene #,dialogue #]
