@@ -12,13 +12,13 @@
             {
                 "Key": 1,
                 "Value": {
-                    "id": "10848591-af5c-4830-a9d1-5365749e7c76",
+                    "id": "7f8a2899-9617-434f-9b13-376c6dc4644f",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_notebook",
-                    "targets": 316895953178185794,
+                    "groupName": "txg_bg",
+                    "targets": 461609314234257646,
                     "autocrop": true,
-                    "border": 8,
+                    "border": 2,
                     "groupParent": "00000000-0000-0000-0000-000000000000",
                     "mipsToGenerate": 0,
                     "scaled": true
@@ -27,10 +27,10 @@
             {
                 "Key": 2,
                 "Value": {
-                    "id": "47826956-560b-4f7c-a349-f2573d5e334d",
+                    "id": "f3fa9ec7-2635-4612-b043-c93e740d17ac",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_challenge2",
+                    "groupName": "txg_characters",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -42,10 +42,10 @@
             {
                 "Key": 3,
                 "Value": {
-                    "id": "4d8094f4-009e-4d55-a833-01262d20e613",
+                    "id": "af250f7b-fe39-49db-a944-41d0d4af540b",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_challenge1",
+                    "groupName": "txg_charAnimates",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -57,10 +57,10 @@
             {
                 "Key": 4,
                 "Value": {
-                    "id": "00fe2d1a-52dd-481d-a3f9-8855e529cf88",
+                    "id": "5b7aa16b-796b-411b-82a9-ca3cdbb67d88",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_challenge3",
+                    "groupName": "txg_titlescreen",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -72,10 +72,10 @@
             {
                 "Key": 5,
                 "Value": {
-                    "id": "bddc3d47-636d-4eee-bab2-7ba4ad3074a4",
+                    "id": "4e20383f-f3d4-486d-a3ad-c5db1d04efae",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_challenge4",
+                    "groupName": "txg_challenges",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -87,10 +87,10 @@
             {
                 "Key": 6,
                 "Value": {
-                    "id": "f41b0232-280e-4346-a51a-c1acfc08a0c2",
+                    "id": "e831aa3c-e3d7-4bb8-9c83-72c2f0d8ea18",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_start",
+                    "groupName": "txg_basicNotebook",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -102,10 +102,10 @@
             {
                 "Key": 7,
                 "Value": {
-                    "id": "29e0e2bc-6231-4099-83e2-d37b68dd9371",
+                    "id": "bc3e3feb-cfc2-47b8-bcec-d62b723106e4",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_not",
+                    "groupName": "txg_advMethodScope1",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -117,10 +117,10 @@
             {
                 "Key": 8,
                 "Value": {
-                    "id": "1734822f-3abc-4420-83f3-7b0ec57abe58",
+                    "id": "3e0a51c8-39dc-4afa-94b9-25d33523d0f8",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_vid1",
+                    "groupName": "txg_advMethodScope2",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -132,10 +132,10 @@
             {
                 "Key": 9,
                 "Value": {
-                    "id": "bcc86a49-3651-4a23-aecb-13dd621dc2c2",
+                    "id": "2f7bf101-7ca0-412a-adc1-75c921faaa2b",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_advMethodScopePt1",
+                    "groupName": "txg_advMethodScope3",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -147,10 +147,10 @@
             {
                 "Key": 10,
                 "Value": {
-                    "id": "6644168d-d662-49e7-92a2-aca6675f1653",
+                    "id": "b221a935-6b95-4802-9b22-35ae62908e59",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_advMethodScopePt2",
+                    "groupName": "txg_whileLoop",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -162,10 +162,10 @@
             {
                 "Key": 11,
                 "Value": {
-                    "id": "f7f07b0c-93b5-4fb9-b6ef-023609eeb3f2",
+                    "id": "e098aca2-42c6-4d6a-84d9-d2698b4d9e4a",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_advMethodScopePt3",
+                    "groupName": "txg_passingVars",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -177,22 +177,7 @@
             {
                 "Key": 12,
                 "Value": {
-                    "id": "24780e72-69c9-41d9-bfe4-5e11e17cb35e",
-                    "modelName": "GMTextureGroup",
-                    "mvc": "1.0",
-                    "groupName": "txg_while_loop",
-                    "targets": 461609314234257646,
-                    "autocrop": true,
-                    "border": 2,
-                    "groupParent": "00000000-0000-0000-0000-000000000000",
-                    "mipsToGenerate": 0,
-                    "scaled": true
-                }
-            },
-            {
-                "Key": 13,
-                "Value": {
-                    "id": "b2c2c470-215b-443a-9585-5f7a4985be24",
+                    "id": "92db31ca-af28-4157-96c8-4f993decc866",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
                     "groupName": "txg_conditionals",
@@ -205,12 +190,12 @@
                 }
             },
             {
-                "Key": 14,
+                "Key": 13,
                 "Value": {
-                    "id": "039726a6-0ad4-42d8-b9b1-2e62da9ab705",
+                    "id": "d0add69e-adc6-4446-b330-49e06f1f266c",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_pass_var",
+                    "groupName": "txg_notebook",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -220,12 +205,12 @@
                 }
             },
             {
-                "Key": 15,
+                "Key": 14,
                 "Value": {
-                    "id": "3a90a26d-e6b2-4221-a4d4-cc2f246fbc09",
+                    "id": "745ecb65-e3eb-4335-a0fc-7865cd4b53db",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_chlg",
+                    "groupName": "txg_font",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
