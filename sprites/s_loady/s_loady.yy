@@ -2,7 +2,7 @@
     "id": "44bf10fc-8cf3-4141-8c6f-6d126bd28523",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_floady",
+    "name": "s_loady",
     "For3D": false,
     "HTile": false,
     "VTile": false,

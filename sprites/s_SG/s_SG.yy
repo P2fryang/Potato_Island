@@ -2,7 +2,7 @@
     "id": "af752ca0-d56f-419c-aa72-d4e9721c5ada",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_fSG",
+    "name": "s_SG",
     "For3D": false,
     "HTile": false,
     "VTile": false,
