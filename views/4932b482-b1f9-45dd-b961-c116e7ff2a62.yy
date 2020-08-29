@@ -7,10 +7,8 @@
         "242c0ae1-3384-44c4-9b0e-bd9c9242afd3",
         "b9fc5987-277c-44cf-9fa2-6cf54eade60a",
         "ed5e22a5-02e8-490b-b5a5-ee311f49035c",
-        "1ec60792-f3d1-4b82-b68e-27995fa5e427",
         "4031aaff-c68c-40d2-b78c-560ec54881d8",
         "36af9ee5-1be6-4d23-af09-da10db374607",
-        "d85f90b2-727b-427b-b295-f164d98d7894",
         "8a8a3df5-c213-41c9-b678-4d73cc96ab58"
     ],
     "filterType": "GMFont",

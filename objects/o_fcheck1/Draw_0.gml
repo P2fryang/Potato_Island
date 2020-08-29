@@ -1,4 +1,4 @@
-draw_self();
+/*draw_self();
 draw_set_color(c_green);
 if(show){
 	if (draw){
@@ -8,4 +8,4 @@ if(show){
 		draw_set_color(c_red);
 		draw_text(x-string_width("YES"),y+20,"No");
 	}
-}
+}*/

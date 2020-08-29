@@ -1,4 +1,4 @@
-/// @description Insert description here
+/*/// @description Insert description here
 // You can write your code in this editor
 draw_self();
 draw_set_color(c_black);
@@ -12,3 +12,4 @@ draw_text(x+100,y+(sprite_height)/4,global.challenge3b_lines[lineId]);
 if(chlg3bInd != -1){
 	draw_text(x+30,y+(sprite_height)/4,string(chlg3bInd));
 }
+*/

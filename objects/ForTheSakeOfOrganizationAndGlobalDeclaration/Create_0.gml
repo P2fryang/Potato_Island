@@ -2,14 +2,18 @@
 // You can write your code in this editor
 
 //global variables all challenges
-global.chlg = 1;
+//global.chlg = 1;
 global.scenenum = -1;//for the dialogue, change when change to the dialogue scene
 
+//Everything below is no longer necessary I think
+
+
+/*
 //multiple choice
 global.chce = 0;
-
+*/
 //free response
-global.scrollamt = 10;//amt to scroll
+/*global.scrollamt = 10;//amt to scroll
 global.replies[0] = "Correct!";
 global.replies[1] = "SemiColon?";
 global.replies[2] = "Incorrect!";
@@ -18,7 +22,7 @@ global.replies[4] = "Quotes";
 global.replies[5] = "Don't forget the parenthesis in methods!";
 global.replies[6] = "Watch your capitalization!";
 global.replies[8] = "";
-
+*/
 //challenge2a
 /*global.chlg2ascroll = 0;
 global.fr2a[0] = o_challenge2a;
@@ -190,8 +194,8 @@ global.challenge4_answers[11] = "true";
 //decrease unecessary actions variables
 //in change challenge button, to prevent constant deactivation and activation of instances
 //also in the scroll buttons, challenge screenshots to prevent constant visible/invisble commands
-global.changechlg = false;
-
+//global.changechlg = false;
+/*
 //layers
 global.Free1 = "inst_challenge1";
 global.Free2a = "inst_challenge2a";
@@ -199,6 +203,7 @@ global.Free2b = "inst_challenge2b";
 global.Free2c = "inst_challenge2c";
 global.Free3 = "inst_challenge3";
 global.Free4 = "inst_challenge4";
+*/
 /*
 global.chlgrm[1] = rm_challenge1;
 global.chlgrm[2] = rm_challenge2a;
@@ -209,13 +214,14 @@ global.chlgrm[6] = rm_challenge3b;
 global.chlgrm[7] = rm_challenge4;
 //global.chlgrm[1] = rm_challenge4;
 */
+/*
 //global.chlginst to make activating and deactivating instances easier
 /*global.chlginst[0] = global.Mult1;
-global.chlginst[1] = global.Lines1;*/
+global.chlginst[1] = global.Lines1;
 global.chlginst[1] = global.Free1;
 global.chlginst[2] = global.Free2a;
 global.chlginst[3] = global.Free2b;
 global.chlginst[4] = global.Free2c;
 global.chlginst[5] = global.Free3;
 global.chlginst[6] = global.Free4;
-//source control is torrible
+*/

@@ -10,16 +10,3 @@ draw_text(x+20,y+25,string_wordwrap_width(keyboard_string,sprite_width-25,"\n",t
 if( feedback != ""){
 	draw_text_ext_transformed_color(xpos,ypos,feedback,-1,(sprite_width-50)/.7,.7,.7,0,c_red,c_red,c_red,c_red,1);
 }
-/*if(global.changechlg){
-	enter_clicked_and_ans_not_changed = false;
-	str = "";
-}
-if(enter_clicked_and_ans_not_changed){
-	if(rpl[global.chlg,rplnum] == "Correct!!"){
-		draw_text_ext_color(xpos,ypos,rpl[global.chlg,rplnum],-1,sprite_width-50,c_green,c_green,c_green,c_green,1);
-	}
-	else{
-		draw_text_ext_color(xpos,ypos,rpl[global.chlg,rplnum],-1,sprite_width-50,c_red,c_red,c_red,c_red,1);
-	}
-}
-*/

@@ -47,27 +47,11 @@
             }
         },
         {
-            "Key": "039e50a3-2719-453e-aa49-873b623d6ffd",
-            "Value": {
-                "id": "8e529638-1827-4dd5-a414-b8094ff4a72e",
-                "resourcePath": "objects\\to_sprite11\\to_sprite11.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "04845dfe-ee4b-4d67-94cb-30e280b4f770",
             "Value": {
                 "id": "af865024-86b0-4e2d-beef-c1f02d105942",
                 "resourcePath": "sprites\/s_challenge2a\/s_challenge2a.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "050b5615-de52-44cc-b01d-775165e444ec",
-            "Value": {
-                "id": "f64bc76f-6634-48e1-b5ad-6a17fd1beef1",
-                "resourcePath": "objects\/InOrderToDetermineWhichInstanceIsActive\/InOrderToDetermineWhichInstanceIsActive.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -111,14 +95,6 @@
             }
         },
         {
-            "Key": "08116258-3440-4542-95ad-3ddc90f7d79d",
-            "Value": {
-                "id": "e22bc133-c411-4b75-804b-3155f419fa43",
-                "resourcePath": "sprites\/tsprite7\/tsprite7.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "086c38e3-ac43-402d-bb52-e29e08660944",
             "Value": {
                 "id": "dd06ede9-d7da-47f5-b01a-9b509424cae9",
@@ -132,22 +108,6 @@
                 "id": "a683667f-b2cf-490b-8f6d-2f7c5010a092",
                 "resourcePath": "sprites\/tupoincromento\/tupoincromento.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "09f261fb-4772-48f0-95c3-238a06dc0971",
-            "Value": {
-                "id": "5311714a-6e43-4503-a850-6d75c31437e9",
-                "resourcePath": "objects\/o_fMultiChoice1\/o_fMultiChoice1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0a8283f0-16c4-4bca-8321-28f130e80484",
-            "Value": {
-                "id": "e135cf69-e9c2-4a74-af94-a3c78454733e",
-                "resourcePath": "objects\\to_sprite17\\to_sprite17.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -171,14 +131,6 @@
             "Value": {
                 "id": "d29d3621-58bf-4d7c-9241-9a8129803972",
                 "resourcePath": "sprites\\s_cal_demo2_whiteSquare\\s_cal_demo2_whiteSquare.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "0b56409d-3b59-4e21-a043-824de9e94b59",
-            "Value": {
-                "id": "85860450-c1dd-4880-8d34-edb028c81f6d",
-                "resourcePath": "sprites\/tsprite1\/tsprite1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -271,22 +223,6 @@
             }
         },
         {
-            "Key": "14f18d26-5134-4408-83c9-4b39a2281f1b",
-            "Value": {
-                "id": "4429a6b6-9d58-4873-9556-aa51a66e451b",
-                "resourcePath": "sprites\\tsprite9\\tsprite9.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "159e08a2-01f2-43e8-b228-a8568f0c6887",
-            "Value": {
-                "id": "0f00744b-3faf-4269-a376-72ff2ca34861",
-                "resourcePath": "objects\/to_greyrightarrow\/to_greyrightarrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1618930f-bf8b-438b-a685-e65b45f9a4d0",
             "Value": {
                 "id": "337bf9bc-a3d4-4a90-b10a-6c9115ca4bd6",
@@ -343,51 +279,11 @@
             }
         },
         {
-            "Key": "1a33dba3-5c86-4f2f-9f34-72975ba65f60",
-            "Value": {
-                "id": "776b760c-5c15-412d-81ad-ccd779719285",
-                "resourcePath": "scripts\/challenge_activate_deactivate_instances\/challenge_activate_deactivate_instances.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1aa4d949-f518-418b-b2a4-58e781c2374d",
-            "Value": {
-                "id": "4e8820c4-66b4-4f3f-b52f-c8877e6c8fe8",
-                "resourcePath": "sprites\/s_white\/s_white.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1b8994d8-bb2a-4f93-9247-bbfd075bf398",
-            "Value": {
-                "id": "3d243d87-0a08-464a-97bd-3966471afd74",
-                "resourcePath": "sprites\\tsprite11\\tsprite11.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1e232443-49e2-407d-a3fe-1f8677accdde",
             "Value": {
                 "id": "ce56619f-79e7-4ff2-a585-586d8c4f7e0a",
                 "resourcePath": "views\/1e232443-49e2-407d-a3fe-1f8677accdde.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1e4f2bc2-952b-4c07-876d-c8c19bf4757c",
-            "Value": {
-                "id": "0e92a06b-da6b-4a49-9ff1-f5cdf1eefa94",
-                "resourcePath": "scripts\\challenge2c_scrolling\\challenge2c_scrolling.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1ec60792-f3d1-4b82-b68e-27995fa5e427",
-            "Value": {
-                "id": "306a8cec-f8d0-4798-a583-2a66ccf3f535",
-                "resourcePath": "fonts\/font_chlgs3\/font_chlgs3.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -415,14 +311,6 @@
             }
         },
         {
-            "Key": "238287d1-9611-4226-9e8c-448210368dc6",
-            "Value": {
-                "id": "f9e4afe2-3d96-4b80-b7f9-8f2ffa87a8e3",
-                "resourcePath": "scripts\\tab\\tab.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "23aa466c-ab53-47d8-96b3-3865949d57ef",
             "Value": {
                 "id": "522b3219-a553-4a70-a16f-79fc00e15e7e",
@@ -436,14 +324,6 @@
                 "id": "c2d04296-2665-42bf-a2d6-f36759c509c3",
                 "resourcePath": "fonts\/font_dia\/font_dia.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "291d8e34-07d9-4114-a0ed-5c8980672df4",
-            "Value": {
-                "id": "17b17138-adb4-41b7-9dce-448b9bd18ee9",
-                "resourcePath": "sprites\\tsprite18\\tsprite18.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -471,27 +351,11 @@
             }
         },
         {
-            "Key": "2c4bb7bb-c5ec-43f3-bc3a-e9bf1d7d5fd5",
-            "Value": {
-                "id": "0bdac9e5-b1a3-4635-b013-d98a8e15b419",
-                "resourcePath": "sprites\/s_fcheck\/s_fcheck.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2f39a23c-e53c-48db-9a08-88b13cd197c8",
             "Value": {
                 "id": "d17f1ec5-9fee-4408-94a3-7b8dceb3f46f",
                 "resourcePath": "views\\2f39a23c-e53c-48db-9a08-88b13cd197c8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "2f9a2ba5-efc1-4daf-a32e-54bc16b97c55",
-            "Value": {
-                "id": "c09c6d77-4cac-48bf-88ac-0bab814f27f3",
-                "resourcePath": "objects\/o_fchallengeimg\/o_fchallengeimg.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -519,27 +383,11 @@
             }
         },
         {
-            "Key": "35812e27-f05d-4ffb-82c1-ae8ff6d9539e",
-            "Value": {
-                "id": "b91eccd2-ea83-42fb-b31e-0c0478e472c9",
-                "resourcePath": "sprites\\s_challenge3b\\s_challenge3b.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "35a4040e-7748-45cd-b53e-f330cb0feb06",
             "Value": {
                 "id": "0e33271d-6429-419f-ae7a-fe4d1ee341d3",
                 "resourcePath": "objects\\o_adv_method_scope2\\o_adv_method_scope2.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "364ee190-09f6-4a49-b4c9-344f9c133768",
-            "Value": {
-                "id": "ab4ef2f0-55b9-41ab-bac0-b58bb7715fa3",
-                "resourcePath": "sprites\\s_challenge3Outline\\s_challenge3Outline.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -564,14 +412,6 @@
                 "id": "4e642de3-8917-42a4-ba35-a58cba5befcb",
                 "resourcePath": "views\/3b717444-fbe7-419e-8686-4bedc48a6b57.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3b77bed5-3c11-4391-a4c3-d5ec64c2eb63",
-            "Value": {
-                "id": "677e974e-c695-4120-b4ef-7482ed1ef230",
-                "resourcePath": "objects\\to_sprite9\\to_sprite9.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -607,27 +447,11 @@
             }
         },
         {
-            "Key": "3d2c62bc-cb64-484f-9430-28ddc3b132c9",
-            "Value": {
-                "id": "3749e32e-3273-46ac-bc43-0ea3bfaf2691",
-                "resourcePath": "scripts\/challenge2b_scrolling\/challenge2b_scrolling.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3d9cada1-2d7e-419c-8154-2cd296b74d19",
             "Value": {
                 "id": "281b54b9-1b46-49c6-ae17-3a2c5995524a",
                 "resourcePath": "views\/3d9cada1-2d7e-419c-8154-2cd296b74d19.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "3e0d36b8-47e5-44b5-8676-189542a0f1d6",
-            "Value": {
-                "id": "2fa0f224-d585-4d0e-91e5-5e33d9e6e8e4",
-                "resourcePath": "scripts\/challenge2a_scrolling\/challenge2a_scrolling.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -711,14 +535,6 @@
             }
         },
         {
-            "Key": "4803f3a7-9afd-44e8-9142-c2cc1b58d4c2",
-            "Value": {
-                "id": "dbd707c9-46fa-4d14-83cb-9300507cacab",
-                "resourcePath": "objects\/o_fD\/o_fD.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "488e9541-37bd-475a-98bc-22b7d571bf5f",
             "Value": {
                 "id": "61098af4-8e17-417e-b312-16d71dc8257f",
@@ -740,14 +556,6 @@
                 "id": "d991b72e-f87e-4929-a18d-a789157e09ed",
                 "resourcePath": "views\/4932b482-b1f9-45dd-b961-c116e7ff2a62.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "49b66dd9-4a32-45a2-8fd5-3cd065917d8e",
-            "Value": {
-                "id": "7a3b5ca5-70f5-4770-a4c6-325290be36a6",
-                "resourcePath": "scripts\\challenge3b\\challenge3b.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -780,22 +588,6 @@
                 "id": "67361e88-0644-4eee-a4ec-f20a72a60dbf",
                 "resourcePath": "sprites\/spr_titleimage\/spr_titleimage.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4f5b0a72-a69f-4e4d-8dec-548bafdf2853",
-            "Value": {
-                "id": "8fa5265a-cd68-4114-9c49-c38401ae93a9",
-                "resourcePath": "objects\/to_sprite1\/to_sprite1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4f86ac26-358a-4ea2-9f47-509241d20de2",
-            "Value": {
-                "id": "4381d8f5-071e-4bf2-9335-512b06bbe84a",
-                "resourcePath": "objects\\o_black_pixel1\\o_black_pixel1.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -847,67 +639,11 @@
             }
         },
         {
-            "Key": "55c0aece-287c-4073-8cfa-e1434300935f",
-            "Value": {
-                "id": "a94536b2-3d8e-44df-be61-9dba19141956",
-                "resourcePath": "objects\\to_sprite14\\to_sprite14.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "57a6d9db-31ec-4b1b-a8e9-0bb7d9a1b146",
-            "Value": {
-                "id": "10926048-95f8-49ed-b209-db2867a517e6",
-                "resourcePath": "sprites\/s_fchallengeimg\/s_fchallengeimg.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5939967f-9be8-4260-8e75-e5474e83bcf2",
-            "Value": {
-                "id": "5cdf6e25-b91d-4f50-a185-b6ede369bf1c",
-                "resourcePath": "sprites\\tsprite15\\tsprite15.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "59ebb9af-3573-4bae-ae0c-908896d40bb5",
-            "Value": {
-                "id": "f9296972-4e1c-46fc-9971-86cb627b9bdd",
-                "resourcePath": "objects\/to_sprite2\/to_sprite2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5b5089b9-3437-4c6e-bd6a-69597533717c",
-            "Value": {
-                "id": "c78bf1e8-89c8-47ba-abe9-cfd65fa505a4",
-                "resourcePath": "sprites\/s_challenge1\/s_challenge1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5d2e90ba-2f56-4814-8680-61dfb5aa0ab3",
             "Value": {
                 "id": "7ad9c07c-736c-46ba-be4a-40b339b6111d",
                 "resourcePath": "rooms\/rm_opening_dialogue\/rm_opening_dialogue.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "5d8c7543-7b96-4246-9b7d-94c8f179b0f0",
-            "Value": {
-                "id": "0220786b-92c9-47c3-b55f-3ee0ca6e922b",
-                "resourcePath": "sprites\/s_fHelloWorld1\/s_fHelloWorld1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "5f3ca4dc-a94c-4855-8a36-f46d1561f530",
-            "Value": {
-                "id": "cd406cc3-5318-4602-bcb0-01058ba24da9",
-                "resourcePath": "views\/5f3ca4dc-a94c-4855-8a36-f46d1561f530.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -943,30 +679,6 @@
             }
         },
         {
-            "Key": "67f8176f-5be8-4941-ac97-9599c7119fe1",
-            "Value": {
-                "id": "510815f1-8fa4-4099-b883-121ec4c728b6",
-                "resourcePath": "objects\/to_greyleftarrow\/to_greyleftarrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "684248e8-6ffb-4cf1-a742-b40602c37c8e",
-            "Value": {
-                "id": "2b3f5c4b-9b62-4994-a59e-96ea536322ed",
-                "resourcePath": "objects\/tdownoincormento\/tdownoincormento.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6ab4aa1c-e683-47c5-879d-a902b41bcb4a",
-            "Value": {
-                "id": "1671f801-d1a9-4533-93d3-2cfb5848a93a",
-                "resourcePath": "sprites\\s_challenge4Outline\\s_challenge4Outline.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6acaa080-effc-4d0c-8b59-3e0a3cdc69f0",
             "Value": {
                 "id": "95bd4589-a66f-4d28-a87d-565ebd7d977c",
@@ -991,14 +703,6 @@
             }
         },
         {
-            "Key": "6d3a968b-e95e-4694-bb72-a060561d0e9a",
-            "Value": {
-                "id": "ba3863a0-0da0-496f-a837-bfaaf95c9e0e",
-                "resourcePath": "sprites\\s_fprompt3b\\s_fprompt3b.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6d3f18a4-8453-418f-a0f5-2bff77c3ee8f",
             "Value": {
                 "id": "3307a4e1-cbc8-40fa-9fbd-873ee6bbc2b5",
@@ -1012,14 +716,6 @@
                 "id": "9813a177-6159-48c0-85c6-e2dcc1c51410",
                 "resourcePath": "objects\\o_not\\o_not.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "71c78c9d-d18a-4d1d-a7bc-8f26f6fe401d",
-            "Value": {
-                "id": "9b350d10-99c3-4e48-b299-9b999ad1ef62",
-                "resourcePath": "sprites\\tsprite13\\tsprite13.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1039,27 +735,11 @@
             }
         },
         {
-            "Key": "729159b4-bd5c-410d-b2b3-e6b3eb088c75",
-            "Value": {
-                "id": "2a47e1e2-0a7e-43c2-9d61-3e632cef23ab",
-                "resourcePath": "sprites\/s_fanswerbar1\/s_fanswerbar1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "72bd6a91-3a69-41b9-862e-473491f293fc",
             "Value": {
                 "id": "087be198-b9d6-490d-895f-5f6f1b424d8b",
                 "resourcePath": "rooms\/rm_start\/rm_start.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "72bf5700-c90f-46b0-ad26-a1ca1f6c7ee8",
-            "Value": {
-                "id": "f1483689-f0f7-487b-8e31-b959bc8ee919",
-                "resourcePath": "sprites\\tsprite10\\tsprite10.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1135,14 +815,6 @@
             }
         },
         {
-            "Key": "78ea2b37-a682-4a25-af0e-c448ccd84ba8",
-            "Value": {
-                "id": "4d4b0e15-2ab1-4dc6-9143-ec7e7d5393cc",
-                "resourcePath": "objects\\to_sprite13\\to_sprite13.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7a8bdc34-b41e-4b0e-912f-60cc2c23d58b",
             "Value": {
                 "id": "c201382b-4734-48b8-b4c2-6bbb838c3405",
@@ -1175,14 +847,6 @@
             }
         },
         {
-            "Key": "817ed617-8f51-426d-834a-451644b8f7cb",
-            "Value": {
-                "id": "1e012a58-2795-43b3-9148-ee91583ae0bc",
-                "resourcePath": "scripts\\challenge4_update_rpl\\challenge4_update_rpl.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "81ed82b2-0193-4b4e-8dfe-d9794b058c17",
             "Value": {
                 "id": "31e6d85b-c5d5-4115-92f1-8aefa667bf9e",
@@ -1196,14 +860,6 @@
                 "id": "858454e9-c35d-4e44-a4f4-2ee3e1f98773",
                 "resourcePath": "sprites\\s_refresh\\s_refresh.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "83144305-b934-4468-ad2f-2a838aeed2bd",
-            "Value": {
-                "id": "f9aec886-40c5-41dc-8819-5572c117f1c9",
-                "resourcePath": "views\/83144305-b934-4468-ad2f-2a838aeed2bd.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1271,43 +927,11 @@
             }
         },
         {
-            "Key": "8b2aef02-7060-4098-b51b-3dfb6c069f37",
-            "Value": {
-                "id": "56c3cfed-a2d9-465a-9770-20764de08aae",
-                "resourcePath": "sprites\\tsprite17\\tsprite17.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8b4651cf-ea33-40a1-adf1-547ca20e2f2a",
-            "Value": {
-                "id": "b1745295-1f05-42cf-a698-c9887189afa3",
-                "resourcePath": "objects\/o_fprompt2\/o_fprompt2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8bfa27c7-2bdf-4852-a64c-5c946a5a273e",
-            "Value": {
-                "id": "5259b058-b105-4594-9b52-f052efb54a81",
-                "resourcePath": "sprites\\s_vid1\\s_vid1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8e87d5e1-643b-410d-9407-85e83f38cf65",
             "Value": {
                 "id": "a651ce5f-df37-4886-88ed-811580e654c4",
                 "resourcePath": "views\/8e87d5e1-643b-410d-9407-85e83f38cf65.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8eb3042c-76a6-463b-a3df-08c67e6ca5fc",
-            "Value": {
-                "id": "9416982a-2b4e-4aa2-b015-c5cab03b9693",
-                "resourcePath": "sprites\\s_thenewwhite\\s_thenewwhite.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1323,14 +947,6 @@
             "Value": {
                 "id": "937117c6-9820-4060-b8eb-2b37db7a3a72",
                 "resourcePath": "views\\962406b3-4a63-4b54-a87c-06c40256725b-room.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "918ad9db-297c-4a28-9dd0-cf8ac03e50c0",
-            "Value": {
-                "id": "a91083c0-790b-4b99-98d7-7049771fe8b1",
-                "resourcePath": "views\/918ad9db-297c-4a28-9dd0-cf8ac03e50c0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1367,34 +983,10 @@
             }
         },
         {
-            "Key": "9654a924-f378-4949-b938-cf6ba747b7e4",
-            "Value": {
-                "id": "21e6994d-fe4b-4e24-af1f-b2ac547823fe",
-                "resourcePath": "sprites\/s_challenge2bOutline\/s_challenge2bOutline.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9a79dd91-b88d-41c4-a238-74daa283318c",
-            "Value": {
-                "id": "25a3c483-df43-49de-9587-4296a985495b",
-                "resourcePath": "objects\/o_fC\/o_fC.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9ae7a998-7e0a-42a7-968e-d793eb62906f",
             "Value": {
                 "id": "9562c53d-3d4e-4db3-af45-1d0ca68d27e4",
                 "resourcePath": "objects\/o_fbckbtnchlgdebug1\/o_fbckbtnchlgdebug1.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9af08893-1b36-4b40-b380-0680ecba0679",
-            "Value": {
-                "id": "ec956a36-fb5d-4a7e-bf86-20a71b3d13b9",
-                "resourcePath": "objects\\to_sprite18\\to_sprite18.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1415,51 +1007,11 @@
             }
         },
         {
-            "Key": "9f99e288-18af-49c8-88fa-60b01b441e6b",
-            "Value": {
-                "id": "5943be10-90a1-494d-b45b-bdc1e7c48d77",
-                "resourcePath": "objects\/to_sprite6\/to_sprite6.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9fe86100-b7e5-4ff0-bab6-0947ae556001",
             "Value": {
                 "id": "11f63a59-29cc-401c-bdf7-b83eaeb63e09",
                 "resourcePath": "views\/9fe86100-b7e5-4ff0-bab6-0947ae556001.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a01a52ff-d0f7-45e7-9850-4a015be082e6",
-            "Value": {
-                "id": "7ad8c64e-b5d3-4f64-af31-8c937d650c99",
-                "resourcePath": "sprites\\tsprite14\\tsprite14.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a136a347-8688-4c26-8850-931009265c32",
-            "Value": {
-                "id": "ee1404bd-9ac2-4b23-927c-64a76ab1229e",
-                "resourcePath": "objects\/to_sprite4\/to_sprite4.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a24a055e-720a-43a4-9ac8-e1c4c6ceb21a",
-            "Value": {
-                "id": "fe940097-78f8-4cc2-82e1-e34bbbcb57c4",
-                "resourcePath": "sprites\\s_challenge2cOutline\\s_challenge2cOutline.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a27b7614-a7eb-470f-9087-9ac61ce26853",
-            "Value": {
-                "id": "17a405c4-a21f-4138-ab3e-a02ad47502e4",
-                "resourcePath": "sprites\/s_challenge2aOutline\/s_challenge2aOutline.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1511,14 +1063,6 @@
             }
         },
         {
-            "Key": "a8de8336-05f9-4372-be31-329063db6a0a",
-            "Value": {
-                "id": "57c4640c-7852-4b6d-9977-8cb339fadbea",
-                "resourcePath": "sprites\\s_black_pixel\\s_black_pixel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "f254b7c5-2fb2-47dc-b9b3-31c7148c0395",
@@ -1543,26 +1087,10 @@
             }
         },
         {
-            "Key": "ab538175-d6cd-44ab-9e90-8c82075d991e",
-            "Value": {
-                "id": "203aea84-a974-48d6-bf2b-dac456e1ed37",
-                "resourcePath": "objects\/to_sprite3\/to_sprite3.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ac5d7c90-c5bb-467f-9ce8-c168d576b85a",
             "Value": {
                 "id": "e5c75496-1019-482e-bbb5-7989f5eae1dc",
                 "resourcePath": "sprites\\s_cal_multChoice_Template\\s_cal_multChoice_Template.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ac896ac3-9bdb-438b-b2c1-f84eeba51bfe",
-            "Value": {
-                "id": "c885c178-95f4-4521-8ec4-015d3fe2107e",
-                "resourcePath": "sprites\\tsprite8\\tsprite8.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1583,14 +1111,6 @@
             }
         },
         {
-            "Key": "af29ca79-642a-4cbe-8226-da16782f948c",
-            "Value": {
-                "id": "d9518d56-0bac-48cf-bada-a31967105f60",
-                "resourcePath": "sprites\\sprite72\\sprite72.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "af752ca0-d56f-419c-aa72-d4e9721c5ada",
             "Value": {
                 "id": "15bb74ce-accc-465e-8f35-6169fd7d4998",
@@ -1604,30 +1124,6 @@
                 "id": "59795899-48a3-4e01-a9ae-99091ef9cb7b",
                 "resourcePath": "objects\\o_challenge3bprompt\\o_challenge3bprompt.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b0e82b4f-ab01-4167-bfcc-8ae381cf3f25",
-            "Value": {
-                "id": "21cae789-7077-429d-a417-21438e8e1878",
-                "resourcePath": "objects\\to_sprite16\\to_sprite16.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b0f749f6-eb91-4572-9bf5-9782e15fa223",
-            "Value": {
-                "id": "435b6613-8ac7-45d1-8118-df7b47356608",
-                "resourcePath": "scripts\\challenge3_scrolling\\challenge3_scrolling.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b11925ca-a543-4b79-a99e-5337e482b092",
-            "Value": {
-                "id": "251ad9ce-9d61-4064-b784-af9ff4dd1cf8",
-                "resourcePath": "sprites\/tsprite2\/tsprite2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1663,22 +1159,6 @@
             }
         },
         {
-            "Key": "b5424dc2-6eaf-4e3d-a192-119555b18996",
-            "Value": {
-                "id": "6ea3d257-e3c9-4416-bc00-276ba492bd77",
-                "resourcePath": "scripts\\challenge2b_update_rpl\\challenge2b_update_rpl.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b85dda8e-9202-4fec-9064-54911127c187",
-            "Value": {
-                "id": "4842a5fd-ad36-4361-9a56-f71c52a73796",
-                "resourcePath": "objects\\to_sprite8\\to_sprite8.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b9fc5987-277c-44cf-9fa2-6cf54eade60a",
             "Value": {
                 "id": "05df6e55-1969-4501-a8e1-8efd44f1b6a1",
@@ -1703,14 +1183,6 @@
             }
         },
         {
-            "Key": "bd3f2857-b4a7-4cac-a9bb-d9400e2683d7",
-            "Value": {
-                "id": "4d0fb42c-c0db-4d0f-8dc6-aa919bf7f289",
-                "resourcePath": "sprites\\s_a\\s_a.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "bdb604d1-7629-438b-a0c1-b130976ee332",
             "Value": {
                 "id": "d7891a0a-cee5-4ab3-8bcd-3de463291cab",
@@ -1724,14 +1196,6 @@
                 "id": "fe8d34b7-9fbd-4f31-a4ad-cb67681982bb",
                 "resourcePath": "views\/bf869ebd-cc8c-49b1-a603-f0209a70e996.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "c26b3b92-6849-45c2-91a8-93ab6f32a6f6",
-            "Value": {
-                "id": "c3a98141-b7c3-4054-93b4-e4dfee5e71e6",
-                "resourcePath": "scripts\\challenge2c_update_rpl\\challenge2c_update_rpl.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1767,14 +1231,6 @@
             }
         },
         {
-            "Key": "c921f2a1-1aee-4950-b72a-67d56783cf22",
-            "Value": {
-                "id": "789020f9-a285-46ad-9a92-d0a86f44ead0",
-                "resourcePath": "objects\/o_fA\/o_fA.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cb205daf-a32b-4840-aa24-90e9120112fa",
             "Value": {
                 "id": "8b5174e5-3bc7-4bcc-8f52-52833883fc2a",
@@ -1788,14 +1244,6 @@
                 "id": "ed1dad0e-d0fa-4e4f-9d90-f81a9f431f4d",
                 "resourcePath": "sprites\/s_fGQ\/s_fGQ.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "cbfa58e2-d64f-4c57-89a1-9dee13ac15e7",
-            "Value": {
-                "id": "f9a06ed2-7503-40c6-838e-93d210a8b40b",
-                "resourcePath": "objects\\to_sprite12\\to_sprite12.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1831,14 +1279,6 @@
             }
         },
         {
-            "Key": "ce14e5bc-0186-4572-b4b7-a7f90cc9f61b",
-            "Value": {
-                "id": "dca39c28-4315-4450-a45e-8a6ac9c3d045",
-                "resourcePath": "sprites\/tsprite5\/tsprite5.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cea47f8f-b214-4a3a-aec4-69717aeef573",
             "Value": {
                 "id": "39e5ff27-2979-4fb1-8912-37c55b5109d5",
@@ -1851,22 +1291,6 @@
             "Value": {
                 "id": "9debfd31-fc6e-4e17-b4b1-11f0cc2875ad",
                 "resourcePath": "objects\\o_play_vid\\o_play_vid.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "cf5270b7-8cea-49ca-b048-ab29c467461a",
-            "Value": {
-                "id": "84151225-65d4-42f1-9f64-ab5c5babce15",
-                "resourcePath": "sprites\\tsprite16\\tsprite16.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "cf8f380e-3b48-4d7e-95e0-386c12da5bbc",
-            "Value": {
-                "id": "2ebfa54e-2ec5-48eb-9a31-18605e14024e",
-                "resourcePath": "objects\/tupoincromentoobjectoooo\/tupoincromentoobjectoooo.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1903,35 +1327,11 @@
             }
         },
         {
-            "Key": "d3206a72-2698-4c74-8f5f-d7f8bc6d54a4",
-            "Value": {
-                "id": "05326f94-cb1d-4723-94ea-8779958b14b6",
-                "resourcePath": "objects\/to_sprite5\/to_sprite5.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "d34b41b4-ad45-4099-aa70-030b71929040",
-            "Value": {
-                "id": "4f9f937f-9941-4169-8086-4f6c7dc2e845",
-                "resourcePath": "objects\\to_sprite15\\to_sprite15.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d5d050a0-ce7d-4538-a1ed-131ab70f1f5b",
             "Value": {
                 "id": "a7963f14-5b1a-4aeb-99a8-269a25fa6348",
                 "resourcePath": "sprites\\s_cal_demo2_yellowSquare\\s_cal_demo2_yellowSquare.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d85f90b2-727b-427b-b295-f164d98d7894",
-            "Value": {
-                "id": "4e8b48c2-012a-4893-9726-34db96d8e519",
-                "resourcePath": "fonts\/font_challenge2a_textbox\/font_challenge2a_textbox.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -1975,35 +1375,11 @@
             }
         },
         {
-            "Key": "dec56ea1-7822-40fc-8a9a-2aef0d89f759",
-            "Value": {
-                "id": "92ceb28a-ed39-455d-a452-75c8aae56cd8",
-                "resourcePath": "sprites\/tsprite4\/tsprite4.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "dfa281ad-2a77-44d8-8390-5e390994c2a6",
             "Value": {
                 "id": "4be3c348-bfb6-41c1-b5c2-fe469a7d2afd",
                 "resourcePath": "rooms\\rm_cal_chllng4a\\rm_cal_chllng4a.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "dfe51822-9d4f-40fb-84cb-96be028b1772",
-            "Value": {
-                "id": "88eb30f2-cd67-472e-9530-ef66c5600af9",
-                "resourcePath": "scripts\\challenge4_scrolling\\challenge4_scrolling.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e2574e97-8ef3-4bd1-bcd8-ab41faf031dc",
-            "Value": {
-                "id": "2a0f520a-0191-4c9e-b170-5e30eda4b902",
-                "resourcePath": "objects\\to_sprite10\\to_sprite10.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2063,14 +1439,6 @@
             }
         },
         {
-            "Key": "e9d10f8b-25c8-42d8-90ed-a6d22afa55c2",
-            "Value": {
-                "id": "4308792e-8a3e-43e0-ac0b-5b2e1d419850",
-                "resourcePath": "sprites\\tsprite12\\tsprite12.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "eb0c9ad5-361d-4ddd-aecd-01f6f88386e5",
             "Value": {
                 "id": "954eab35-e86b-48e9-b4e9-be9e17a5d87b",
@@ -2103,34 +1471,10 @@
             }
         },
         {
-            "Key": "f044c07e-5a0d-4cdd-a757-65792a39f5de",
-            "Value": {
-                "id": "fbab31a2-581f-4f31-8800-d22b13321e32",
-                "resourcePath": "scripts\\challenge3_update_rpl\\challenge3_update_rpl.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f22c1687-efa9-43ef-b863-eac2e2cd0ba1",
-            "Value": {
-                "id": "de503191-d5ce-4a42-988e-cb788891a7e0",
-                "resourcePath": "sprites\/tsprite6\/tsprite6.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f2b9f13d-34f2-49c0-a248-ed1592822757",
             "Value": {
                 "id": "b6568657-8dd9-4bab-831d-7872aacc70d8",
                 "resourcePath": "sprites\/tgreyrightarrow\/tgreyrightarrow.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f2bfaeb6-5310-4191-a5d5-4772ce8951d6",
-            "Value": {
-                "id": "32c0397b-4bbf-447c-886e-26a88b061eee",
-                "resourcePath": "sprites\/tsprite3\/tsprite3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2140,14 +1484,6 @@
                 "id": "b9aba5b6-2bff-4849-8d14-e0a87705056d",
                 "resourcePath": "sprites\\s_reset_button\\s_reset_button.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f364dfe0-7b0b-4926-a6e7-d46ee70bd31b",
-            "Value": {
-                "id": "3ecf3110-8fd1-449c-b43a-d45c0e41150c",
-                "resourcePath": "objects\\to_a\\to_a.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2167,27 +1503,11 @@
             }
         },
         {
-            "Key": "f6dead53-bc51-4bed-87c6-dfa100e61d7a",
-            "Value": {
-                "id": "2289f803-5f45-4861-b773-84cecfe15f86",
-                "resourcePath": "objects\/to_redleftarrow\/to_redleftarrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f8343926-82bc-403f-997d-8f0c6df6c253",
             "Value": {
                 "id": "c3af7f6a-08d1-43f5-92a8-341e31cd4f83",
                 "resourcePath": "views\/f8343926-82bc-403f-997d-8f0c6df6c253.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f99d8b2d-87ed-4374-89a8-3f056e2b9083",
-            "Value": {
-                "id": "79f28049-5642-456d-b9d3-dea034d4a741",
-                "resourcePath": "objects\/to_greenrightarrow\/to_greenrightarrow.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -2221,38 +1541,10 @@
                 "resourcePath": "rooms\/rm_dropping_in\/rm_dropping_in.yy",
                 "resourceType": "GMRoom"
             }
-        },
-        {
-            "Key": "fccaa1a1-fd9b-44a5-bbb1-dbe4b4ac45dd",
-            "Value": {
-                "id": "a7cde3c3-152b-4598-abc8-178abd504387",
-                "resourcePath": "objects\/to_sprite7\/to_sprite7.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fdf25420-8370-4403-8652-dbd10800c2bd",
-            "Value": {
-                "id": "52255406-0112-41d3-aa91-ccc6f9bb1b1d",
-                "resourcePath": "objects\/o_fB\/o_fB.yy",
-                "resourceType": "GMObject"
-            }
         }
     ],
     "script_order": [
-        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560",
-        "1a33dba3-5c86-4f2f-9f34-72975ba65f60",
-        "3e0d36b8-47e5-44b5-8676-189542a0f1d6",
-        "3d2c62bc-cb64-484f-9430-28ddc3b132c9",
-        "1e4f2bc2-952b-4c07-876d-c8c19bf4757c",
-        "b0f749f6-eb91-4572-9bf5-9782e15fa223",
-        "dfe51822-9d4f-40fb-84cb-96be028b1772",
-        "b5424dc2-6eaf-4e3d-a192-119555b18996",
-        "c26b3b92-6849-45c2-91a8-93ab6f32a6f6",
-        "f044c07e-5a0d-4cdd-a757-65792a39f5de",
-        "49b66dd9-4a32-45a2-8fd5-3cd065917d8e",
-        "817ed617-8f51-426d-834a-451644b8f7cb",
-        "238287d1-9611-4226-9e8c-448210368dc6"
+        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560"
     ],
     "tutorial": ""
 }

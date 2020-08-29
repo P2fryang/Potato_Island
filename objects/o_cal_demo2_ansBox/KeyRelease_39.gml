@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(allow){
 	
-	var len1 = string_length(keyboard_string);
+	//var len1 = string_length(keyboard_string);
 	var len2 = string_length(aft);
 	
 	if(len2 > 0){

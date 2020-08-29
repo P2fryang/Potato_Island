@@ -4,17 +4,3 @@ if(global.selectedID != false){
 }
 
 str = keyboard_string + cursor + aft;
-/*
-if(allow){
-if(delay == -1){
-	str = str;
-}
-else
-if(string_length(keyboard_string)<=100){
-	str = keyboard_string + cursor + aft;
-}
-else{
-	keyboard_string = str;
-}
-}
-*/
