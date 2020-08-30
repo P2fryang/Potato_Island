@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "3e51badd-264d-41d5-956d-4a232798974a",
+            "Value": {
+                "id": "4954cd01-6aea-4ed3-a892-993d32bd21b4",
+                "resourcePath": "sprites\\bg_underwaterGateOpen\\bg_underwaterGateOpen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ed73c0c-d1fc-4cff-88cf-855a1763dad6",
             "Value": {
                 "id": "5fdbd1a0-ca84-4f72-b394-c4389fa52106",
@@ -1159,6 +1167,14 @@
             }
         },
         {
+            "Key": "b05b9c90-f980-4a99-b656-ba11ea667c6d",
+            "Value": {
+                "id": "fba9de26-f2d6-459c-97fe-9cfc4aa5ce83",
+                "resourcePath": "sprites\\bg_candyland\\bg_candyland.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b16d8bf4-2f56-4976-a6d3-c4001087983b",
             "Value": {
                 "id": "9a43fc54-cc5a-45f6-84fd-abbaabd5e002",
@@ -1467,6 +1483,14 @@
             "Value": {
                 "id": "0b71a5ad-a2b8-43db-a1b2-d1e7ebc1b08f",
                 "resourcePath": "rooms\\rm_not2\\rm_not2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e9aac38c-6035-4292-9f8f-99052512af0d",
+            "Value": {
+                "id": "75a9e898-6690-45b5-b698-0d2e0e7fe1f1",
+                "resourcePath": "rooms\\rm_scene4_3\\rm_scene4_3.yy",
                 "resourceType": "GMRoom"
             }
         },
