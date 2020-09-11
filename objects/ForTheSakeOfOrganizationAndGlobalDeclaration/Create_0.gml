@@ -4,6 +4,8 @@
 //global variables all challenges
 //global.chlg = 1;
 global.scenenum = -1;//for the dialogue, change when change to the dialogue scene
+global.rmnum = 1;
+global.pagenum = 0;
 
 //Everything below is no longer necessary I think
 
