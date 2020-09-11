@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "5bb1a264-c669-420a-bbc0-3310d8da4122",
+            "Value": {
+                "id": "0b0646dd-3ab7-4299-ab48-3fc12a8905b7",
+                "resourcePath": "objects\\o_flash\\o_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d2e90ba-2f56-4814-8680-61dfb5aa0ab3",
             "Value": {
                 "id": "7ad9c07c-736c-46ba-be4a-40b339b6111d",
