@@ -1295,6 +1295,14 @@
             }
         },
         {
+            "Key": "bfdc501f-9490-4682-9436-8a51b8c89e35",
+            "Value": {
+                "id": "f8e25ec1-e2ff-4c53-979a-5b56e61fb5aa",
+                "resourcePath": "sprites\\s_ldTransform\\s_ldTransform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c77e51a4-895f-4fa7-ba6e-ba6f4779c008",
             "Value": {
                 "id": "20b1128f-6483-4915-ada1-99380f2cf0d5",
