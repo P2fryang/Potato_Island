@@ -1,7 +1,7 @@
 transparency = clamp(transparency + (fade * 0.01), 0, 1);
 
 if (transparency == 1){
-	fade = -1.2;
+	fade = -1.2; //speed of fade out
 }
 	
 if ((transparency == 0) && (fade == -1)){
