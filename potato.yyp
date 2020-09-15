@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "42e74c86-ed88-490a-a8ad-242d49a83a71",
+            "Value": {
+                "id": "2f419faa-5d1e-4d6e-81e9-2fcefb37e0cb",
+                "resourcePath": "sprites\\s_potatOnFire\\s_potatOnFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "44bf10fc-8cf3-4141-8c6f-6d126bd28523",
             "Value": {
                 "id": "c8034aec-965b-484f-99dd-dccccc6e0356",
