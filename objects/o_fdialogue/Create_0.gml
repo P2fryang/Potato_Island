@@ -12,64 +12,55 @@ image_speed = 0;
 //scene 1
 //[scene #,dialogue #]
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Coding is impossible! I'll never be able to learn Java! It'll take a miracle!";
+dialogue[scenenum,dia++] = "Alrighty, what a bright day! Let's look at my to do list. Hmm...time to take on the task of learning Java. But where should I start? It'll take a miracle!";
 speak[scenenum,dia] = "Sun God";
 dialogue[scenenum,dia++] = "Did someone say they needed a miracle?";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Wh...Where am I?";
-speak[scenenum,dia] = "Rimac"
-dialogue[scenenum++,dia++] = "AHHHHHHHH!";
 dia = 0;
 
 
 //scene 2
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Woah, what a dump. How did I get here? And what's up with my vision. I must've hit my head.";
+dialogue[scenenum,dia++] = "Woah, what is this place. How did I get here? And why is everything black and white? What happened to my vision?";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Nothing is....fhdakflksaflkjals;d wrong with your...dafhlkjdahflkjdhquei vision, the world is...fnaskncx,mzvnlqjpnvcz black and white.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "It has been ever since...................reqo uryeqidfhakjlnvcz,mvnqeoryeuqyokv jchlkfjdheqoruiyuiofadf..q.e.r.qe....a..f.da..e.qr... Lord Dino took over.";
+dialogue[scenenum,dia++] = "N-N0thing is...wr0ng with y0ur...visi0n, the w0rld is...b-black and white. It has b-been ever since...L0rd Din0...t00k 0ver.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "The whole world? Am I still on Earth? And who is Lord Dino?";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "EARTH? That word is not in my\nD A T A B A S E. You're on JaVaLoPoLis, the source of all things JAVVVVVVVVVVVVVVVVa. Anything involving JAAAAAAAAAAAAva,";
+dialogue[scenenum,dia++] = "EARTH? That word is not in my\nD A T A B A S E...the string \"Earth\" is n0t f0und. 0ur current l0cati0n: JaVaL0P0Lis, the s0urce 0f all things J-Java.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "it was created here. We have coffee, the coding language... actually that's about it. Coffee and coding. Mainly the coding though. I can't DRIN...K coffee.";
+dialogue[scenenum,dia++] = "Anything inv0lving Java, it was created here. We have c0ffee, the 0ding language...actally that's ab0ut it. C0ffee and c0ding. Mainly the c0ding.";
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "I...can't d-drink c0ffee.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Slow down! This is a lot to take in. I'm in a different world and I'm talking to a robot. And I can't see color anymore!";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Maybe you can help FIXXXXXXX this world! FIXXXXXXXX me and I can help guide you to fixing JaVaLoPoLis!";
+dialogue[scenenum,dia++] = "Maybe y0u can help f-fix this w0rld! And me! F-Fix me and I can help guide y0u t0 fixing JaVaL0P0Lis!";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Um...yeah sure. How do I fix you?";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Um...yeah sure. How do I fix you?";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "I'm not questioning anything anymore. Let's give this a shot.";
+dialogue[scenenum,dia++] = "JaVaL0P0Lis was created with Hava. T0 fix, you must learn s0me Java. I will guide y0u with this n0teb00k.";
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "E-Everything y0u need will be in here and more pages will be added as we travel through JaVaL0P0Lis so be sure t0 check back 0ften.";
+//Slides + Challenge 1
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "G00d start! N0w that y0u know what's g0ing 0, let's fix me.";
+//Challenges Robot_is_on = false; //turn to true
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "That wasn't too bad. Maybe Java isn't as terrible as I thought.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "I'm back and better than ever! Well, maybe not. I'm still black and white. Let's fix that next!";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Open up that spiffy laptop of yours and let's get to coding in Java!";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Much better!"
+dialogue[scenenum,dia++] = "And I'm back and better than ever! Well maybe not, there is still no color in Javalopolis. Wanna help me fix it?";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Thank goodness I'm not colorblind!";
+dialogue[scenenum,dia++] = "Not really bu-"
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Hey, would you look at that. My house is ruined. Wanna help me fix it?";
+dialogue[scenenum,dia++] = "Too bad! Right this way. You can always check the notebook for the best Java content in the land.";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Not really bu..";
+dialogue[scenenum++,dia++] = "Guess I have no choice.";
+//Slides + Challenge 2a (Variables)
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Too bad! Right this way.";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum++,dia++] = "Oh ok.";
-dia = 0;
-
-//scene 3
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "So where are we going?";
+dialogue[scenenum,dia++] = "Woop woop woop! You got color back in the world, well done Rimac.";
+//GQ appears
 speak[scenenum,dia] = "General Quack";
-dialogue[scenenum,dia++] = "SKREEEEEEEEEEEEEEEEEEEEEEEEEE. *coughs* Bleh. Ack. Oof. Ahem. Whomst arrrest thou? I am General Quack.";
+dialogue[scenenum,dia++] = "Ahem. Whomst art thou? I am General Quack";
 speak[scenenum,dia] = "General Quack";
 dialogue[scenenum,dia++] = "the General Quack";
 speak[scenenum,dia] = "General Quack";
@@ -77,30 +68,38 @@ dialogue[scenenum,dia++] = "THE General Quack";
 speak[scenenum,dia] = "General Quack";
 dialogue[scenenum,dia++] = "THE GREAT General Quack";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Wubbada hey?";
+dialogue[scenenum,dia++] = "What the hey?";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Oh dangit. Don't worry about him. He just stands around and looks really cool.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "So basically Lord Dino increased my property tax and when I didn't pay it he shrunk my house.";
+dialogue[scenenum,dia++] = "Lord Dino increased my property tax and when I didn't pay it he sent General Quack to take out half this place.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "I can't even go inside anymore! Rimac, it's your job to help me fix it.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Woop woop woop. You fixed the building, well done Rimac. Now, for General Quack.";
+dialogue[scenenum,dia++] = "Rimac, it's your job to help me fix this. Find out how much I need to pay General Quack so that he can leave us alone.";
+//Slide + Challenge 2b (arithmetic)
 speak[scenenum,dia] = "General Quack";
-dialogue[scenenum,dia++] = "Oh hoh ho. My time has come. FLAME ON. And now for my toasty move. Ehhehhhehehh.";
-speak[scenenum,dia] = "General Quack";
-dialogue[scenenum,dia++] = "AHHHHHHH. IT burns eheheheheheheheheheh OOOOOOF.";
+dialogue[scenenum,dia++] = "Oh ho ho, you forgot interest. My time has come. FLAME ON! Get ready for my toasty move!";
+//GQ starts smoking and sets ablaze
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Woop woop woop we did it.";
+dialogue[scenenum,dia++] = "We need to defeat this minion of Lord Dino! Quick! Rimac, use Java to put out his flames!";
+//Slides + Challenge 2c (arrays)
+speak[scenenum,dia] = "General Quack";
+dialogue[scenenum,dia++] = "AHHHHHHH. I HAVE BEEN DEFEATED!";
+//GQ fades out, leaving behind fire powah
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Woop woop woop we did it and he left his fire powah! Rimac, you should pick it up and learn how to use it.";
+//Slides + Challenge 2d (Fire class	
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Is he ok? Did we win?";
+dialogue[scenenum,dia++] = "Now what?";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Oh yes he's gone. Like gone gone. Like forever. But we won. Now what's next to fix this world. *Flame on*";
+dialogue[scenenum,dia++] = "You have learned about the fire powah and what it can do. Now it is time to test it out.";
+//Slides + Challenge 2e (calling methods)
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum++,dia++] = "Woah that's pretty cool";
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Now it is time to go somewhere else.";
 dia = 0;
 
-//scene 4
+//scene 3
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "What in the world!! We're underwater!";
 speak[scenenum,dia] = "Loady";
@@ -108,72 +107,87 @@ dialogue[scenenum,dia++] = "Heck yea we are. Let's get the next powah to defeat 
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "With fire powahs we can now survive underwater with fire bubbles so this place is our next mission.";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Ok, I can see a bunch of buildings in the distance over there and I'm thinkin it's Atlantis.";
+dialogue[scenenum,dia++] = "Ok, I can see a bunch of buildings in the distance over there and I'm thinking it's Atlantis.";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Well done kiddo now let's get past this gate.";
-speak[scenenum, dia] = "Loady";
-dialogue[scenenum,dia++] = "So I just got his fire powah here, but it's not yet strong enough for good use, so it's your job to help me charge it.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Ok, now let me open this gate. You see ... uh fire isn't that great underwater but I still have some cool stuff under mah belt. Like this ere lockpicking.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "And a who and a wump and a skiddly doo and pop we go";
+//Slides + Challenge 3a (conditionals)
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Ok... let's get to this city. Maybe I can get a water powah or something cool like that.";
+dialogue[scenenum,dia++] = "Hiyahhhhhh!";
+//gate opens
+speak[scenenum, dia] = "Loady";
+dialogue[scenenum,dia++] = "You opened the gate! Great work kid.";
+speak[scenenum,dia] = "Rimac";
+dialogue[scenenum,dia++] = "Ok let's get to this city. Maybe I can get a water powah or something cool like that.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Actually yea. I heard of this General Spoik dude who has water powers. He's actually the one who destroyed that city.";
+dialogue[scenenum,dia++] = "Actually yeah, I've heard of this General Spoik dude who has water powahs. He's actually the one who destroyed that city";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "We stop him and we can fix the city. So let's do it. Follow me.";
-speak[scenenum,dia] = "Gen. Spoik";
-dialogue[scenenum,dia++] = "Oh hey this is like my city and all. So first step is to uh maybe get some citizens and then um I'll rule them.";
-speak[scenenum,dia] = "Gen. Spoik";
-dialogue[scenenum,dia++] = "Oh hey guys. I'm a general so could you like leave please. Or should I force y'all away. Or maybe give them cookies to join me. Or maybe play a game. Or maybe...";
+dialogue[scenenum,dia++] = "What is it about Lord Dino's minions and destroying cities? Anyway, we can stop him and fix the city. Let's do this, follow me.";
+//GS fade in
+speak[scenenum,dia] = "General Spoik";
+dialogue[scenenum,dia++] = "WHO BROKE MY GATE?!";
+speak[scenenum,dia] = "General Spoik";
+dialogue[scenenum,dia++] = "I'm trying to plan how to rule my city, so please leave. Should I force you away?";
+speak[scenenum,dia] = "General Spoik";
+dialogue[scenenum,dia++] = "Or maybe give y'all cookies to join me. Or maybe play a game. Or maybe...";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Here, go sneak up behind him and grab the 4th spine to the right of the middle fin.";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "The what?!\n*Loady pushes Rimac to General Spoik*";
+//Slides + Challenge 3b (while loop)
+dialogue[scenenum,dia++] = "...so third spine...no wait, right of middle fin and then fourth spine right here. Ooop. Oh hey, water powah.";
+speak[scenenum,dia] = "General Spoik";
+dialogue[scenenum,dia++] = "AHH!! So like don't do that please, and hold on and just wait and uh *ouch* *wow* *ok* *blep*";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Ok listen here bub, I have the fire powah and now we're gonna grab the wadah powah from you too.";
+dialogue[scenenum,dia++] = "Well done, laddie now let's get outta here. Open a water portal for long enough that we can escape!";
+//Slides + Challenge 3c (for loop)
+//portal appears
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "...so third spine...no wait right of middle fin and then fourth spine right here. Ooop. Oh hey, wadah powah.";
-speak[scenenum,dia] = "Gen. Spoik";
-dialogue[scenenum,dia++] = "Oouch!! So like don't do that please and hold on and just wait and uh ouch wow ok and (blep)";
+dialogue[scenenum,dia++] = "I created the portal!";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Well done, laddie now let's get outta here. My fire portal won't work so circle your hands around like this and a portal should open.";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Ok. Where to though.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Just do it.";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum++,dia++] = "Okayyy...it still looks pretty dumb but here we gooooooooooooooooooooo.";
+dialogue[scenenum,dia++] = "Let's go before it closes.";
 dia = 0;
 
-//scene 5
+//Pre Pre Boss Fight Scene 4
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Of all the places in the entire world. You just had to bring us to the one place where Lord Dino is.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Hey, it was my first time portalling. I'm still getting used to it.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "HA HA don't get used to it for long, Lord Dino's world takes all powahs and puts it into his own body.";
-speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "He already had dirt and air powah and now he's complete.";
+dialogue[scenenum,dia++] = "HA HA don't get used to it just yet. Lord Dino already has all of the powahs. He can take yours away in a powah battle.";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Alrighty then, let's go get 'em back!";
+dialogue[scenenum,dia++] = "If I beat Lord Dino in a powah battle, could I take all of his powah's away?";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "WHAT? Ok, this is definitely your first time here.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "In Lord Dino's world, only the champion controls the world. He beat the previous champion of 2 months and another 99 people who challenged him.";
+dialogue[scenenum,dia++] = "WHAT? Ok, this is definitely you first time here. Here only the champion controls the world.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "He's been the champion for fifteen years. You have about a 0.0001% chance of beating him.";
+dialogue[scenenum,dia++] = "He's beaten all previous challengers and has been the champion for fifteen years. You have about a 0.0001% chance of beating him.";
+//bold if possible
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "That's ok, since I have the power of believing in myself.";
-speak[scenenum,dia] = "Giant Meme Lord Dino";
-dialogue[scenenum,dia++] = "Bom diggity welcome to Swiggity Swagland. It's ya boi lord phresh back at you with somenew citizens boiiiiiiiiiii. *Looks at Rimac and Loady*";
-speak[scenenum,dia] = "Giant Meme Lord Dino";
-dialogue[scenenum,dia++] = "Wass gud brotha. Are you here on bizness or other bignez.";
+//Sun God appears with flash of white light
+speak[scenenum,dia] = "Sun God";
+dialogue[scenenum,dia++] = "You have finally cracked the code to succeeding in Java and winning against the champion of the world.";
+speak[scenenum,dia] = "Sun God";
+dialogue[scenenum,dia++] = "You must believe in yourself and persevere through all coding mishaps! Here, take these powahs, go and defeat Lord Dino. Save this world!";
+//Sun God disappears with flash of white light
+//Slides + Challenge 4a (fire)
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Yo Rimac bro. Loard Dino's planet has rulez ya see. Swagtime is one of 'em. Challenge the foo so we can bounce bro.";
-speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Yo yo yo Lord Dinooooooooo. Wanna get our code on?";
+dialogue[scenenum,dia++] = "Before you face him, there are some things that you need to know. First let's strengthen your Fire powah.";
+//Slides + Challenge 4b (water)
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Let's get your Water powah strengthened before you get into the arena.";
+//Slides + Challenge (earth)
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Now it's time to try out your new Earth powah. It's the most industrial.";
+//Slides + Challenge (Air)
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Last but not least, you must practive your air power. It is the most unpredictable powah of them all.";
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "You are ready now, this is as far as I can help. Go on and challenge Lord Dino.";
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "I'm sure he's already waiting for you in the arena since he has spies everywhere. Good luck!";
+
+//Pre Boss Fight Scene 5
 speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "Yo yo let's get it on in the arena bro. I've got cOmPoooooPeRs n stuff set up. Woo nelly I been champion for years brev les go get ma 100th win.";
 speak[scenenum,dia] = "Rimac";
