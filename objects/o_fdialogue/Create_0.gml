@@ -38,7 +38,7 @@ dialogue[scenenum,dia++] = "Maybe y0u can help f-fix this w0rld! And me! F-Fix m
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Um...yeah sure. How do I fix you?";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "JaVaL0P0Lis was created with Hava. T0 fix, you must learn s0me Java. I will guide y0u with this n0teb00k.";
+dialogue[scenenum,dia++] = "JaVaL0P0Lis was created with Java. T0 fix, you must learn s0me Java. I will guide y0u with this n0teb00k.";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "E-Everything y0u need will be in here and more pages will be added as we travel through JaVaL0P0Lis so be sure t0 check back 0ften.";
 //Slides + Challenge 1
