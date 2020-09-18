@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-x = 1788;
-y = 976;
+x = 32;
+y = 496;
 charTemp = -1;
 chars = 0;
 scenenum = 0;//For the intents of easier programming, each scene are the breaks in storyline
@@ -17,7 +17,7 @@ maxScenes = -1;
 //scene 1
 //[scene #,dialogue #]
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Alrighty, what a bright day! Let's look at my to do list. Hmm...time to take on the task of learning Java. But where should I start? It'll take a miracle!";
+dialogue[scenenum,dia++] = "Alrighty, what a bright day! Let's look at my to-do list. Hmm...time to take on the task of learning Java. But where should I start? It'll take a miracle!";
 //trigger white flash
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.flash;
 

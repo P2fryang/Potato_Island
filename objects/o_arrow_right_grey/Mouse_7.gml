@@ -6,4 +6,5 @@ else if(instance_exists(o_not.left_grey)){
 }
 instance_destroy(instance_id,false);
 
-room_goto(++global.rmnum);
+global.scenenum++;
+room_goto(global.rmnum);
