@@ -2,7 +2,7 @@
     "id": "77edd700-6c85-47e8-b594-cc9bdb751619",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_fnxtbtn",
+    "name": "o_nxtbtn",
     "eventList": [
         {
             "id": "364e578f-42e6-4ba4-9e99-e6b16366bcea",

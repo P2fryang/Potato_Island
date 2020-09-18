@@ -11,9 +11,9 @@ if(point_distance(obj_potato_walking.x, obj_potato_walking.y, 350, 196) > 1){
 	speed = 0;
 	instance_destroy();
 	
-	instance_create_layer(1788, 976, "inst_dialogue", o_fbckbtn);
-	instance_create_layer(1808, 976, "inst_dialogue", o_fnxtbtn);
-	instance_create_layer(32, 496, "inst_dialogue", o_fdialogue);
+	instance_create_layer(1788, 976, "inst_dialogue", o_bckbtn);
+	instance_create_layer(1808, 976, "inst_dialogue", o_nxtbtn);
+	instance_create_layer(32, 496, "inst_dialogue", o_dialogue);
 	
 	global.scenenum = 0;
 	//o_fSG.visible = true;

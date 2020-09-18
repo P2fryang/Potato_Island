@@ -3,13 +3,12 @@
 
 //global variables all challenges
 //global.chlg = 1;
-global.scenenum = -1;//for the dialogue, change when change to the dialogue scene
+global.scenenum = 0;//for the dialogue, change when change to the dialogue scene
 global.rmnum = 1;
 global.pagenum = 0;
+global.pageMax = -1;
 
-//Everything below is no longer necessary I think
-
-
+#region Everything below is no longer necessary I think
 /*
 //multiple choice
 global.chce = 0;
@@ -227,3 +226,4 @@ global.chlginst[4] = global.Free2c;
 global.chlginst[5] = global.Free3;
 global.chlginst[6] = global.Free4;
 */
+#endregion

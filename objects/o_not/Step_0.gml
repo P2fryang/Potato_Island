@@ -1,1 +1,1 @@
-maxAllowed = score;
+maxAllowed = global.pageMax;

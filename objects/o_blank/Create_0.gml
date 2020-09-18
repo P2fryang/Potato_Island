@@ -3,7 +3,7 @@ vidInst = id;
 playInst = id;
 restartInst = id;
 
-for(i = 0;i<37;i++){
+for(i = 0;i<50;i++){
 	vids[i] = -1;
 }
 vids[0] = o_adv_method_scope1;

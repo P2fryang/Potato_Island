@@ -727,6 +727,14 @@
             }
         },
         {
+            "Key": "6509c531-3d7d-4620-a90d-6547f96ca6bb",
+            "Value": {
+                "id": "1638e223-f13e-4d0e-a4f2-ea067dc84d2e",
+                "resourcePath": "objects\\o_blackScreen\\o_blackScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6656bc24-8f5a-4b35-9c48-e0ea9be6a5d7",
             "Value": {
                 "id": "f3bba4a1-cdc0-4ac0-a371-81f3d39a9e60",
@@ -882,7 +890,7 @@
             "Key": "77edd700-6c85-47e8-b594-cc9bdb751619",
             "Value": {
                 "id": "f5c4e0d1-1ec8-4f6d-a408-f1549fcd0c3b",
-                "resourcePath": "objects\/o_fnxtbtn\/o_fnxtbtn.yy",
+                "resourcePath": "objects\\o_nxtbtn\\o_nxtbtn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -938,7 +946,7 @@
             "Key": "81ed82b2-0193-4b4e-8dfe-d9794b058c17",
             "Value": {
                 "id": "31e6d85b-c5d5-4115-92f1-8aefa667bf9e",
-                "resourcePath": "objects\/o_fbckbtn\/o_fbckbtn.yy",
+                "resourcePath": "objects\\o_bckbtn\\o_bckbtn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1114,7 +1122,7 @@
             "Key": "a418a310-795a-4ffe-96f2-b8beceb197c2",
             "Value": {
                 "id": "fa86c784-e997-449d-8241-990c592c0657",
-                "resourcePath": "objects\/o_fdialogue\/o_fdialogue.yy",
+                "resourcePath": "objects\\o_dialogue\\o_dialogue.yy",
                 "resourceType": "GMObject"
             }
         },

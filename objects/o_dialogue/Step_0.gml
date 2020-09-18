@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(keyboard_check_released(vk_space) && scenenum<5){
-	scenenum++;
+if(keyboard_check_released(vk_space) && scenenum < maxScenes){
+	scenenum ++;
 	dia = 0;
 }
 if(scenenum == 0){
@@ -13,4 +13,5 @@ else if(scenenum == 2 || scenenum == 3){
 else if(scenenum == 4){
 	image_index = 2;
 }
-chars+=0.4;
+chars += 0.4;
+
