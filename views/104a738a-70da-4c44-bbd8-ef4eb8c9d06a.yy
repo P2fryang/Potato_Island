@@ -10,7 +10,8 @@
         "73ce7a58-d5df-44f1-ad2c-613c5910023c",
         "83690211-3840-4944-856b-12d220d31634",
         "29e5e9e6-50f1-4ab4-b82c-95baf928f1e1",
-        "a231e199-d23a-41c4-8546-a1f8efdee8b8"
+        "a231e199-d23a-41c4-8546-a1f8efdee8b8",
+        "70a48240-71be-4b1f-ae7d-de88fb47c7c0"
     ],
     "filterType": "GMObject",
     "folderName": "og_characters",

@@ -13,6 +13,7 @@ image_speed = 0;
 arrOfDiaPerScene[25] = 0;
 maxScenes = -1;
 
+#region The dialogue
 #region scene 1-1
 //scene 1
 //[scene #,dialogue #]
@@ -410,10 +411,11 @@ dia = 0;
 #endregion
 
 //The end :(
+#endregion
+
+//last lines of code
 maxScenes = scenenum - 1;
 show_debug_message(arrOfDiaPerScene);
 show_debug_message(maxScenes);
-
-//last lines of code
 scenenum = global.scenenum;
 dia = 0;

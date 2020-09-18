@@ -362,7 +362,7 @@
             "Key": "29e5e9e6-50f1-4ab4-b82c-95baf928f1e1",
             "Value": {
                 "id": "a25e5687-f87d-4e5a-abc7-daf72ba9f0c9",
-                "resourcePath": "objects\/o_fSG\/o_fSG.yy",
+                "resourcePath": "objects\\o_SG\\o_SG.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "5e7dc2a9-7885-4ac0-8c5f-7b8d899ed020",
+            "Value": {
+                "id": "adedce7a-20cc-4c9a-824a-918b8ca8ab32",
+                "resourcePath": "sprites\\s_GS\\s_GS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "624c63a7-0ab5-4a89-9577-7efdd22f4f39",
             "Value": {
                 "id": "894fea75-c34c-4b64-af05-24b8abd51fd9",
@@ -795,6 +803,14 @@
             "Value": {
                 "id": "9813a177-6159-48c0-85c6-e2dcc1c51410",
                 "resourcePath": "objects\\o_not\\o_not.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "70a48240-71be-4b1f-ae7d-de88fb47c7c0",
+            "Value": {
+                "id": "9b8e280f-150c-4592-81a5-016c87fe5e4f",
+                "resourcePath": "objects\\o_GS\\o_GS.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -978,7 +994,7 @@
             "Key": "83690211-3840-4944-856b-12d220d31634",
             "Value": {
                 "id": "da84d779-3ca8-43bb-bc2d-9f42b731367e",
-                "resourcePath": "objects\/o_fGQ\/o_fGQ.yy",
+                "resourcePath": "objects\\o_GQ\\o_GQ.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1028,6 +1044,14 @@
                 "id": "55d1b8b5-152b-4d2e-a822-8e5f7249f692",
                 "resourcePath": "fonts\\font_not\\font_not.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8b340477-3766-42d9-bd10-61df95fb8726",
+            "Value": {
+                "id": "eaf92f41-3df9-4ec4-b341-66db1615c73c",
+                "resourcePath": "scripts\\fade\\fade.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1728,7 +1752,8 @@
         }
     ],
     "script_order": [
-        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560"
+        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560",
+        "8b340477-3766-42d9-bd10-61df95fb8726"
     ],
     "tutorial": ""
 }

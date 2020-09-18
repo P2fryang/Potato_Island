@@ -38,12 +38,12 @@ if(dia<=diaMaxTemp){
 			charTemp.image_yscale = .8;
 		}
 		else if(speak[scenenum,dia] == "General Quack"){
-			charTemp = instance_create_layer(1176, 288, "inst_static_chars", o_fGQ);
+			charTemp = instance_create_layer(1176, 288, "inst_static_chars", o_GQ);
 			charTemp.image_xscale = .3;
 			charTemp.image_yscale = .3;
 		}
 		else if(speak[scenenum,dia] == "Sun God"){
-			charTemp = instance_create_layer(1280, 240, "inst_static_chars", o_fSG);
+			charTemp = instance_create_layer(1280, 240, "inst_static_chars", o_SG);
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
 		}
