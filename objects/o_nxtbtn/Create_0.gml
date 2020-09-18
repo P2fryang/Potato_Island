@@ -1,9 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
+x = 1808;
+y = 976;
 image_blend = make_color_rgb(50,250,50);
+notebookCode = -1;
+
 for(var i = 0; i < 25; i++){
 	for(var j = 0; j < 15; j++){
 		arrOfEventFlagCodes[i, j] = -1;
+	}
+}
+for(var m = 0; m < 25; m++){
+	for(var n = 0; n < 15; n++){
+		arrOfNotebookFlagCodes[m, n] = -1;
 	}
 }
 enum eventCodes {

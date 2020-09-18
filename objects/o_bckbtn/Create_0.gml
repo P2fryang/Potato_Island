@@ -6,3 +6,5 @@ image_blend = make_color_rgb(255,255,255);
 
 //flip the object
 image_xscale = -1;
+x = 1788;
+y = 976;

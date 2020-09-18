@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+x = 1788;
+y = 976;
 charTemp = -1;
 chars = 0;
-scenenum = 0;
-//For the intents of easier programming, each scene are the breaks in storyline
+scenenum = 0;//For the intents of easier programming, each scene are the breaks in storyline
 dia = 0;
 diaPrev = -1;
 scenenumPrev = 0;

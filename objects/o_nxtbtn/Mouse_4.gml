@@ -22,12 +22,19 @@ if(o_dialogue.dia < o_dialogue.diaMaxTemp){
 else{
 	o_dialogue.chars = string_length(o_dialogue.dialogue[o_dialogue.scenenum,o_dialogue.dia]);
 	image_blend = make_color_rgb(160,65,13);
-	//room_goto_next();
-	#region this stuff are the checks to move to the correct room
+	
+}
+//+++++++++++++++++++++++++++++
+
+#region this stuff are the checks to move to the correct room
 	eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
+	notebookCode = arrOfNotebookFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
 	if(eventFlag >= 0 && eventFlag <= 10 || eventFlag == 42){
 		if(eventFlag == eventCodes.notebook){
 			//if scenenum == blah blah blah, use scenenum to determine global.pagenum and global.pageMax (hard code)
+			if(notebookCode == 0){
+				
+			}
 		}
 		else if(eventFlag == eventCodes.flash){
 			instance_create_depth(0,0,-1000,o_flash);
@@ -38,6 +45,7 @@ else{
 		else if(eventFlag == eventCodes.endGame){
 			instance_create_depth(0,0,-1001,obj_computer_screen);
 		}
+		eventFlag = -1;
 	}
 	//notebook = 0,
 	//next = 1,
@@ -53,6 +61,3 @@ else{
 	//endGame = 42
 	//	room_goto(room_last);
 	#endregion
-	
-}
-//+++++++++++++++++++++++++++++

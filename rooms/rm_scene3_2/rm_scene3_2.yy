@@ -2,7 +2,7 @@
 {
     "name": "rm_scene3_2",
     "id": "3ed73c0c-d1fc-4cff-88cf-855a1763dad6",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

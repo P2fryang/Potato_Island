@@ -17,27 +17,7 @@ diaMaxTemp = arrOfDiaPerScene[scenenum] - 1;
 if(diaMaxTemp == -1){
 	show_debug_message("Check scenenum: " + string(scenenum));
 }
-/*
-if(scenenum == 0){//scene 1
-	diaMaxTemp = 1;
-}
-else if (scenenum == 1){//scene 2
-	diaMaxTemp = 10;
-}
-else if (scenenum == 2){//scene 3
-	diaMaxTemp = 15;
-}
-else if (scenenum == 3){//scene 4
-	diaMaxTemp = 21;
-}
-else if (scenenum == 4){//scene 5
-	diaMaxTemp = 52;
-}
-else{
-	diaMaxTemp = -1;
-	show_debug_message("scenenum mismatch");
-}
-	*/
+
 //speak to determine the speaker image
 //also draw dialogue text
 if(dia<=diaMaxTemp){
