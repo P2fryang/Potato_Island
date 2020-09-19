@@ -38,7 +38,7 @@ if(dia<=diaMaxTemp){
 			charTemp.image_yscale = .8;
 		}
 		else if(speak[scenenum,dia] == "General Quack"){
-			charTemp = instance_create_layer(1176, 288, "inst_static_chars", o_GQ);
+			charTemp = instance_create_layer(1150, 200, "inst_static_chars", o_GQ);
 			charTemp.image_xscale = .3;
 			charTemp.image_yscale = .3;
 		}
@@ -46,6 +46,11 @@ if(dia<=diaMaxTemp){
 			charTemp = instance_create_layer(1280, 240, "inst_static_chars", o_SG);
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
+		}
+		else if(speak[scenenum, dia] == "General Spoik"){
+			charTemp = instance_create_layer(1300, 200, "inst_static_chars", o_GS);
+			charTemp.image_xscale = .8;
+			charTemp.image_yscale = .8;
 		}
 	}
 	draw_set_font(font_dia2);

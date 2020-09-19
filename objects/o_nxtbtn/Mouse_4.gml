@@ -25,7 +25,7 @@ if(o_dialogue.dia > -1){
 			room_goto_next();
 		}
 		else if(eventFlag == eventCodes.fadeGQ){
-			fade(o_GQ, false);
+			
 		}
 		else if(eventFlag == eventCodes.smokingGQ){
 			
@@ -34,7 +34,7 @@ if(o_dialogue.dia > -1){
 			
 		}
 		else if(eventFlag == eventCodes.fadeGS){
-			fade(o_GS, true);
+			
 		}
 		else if(eventFlag == eventCodes.transform){
 			//start animation of ld transformation

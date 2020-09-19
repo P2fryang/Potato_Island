@@ -1047,14 +1047,6 @@
             }
         },
         {
-            "Key": "8b340477-3766-42d9-bd10-61df95fb8726",
-            "Value": {
-                "id": "eaf92f41-3df9-4ec4-b341-66db1615c73c",
-                "resourcePath": "scripts\\fade\\fade.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "8e87d5e1-643b-410d-9407-85e83f38cf65",
             "Value": {
                 "id": "a651ce5f-df37-4886-88ed-811580e654c4",
@@ -1752,8 +1744,7 @@
         }
     ],
     "script_order": [
-        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560",
-        "8b340477-3766-42d9-bd10-61df95fb8726"
+        "e49aec8f-5beb-4910-8f89-5bf3e5aa7560"
     ],
     "tutorial": ""
 }
