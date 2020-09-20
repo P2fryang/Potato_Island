@@ -27,7 +27,13 @@ if(dia <= diaMaxTemp){
 		}
 		
 		if(speak[scenenum,dia] == "Loady"){
-			charTemp = instance_create_layer(1408, 336, "inst_static_chars", o_floady);
+			charTemp = instance_create_layer(1350, 336, "inst_static_chars", o_loady);
+			if(scenenum > 4){
+				charTemp.image_index = 1;
+			}
+			else{
+				charTemp.image_index = 0;
+			}
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
 		}

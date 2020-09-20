@@ -12,7 +12,9 @@
         "3e51badd-264d-41d5-956d-4a232798974a",
         "b05b9c90-f980-4a99-b656-ba11ea667c6d",
         "c95fc48d-9528-4e36-91d8-daab3f61d9f5",
-        "1987c0c8-470a-40a8-bf4a-c1030a0d605b"
+        "1987c0c8-470a-40a8-bf4a-c1030a0d605b",
+        "d3dc5230-764d-4f10-b8bc-8840445852fd",
+        "730030e8-da0c-4192-a3f6-7fe946928a95"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_backgrounds",
