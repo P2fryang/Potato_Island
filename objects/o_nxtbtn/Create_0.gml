@@ -4,9 +4,8 @@ x = 1808;
 y = 976;
 image_blend = make_color_rgb(50,250,50);
 notebookCode = -1;
-paused = false;
 fadeAllowed = true;
-leftPressed = false;
+leftReleased = false;
 
 for(var i = 0; i < 25; i++){
 	for(var j = 0; j < 15; j++){

@@ -1,1 +1,1 @@
-score --
+o_not.maxAllowed --;

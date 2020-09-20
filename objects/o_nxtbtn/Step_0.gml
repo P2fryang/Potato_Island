@@ -1,10 +1,14 @@
 //using step instead of left pressed because I'm jank and need to do this
-if(leftPressed){
+if(leftReleased){
 	#region All the stuff that should occur in the left pressed event
 	#region random color stuff
-		//keep the color of the next dialogue button normal (idk if this code is needed)
-		if(o_dialogue.dia > -1){
-			o_bckbtn.image_blend = make_color_rgb(255,50,50);
+		//used to change color at the end of the dialogue
+		if(o_dialogue.dia == o_dialogue.diaMaxTemp){
+			image_blend = make_color_rgb(255,200,200);
+			//alarm[0] = 100;
+		}
+		else{
+			image_blend = make_color_rgb(50,250,50);	
 		}
 	#endregion
 	#region this stuff are the event triggers
@@ -17,6 +21,7 @@ if(leftPressed){
 				if(notebookCode == 0){
 					global.pagenum = 1;
 					global.pageMax = 3;
+					room_goto(room_last);
 				}
 			}
 			else if(eventFlag == eventCodes.flash){
@@ -27,9 +32,8 @@ if(leftPressed){
 			}
 			else if(eventFlag == eventCodes.fadeGQ && fadeAllowed){
 				o_GQ.fade = true;
-				paused = true;
 				fadeAllowed = false;
-				leftPressed = false;
+				leftReleased = false;
 				exit;
 			}
 			else if(eventFlag == eventCodes.smokingGQ){
@@ -74,5 +78,5 @@ if(leftPressed){
 		fadeAllowed = true;
 	#endregion
 	#endregion
-	leftPressed = false;
+	leftReleased = false;
 }

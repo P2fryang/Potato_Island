@@ -12,6 +12,7 @@ frwd = 0;
 image_speed = 0;
 arrOfDiaPerScene[25] = 0;
 maxScenes = -1;
+var i = 0;//used for notebook code initialization
 
 #region The dialogue
 #region scene 1-1
@@ -56,6 +57,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "E-Everything y0u need will be in here and more pages will be added as we travel through JaVaL0P0Lis so be sure t0 check back 0ften.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -415,7 +417,5 @@ dia = 0;
 
 //last lines of code
 maxScenes = scenenum - 1;
-show_debug_message(arrOfDiaPerScene);
-show_debug_message(maxScenes);
 scenenum = global.scenenum;
 dia = 0;

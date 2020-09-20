@@ -4,7 +4,6 @@
 draw_self();
 
 if (scenenum != scenenumPrev){
-	show_debug_message(scenenum);
 	dia = 0;
 	frwd = 0;
 	scenenumPrev = scenenum;
@@ -20,7 +19,7 @@ if(diaMaxTemp == -1){
 
 //speak to determine the speaker image
 //also draw dialogue text
-if(dia<=diaMaxTemp){
+if(dia <= diaMaxTemp){
 	if(dia != diaPrev){
 		if(charTemp != -1){
 			instance_destroy(charTemp);

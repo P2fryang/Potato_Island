@@ -9,5 +9,6 @@ if(!o_play_vid.clicked){
 	}
 	if(found){
 		o_not.image_index = img[pg];
+		show_debug_message("toc");
 	}
 }
