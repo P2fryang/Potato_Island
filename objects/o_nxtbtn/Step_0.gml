@@ -1,5 +1,6 @@
 //using step instead of left pressed because I'm jank and need to do this
 if(leftReleased){
+	show_debug_message("roomnum: " + string(global.rmnum));
 	#region All the stuff that should occur in the left pressed event
 	#region this stuff are the event triggers
 		eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
@@ -31,6 +32,7 @@ if(leftReleased){
 				o_GQ.fade = true;
 				fadeAllowed = false;
 				leftReleased = false;
+				eventFlag = -1;
 				exit;
 			}
 			else if(eventFlag == eventCodes.smokingGQ){
@@ -52,7 +54,7 @@ if(leftReleased){
 				//could just do multiple rooms here
 				room_goto_next();
 			}
-			else if(eventFlag == miniGame){
+			else if(eventFlag == eventCodes.miniGame){
 				global.scenenum ++;
 				room_goto_next();
 			}

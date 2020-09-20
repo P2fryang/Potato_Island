@@ -59,8 +59,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "E-Everything y0u need will be in here and more pages will be added as we travel through JaVaL0P0Lis so be sure t0 check back 0ften.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -89,7 +88,7 @@ speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Guess I have no choice.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -99,11 +98,8 @@ dia = 0;
 //Slides + Challenge 2a (Variables)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Woop woop woop! You got color back in the world, well done Rimac.";
-arrOfDiaPerScene[scenenum++] = dia;
-dia = 0;
-/*#endregion
 
-#region scene 2-5*/
+//#region scene 2-5
 //GQ appears
 speak[scenenum,dia] = "General Quack";
 dialogue[scenenum,dia++] = "Ahem. Whomst art thou? I am General Quack";
@@ -123,7 +119,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Rimac, it's your job to help me fix this. Find out how much I need to pay General Quack so that he can leave us alone.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -139,7 +135,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "We need to defeat this minion of Lord Dino! Quick! Rimac, use Java to put out his flames!";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -155,7 +151,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Woop woop woop we did it and he left his fire powah! Rimac, you should pick it up and learn how to use it.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -168,7 +164,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "You have learned about the fire powah and what it can do. Now it is time to test it out.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -199,7 +195,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Well done kiddo now let's get past this gate.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -240,7 +236,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Here, go sneak up behind him and grab the 4th spine to the right of the middle fin.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -261,7 +257,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Well done, laddie now let's get outta here. Open a water portal for long enough that we can escape!";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -309,7 +305,7 @@ dialogue[scenenum,dia++] = "You must believe in yourself and persevere through a
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.flash;
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -320,7 +316,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Before you face him, there are some things that you need to know. First let's strengthen your Fire powah.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -331,7 +327,7 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Let's get your Water powah strengthened before you get into the arena.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -341,7 +337,7 @@ dia = 0;
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Now it's time to try out your new Earth powah. It's the most industrial.";
 
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = o_nxtbtn.notebookCode = i++;
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -434,8 +430,6 @@ dia = 0;
 
 //The end :(
 #endregion
-
-show_debug_message(o_nxtbtn.arrOfNotebookFlagCodes);
 
 //last lines of code
 maxScenes = scenenum - 1;

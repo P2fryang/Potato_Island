@@ -28,7 +28,7 @@ if(dia <= diaMaxTemp){
 		
 		if(speak[scenenum,dia] == "Loady"){
 			charTemp = instance_create_layer(1350, 336, "inst_static_chars", o_loady);
-			if(scenenum > 4){
+			if(scenenum > 3){
 				charTemp.image_index = 1;
 			}
 			else{
