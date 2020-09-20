@@ -54,6 +54,9 @@ if(dia <= diaMaxTemp){
 		}
 		else if(speak[scenenum, dia] == "General Spoik"){
 			charTemp = instance_create_layer(1300, 200, "inst_static_chars", o_GS);
+			if(scenenum == sceneGS && dia == diaGS){
+				charTemp.fade = true;
+			}
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}

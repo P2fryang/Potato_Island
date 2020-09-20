@@ -3,6 +3,7 @@
 transparency = clamp(transparency + (fade * 0.01), 0, 1);
 
 if (transparency == 1){	
+	global.rmnum ++;
 	room_goto_next();
 	fade = -1;
 }

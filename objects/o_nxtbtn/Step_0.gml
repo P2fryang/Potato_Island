@@ -1,6 +1,5 @@
 //using step instead of left pressed because I'm jank and need to do this
 if(leftReleased){
-	show_debug_message("roomnum: " + string(global.rmnum));
 	#region All the stuff that should occur in the left pressed event
 	#region this stuff are the event triggers
 		eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
@@ -21,10 +20,12 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.next){
 				global.scenenum ++;
+				global.rmnum ++;
 				room_goto_next();
 			}
 			else if(eventFlag == eventCodes.chlg){
 				global.scenenum ++;
+				global.rmnum ++;
 				//kept here in case challenges are not the rooms after the dialogue
 				room_goto_next();
 			}
@@ -40,15 +41,15 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.openGate){
 				global.scenenum ++;
+				global.rmnum ++;
 				room_goto_next();//openGate can be replaced by next
 			}
 			else if(eventFlag == eventCodes.fadeGS){
-				o_GS.fade = true;
-				fadeAllowed = false;
-				leftReleased = false;
+				//since the fade has to occur at a specific time, I found it easier to make this event occur with its own code within the o_dialogue object
 			}
 			else if(eventFlag == eventCodes.transform){
 				global.scenenum ++;
+				global.rmnum ++;
 				//start animation of ld transformation
 				//trigger change of arena to dark arena
 				//could just do multiple rooms here
@@ -56,6 +57,7 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.miniGame){
 				global.scenenum ++;
+				global.rmnum ++;
 				room_goto_next();
 			}
 			else if(eventFlag == eventCodes.endGame){

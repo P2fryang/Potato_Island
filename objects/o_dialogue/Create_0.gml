@@ -14,6 +14,9 @@ frwd = 0;
 image_speed = 0;
 arrOfDiaPerScene[25] = 0;
 maxScenes = -1;
+//the next two are used for the fade in effect the first time Gen. Spoik appears
+sceneGS = -1;
+diaGS = -1;
 var i = 0;//used for notebook code initialization
 
 #region The dialogue
@@ -220,10 +223,12 @@ dialogue[scenenum,dia++] = "Actually yeah, I've heard of this General Spoik dude
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "What is it about Lord Dino's minions and destroying cities? Anyway, we can stop him and fix the city. Let's do this, follow me.";
 //GS fade in
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.fadeGS;
-
 speak[scenenum,dia] = "General Spoik";
+sceneGS = scenenum;
+diaGS = dia;
 dialogue[scenenum,dia++] = "WHO BROKE MY GATE?!";
+//o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.fadeGS;
+
 speak[scenenum,dia] = "General Spoik";
 dialogue[scenenum,dia++] = "I'm trying to plan how to rule my city, so please leave. Should I force you away?";
 speak[scenenum,dia] = "General Spoik";
