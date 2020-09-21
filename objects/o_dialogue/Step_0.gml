@@ -7,11 +7,11 @@ if(keyboard_check_released(vk_space) && scenenum < maxScenes){
 if(scenenum == 0){
 	image_index = 0;
 }
-else if(scenenum == 2 || scenenum == 3){
-	image_index = 1;
-}
-else if(scenenum == 4){
+else if(scenenum >= 18){
 	image_index = 2;
+}
+else if(scenenum >= 4){
+	image_index = 1;
 }
 chars += 0.4;
 
