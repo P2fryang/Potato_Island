@@ -6,3 +6,6 @@ if(fade){
 		//show_debug_message();
 	}
 }
+if(smoke){
+	effect_create_below(ef_smokeup,x + sprite_width / 2,y + sprite_height / 2,2,c_gray);
+}

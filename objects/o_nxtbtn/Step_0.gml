@@ -37,7 +37,8 @@ if(leftReleased){
 				exit;
 			}
 			else if(eventFlag == eventCodes.smokingGQ){
-				
+				//effect_create_below(ef_smoke,o_dialogue.charTemp.x,o_dialogue.charTemp.y + o_dialogue.charTemp.sprite_height * 1 / 4,1,c_gray);
+				//same as fading gs, occurs at a certain time (I didn't figure out how to do so)
 			}
 			else if(eventFlag == eventCodes.openGate){
 				global.scenenum ++;
@@ -49,6 +50,7 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.transform){
 				global.scenenum ++;
+				global.rmnum ++;
 				global.rmnum ++;
 				//start animation of ld transformation
 				//trigger change of arena to dark arena

@@ -17,6 +17,8 @@ maxScenes = -1;
 //the next two are used for the fade in effect the first time Gen. Spoik appears
 sceneGS = -1;
 diaGS = -1;
+sceneGQ = -1;
+diaGQ = -1;
 var i = 0;//used for notebook code initialization
 
 #region The dialogue
@@ -25,6 +27,7 @@ var i = 0;//used for notebook code initialization
 //[scene #,dialogue #]
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Alrighty, what a bright day! Let's look at my to-do list. Hmm...time to take on the task of learning Java. But where should I start? It'll take a miracle!";
+
 //trigger white flash
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.flash;
 
@@ -132,7 +135,9 @@ dia = 0;
 speak[scenenum,dia] = "General Quack";
 dialogue[scenenum,dia++] = "Oh ho ho, you forgot interest. My time has come. FLAME ON! Get ready for my toasty move!";
 //GQ starts smoking and sets ablaze
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.smokingGQ;
+sceneGQ = scenenum;
+diaGQ = dia;
+//o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.smokingGQ;
 
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "We need to defeat this minion of Lord Dino! Quick! Rimac, use Java to put out his flames!";
@@ -224,11 +229,10 @@ speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "What is it about Lord Dino's minions and destroying cities? Anyway, we can stop him and fix the city. Let's do this, follow me.";
 //GS fade in
 speak[scenenum,dia] = "General Spoik";
-sceneGS = scenenum;
-diaGS = dia;
+	sceneGS = scenenum;
+	diaGS = dia;
 dialogue[scenenum,dia++] = "WHO BROKE MY GATE?!";
 //o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.fadeGS;
-
 speak[scenenum,dia] = "General Spoik";
 dialogue[scenenum,dia++] = "I'm trying to plan how to rule my city, so please leave. Should I force you away?";
 speak[scenenum,dia] = "General Spoik";

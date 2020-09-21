@@ -1,1 +1,2 @@
 fade = false;
+smoke = false;

@@ -44,6 +44,9 @@ if(dia <= diaMaxTemp){
 		}
 		else if(speak[scenenum,dia] == "General Quack"){
 			charTemp = instance_create_layer(1150, 200, "inst_static_chars", o_GQ);
+			if(scenenum == sceneGQ && dia == diaGQ){
+				charTemp.smoke = true;
+			}
 			charTemp.image_xscale = .3;
 			charTemp.image_yscale = .3;
 		}
