@@ -2,7 +2,7 @@
     "id": "d4bf15e9-4d92-4b86-9dbe-9cb52be8b546",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object72",
+    "name": "o_ldTransform",
     "eventList": [
         {
             "id": "43d4d2de-53f1-4136-a876-c8b88fb97b8c",

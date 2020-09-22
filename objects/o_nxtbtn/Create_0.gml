@@ -13,14 +13,15 @@ enum eventCodes {
 	next = 1,
 	chlg = 2,
 	flash = 3,
-	rocks = 4,
-	portal = 5,
+	miniShake = 4,
+	miniMiniShake = 5,
 	smokingGQ = 6,
 	fadeGQ = 7,
 	openGate = 8,
 	fadeGS = 9,
 	transform = 10,
 	miniGame = 11,
+	bigShake = 12,
 	endGame = 42
 }
 

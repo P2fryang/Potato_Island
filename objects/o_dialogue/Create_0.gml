@@ -84,6 +84,12 @@ dia = 0;
 //Challenges Robot_is_on = false; //turn to true
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "That wasn't too bad. Maybe Java isn't as terrible as I thought.";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 2-4
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "And I'm back and better than ever! Well maybe not, there is still no color in Javalopolis. Wanna help me fix it?";
 speak[scenenum,dia] = "Rimac";
@@ -99,14 +105,10 @@ arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
 
-#region scene 2-4 and 2-5
-//(scene number mistake but didnt want to change the names again)
+#region scene 2-5
 //Slides + Challenge 2a (Variables)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Woop woop woop! You got color back in the world, well done Rimac.";
-
-//#region scene 2-5
-//GQ appears
 speak[scenenum,dia] = "General Quack";
 dialogue[scenenum,dia++] = "Ahem. Whomst art thou? I am General Quack";
 speak[scenenum,dia] = "General Quack";
@@ -133,12 +135,15 @@ dia = 0;
 #region scene 2-6
 //Slide + Challenge 2b (arithmetic)
 speak[scenenum,dia] = "General Quack";
-dialogue[scenenum,dia++] = "Oh ho ho, you forgot interest. My time has come. FLAME ON! Get ready for my toasty move!";
-//GQ starts smoking and sets ablaze
 sceneGQ = scenenum;
 diaGQ = dia;
-//o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.smokingGQ;
+dialogue[scenenum,dia++] = "Oh ho ho, you forgot interest. My time has come. FLAME ON! Get ready for my toasty move!";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
 
+#region scene 2-6.5
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "We need to defeat this minion of Lord Dino! Quick! Rimac, use Java to put out his flames!";
 
@@ -156,7 +161,15 @@ dialogue[scenenum,dia++] = "AHHHHHHH. I HAVE BEEN DEFEATED!";
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.fadeGQ;
 
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Woop woop woop we did it and he left his fire powah! Rimac, you should pick it up and learn how to use it.";
+dialogue[scenenum,dia++] = "Only someone worthy of the fire powah will be able to claim it...";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 2-7.5
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "Woop woop woop we did it! You claimed the fire powah! Now you need to learn how to use it.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
 o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
@@ -182,7 +195,17 @@ dia = 0;
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Woah that's pretty cool";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Now it is time to go somewhere else.";
+dialogue[scenenum,dia++] = "You need to make sure you are in control of the powah and that the powah is not in control of you. You are playing with Fire!";
+speak[scenenum,dia] = "Rimac";
+dialogue[scenenum,dia++] = "You are worrying too much. What could pOsSiBly happen??";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 2-10
+speak[scenenum,dia] = "Loady";
+dialogue[scenenum,dia++] = "See? Make sure you keep a cool head. Now it is time to go somewhere else.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.next;
 arrOfDiaPerScene[scenenum++] = dia;
@@ -241,6 +264,12 @@ speak[scenenum,dia] = "General Spoik";
 dialogue[scenenum,dia++] = "Or maybe play a game.";
 speak[scenenum,dia] = "General Spoik";
 dialogue[scenenum,dia++] = "Or maybe...";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniMiniShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 3-2.5.5
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Here, go sneak up behind him and grab the 4th spine to the right of the middle fin.";
 
@@ -279,13 +308,15 @@ dialogue[scenenum,dia++] = "I created the portal!";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Let's go before it closes.";
 
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.next;
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
 
 #region scene 4-1
 //Pre Pre Boss Fight Scene 4
+speak[scenenum,dia] = "Rimac";
+dialogue[scenenum,dia++] = "That was a close call, but we made it through the portal!";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Of all the places in the entire world. You just had to bring us to the one place where Lord Dino is.";
 speak[scenenum,dia] = "Rimac";
@@ -312,14 +343,6 @@ speak[scenenum,dia] = "Sun God";
 dialogue[scenenum,dia++] = "You must believe in yourself and persevere through all coding mishaps! Here, take these powahs, go and defeat Lord Dino. Save this world!";
 //Sun God disappears with flash of white light
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.flash;
-
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
-o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
-arrOfDiaPerScene[scenenum++] = dia;
-dia = 0;
-#endregion
-
-#region scene 4-2
 //Slides + Challenge 4a (fire)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Before you face him, there are some things that you need to know. First let's strengthen your Fire powah.";
@@ -330,7 +353,7 @@ arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
 
-#region scene 4-3
+#region scene 4-2
 //Slides + Challenge 4b (water)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Let's get your Water powah strengthened before you get into the arena.";
@@ -341,7 +364,7 @@ arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
 
-#region scene 4-4
+#region scene 4-3
 //Slides + Challenge (earth)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Now it's time to try out your new Earth powah. It's the most industrial.";
@@ -351,7 +374,7 @@ arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
 
-#region scene 4-5
+#region scene 4-4
 //Slides + Challenge (Air)
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Last but not least, you must practive your air power. It is the most unpredictable powah of them all.";
@@ -374,7 +397,17 @@ dialogue[scenenum,dia++] = "I have trained for this. I am here to end your reign
 speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "Terror?! My perfect world has rules. Without rules everyone would be like you are now, running around causing havoc to a perfect world.";
 speak[scenenum,dia] = "Giant Meme Lord Dino";
-dialogue[scenenum,dia++] = "Rules create society. We are lost without them. But, I see potential in you.";
+dialogue[scenenum,dia++] = "Rules create society. We are lost without them.";
+speak[scenenum,dia] = "Giant Meme Lord Dino";
+dialogue[scenenum,dia++] = "Those without rules are so lost, they cannot even answer the most basic fundamentals about Javalopolis.";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.bigShake;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 5-1.5
+speak[scenenum,dia] = "Giant Meme Lord Dino";
+dialogue[scenenum,dia++] = "Well! I see potential in you after all.";
 speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "You should join me and rule over Javalopolis at my side, together we could destroy the remnants of the world and create an entirely new realm.";
 speak[scenenum,dia] = "Giant Meme Lord Dino";

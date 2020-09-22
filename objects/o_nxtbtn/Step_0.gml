@@ -29,6 +29,14 @@ if(leftReleased){
 				//kept here in case challenges are not the rooms after the dialogue
 				room_goto_next();
 			}
+			else if(eventFlag == eventCodes.miniShake){
+				o_shake.shake = true;
+				o_shake.mini = true;
+			}
+			else if(eventFlag == eventCodes.miniMiniShake){
+				o_shake.shake = true;
+				o_shake.miniMini = true;
+			}
 			else if(eventFlag == eventCodes.fadeGQ && fadeAllowed){
 				o_GQ.fade = true;
 				fadeAllowed = false;
@@ -56,6 +64,9 @@ if(leftReleased){
 				//trigger change of arena to dark arena
 				//could just do multiple rooms here
 				room_goto_next();
+			}
+			else if(eventFlag == eventCodes.bigShake){
+				o_shake.shake = true;
 			}
 			else if(eventFlag == eventCodes.miniGame){
 				global.scenenum ++;
