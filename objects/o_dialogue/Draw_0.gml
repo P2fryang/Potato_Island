@@ -33,6 +33,9 @@ if(dia <= diaMaxTemp){
 			}
 			else{
 				charTemp.image_index = 0;
+				if(scenenum == sceneL && dia == diaL){
+					charTemp.fade = true;
+				}
 			}
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
@@ -60,6 +63,16 @@ if(dia <= diaMaxTemp){
 			if(scenenum == sceneGS && dia == diaGS){
 				charTemp.fade = true;
 			}
+			charTemp.image_xscale = .8;
+			charTemp.image_yscale = .8;
+		}
+		else if(speak[scenenum, dia] == "Giant Meme Lord Dino"){
+			charTemp = instance_create_layer(1300, 150, "inst_static_chars", o_lordDino);
+			charTemp.image_xscale = .8;
+			charTemp.image_yscale = .8;
+		}
+		else if(speak[scenenum, dia] == "Small Serious Lord Dino"){
+			charTemp = instance_create_layer(1300, 300, "inst_static_chars", o_smolLordDino);
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}

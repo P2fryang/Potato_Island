@@ -3,7 +3,6 @@ if(fade){
 	if(image_alpha == 0){
 		fade = false;
 		o_nxtbtn.leftReleased = true;
-		//show_debug_message();
 	}
 }
 if(smoke){

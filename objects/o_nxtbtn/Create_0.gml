@@ -26,12 +26,12 @@ enum eventCodes {
 }
 
 
-for(var i = 0; i < 25; i++){
+for(var i = 0; i < 27; i++){
 	for(var j = 0; j < 15; j++){
 		arrOfEventFlagCodes[i, j] = -1;
 	}
 }
-for(var m = 0; m < 25; m++){
+for(var m = 0; m < 27; m++){
 	for(var n = 0; n < 15; n++){
 		arrOfNotebookFlagCodes[m, n] = -1;
 	}

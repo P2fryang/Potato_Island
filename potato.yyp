@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "7d666cce-e328-46b3-b63c-abba5ebd386f",
+            "Value": {
+                "id": "b6cfd830-0be1-48f5-a6ee-5a4cfc10423d",
+                "resourcePath": "objects\\o_smolLordDino\\o_smolLordDino.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e7c199e-ed5d-41cd-8b9d-7b50b36484aa",
             "Value": {
                 "id": "0344aa00-d2f3-486a-babb-9653cf2dd6bd",

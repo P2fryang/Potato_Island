@@ -1,7 +1,7 @@
 //initialize the global variables
 //global.chlg = 1;
 global.scenenum = 0;//for the dialogue, change when change to the dialogue scene
-global.rmnum = 1;//used by notebook to determine where to return back to
+global.rmnum = 0;//used by notebook to determine where to return back to
 global.pagenum = 0;//used to set the notebook page you start at when opening notebook
 global.pageMax = -1;//used to set the maximum number of pages the player has access to in the notebook
 global.mc = 0;
@@ -14,11 +14,11 @@ global.challenge[4] = "challenge2c arrays";
 global.challenge[5] = "challenge2d fire bubbles";
 global.challenge[6] = "challenge2e call methods";
 global.challenge[7] = "challenge3a conditionals";
-global.challenge[9] = "challenge3b while loop";
-global.challenge[10] = "challenge3c for loop";
-global.challenge[11] = "challenge4a adv fire";
-global.challenge[12] = "challenge4b water";
-global.challenge[13] = "challenge4c earth";
+global.challenge[8] = "challenge3b while loop";
+global.challenge[9] = "challenge3c for loop";
+global.challenge[10] = "challenge4a adv fire";
+global.challenge[11] = "challenge4b water";
+global.challenge[12] = "challenge4c earth";
 global.challenge[13] = "challenge4d air";
 
 global.mcq[0] = "MCQ 10";

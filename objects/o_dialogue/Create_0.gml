@@ -2,6 +2,7 @@
 // You can write your code in this editor
 //Several things: the notebook object MUST be the last room
 //the challenges MUST be the room after room/scene for the dialogue right before
+show_debug_message(string(global.rmnum) + " " + string(room));
 x = 32;
 y = 496;
 charTemp = -1;
@@ -44,13 +45,15 @@ dia = 0;
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Woah, what is this place. How did I get here? And why is everything black and white? What happened to my vision?";
 speak[scenenum,dia] = "Loady";
+sceneL = scenenum;
+diaL = dia;
 dialogue[scenenum,dia++] = "N-N0thing is...wr0ng with y0ur...visi0n, the w0rld is...b-black and white. It has b-been ever since...L0rd Din0...t00k 0ver.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "The whole world? Am I still on Earth? And who is Lord Dino?";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "EARTH? That word is not in my\nD A T A B A S E...the string \"Earth\" is n0t f0und. 0ur current l0cati0n: JaVaL0P0Lis, the s0urce 0f all things J-Java.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Anything inv0lving Java, it was created here. We have c0ffee, the 0ding language...actally that's ab0ut it. C0ffee and c0ding. Mainly the c0ding.";
+dialogue[scenenum,dia++] = "Anything inv0lving Java, it was created here. We have c0ffee, the c0ding language...actally that's ab0ut it. C0ffee and c0ding. Mainly the c0ding.";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "I...can't d-drink c0ffee.";
 speak[scenenum,dia] = "Rimac";
@@ -193,11 +196,11 @@ dia = 0;
 #region scene 2-9
 //Slides + Challenge 2e (calling methods)
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "Woah that's pretty cool";
+dialogue[scenenum,dia++] = "Woah that's pretty cool.";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "You need to make sure you are in control of the powah and that the powah is not in control of you. You are playing with Fire!";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "You are worrying too much. What could pOsSiBly happen??";
+dialogue[scenenum,dia++] = "You worry too much. What could pOsSiBly happen??";
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.miniShake;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
@@ -215,15 +218,15 @@ dia = 0;
 #region scene 3-1
 //scene 3
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "What in the world!! We're underwater!";
+dialogue[scenenum,dia++] = "What in the world, we're underwater!";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Heck yea we are. Let's get the next powah to defeat Lord Dino.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "With fire powahs we can now survive underwater with fire bubbles so this place is our next mission.";
+dialogue[scenenum,dia++] = "With fire powahs we can now survive underwater with fire bubbles, so this place is our next mission.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Ok, I can see a bunch of buildings in the distance over there and I'm thinking it's Atlantis.";
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Well done kiddo now let's get past this gate.";
+dialogue[scenenum,dia++] = "Well done kiddo, now let's get past this gate.";
 
 o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
 o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
@@ -324,7 +327,7 @@ dialogue[scenenum,dia++] = "Hey, it was my first time portalling. I'm still gett
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "HA HA don't get used to it just yet. Lord Dino already has all of the powahs. He can take yours away in a powah battle.";
 speak[scenenum,dia] = "Rimac";
-dialogue[scenenum,dia++] = "If I beat Lord Dino in a powah battle, could I take all of his powah's away?";
+dialogue[scenenum,dia++] = "If I beat Lord Dino in a powah battle, could I take all of his powahs away?";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "WHAT? Ok, this is definitely your first time here.";
 speak[scenenum,dia] = "Loady";
@@ -394,8 +397,11 @@ speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "I've been waiting for you.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "I have trained for this. I am here to end your reign of terror.";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.bigShake;
 speak[scenenum,dia] = "Giant Meme Lord Dino";
-dialogue[scenenum,dia++] = "Terror?! My perfect world has rules. Without rules everyone would be like you are now, running around causing havoc to a perfect world.";
+dialogue[scenenum,dia++] = "Terror?!";
+speak[scenenum,dia] = "Giant Meme Lord Dino";
+dialogue[scenenum,dia++] = "My perfect world has rules. Without rules everyone would be like you are now, running around causing havoc to a perfect world.";
 speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "Rules create society. We are lost without them.";
 speak[scenenum,dia] = "Giant Meme Lord Dino";
@@ -414,11 +420,12 @@ speak[scenenum,dia] = "Giant Meme Lord Dino";
 dialogue[scenenum,dia++] = "A realm where everyone is under our command.";
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "No! I'll never join you! Java is something that should be for everyone to use and create with. I will never bow down to your rules!";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.transform;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 //random audience member
 //LD transformation
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.transform;
+//o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.transform;
 #endregion
 
 #region scene 5-3
