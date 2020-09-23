@@ -13,8 +13,9 @@ diaPrev = -1;
 scenenumPrev = 0;
 frwd = 0;
 image_speed = 0;
-arrOfDiaPerScene[25] = 0;
+arrOfDiaPerScene[15] = 0;
 maxScenes = -1;
+drawPrevent = false;
 //the next two are used for the fade in effect the first time Gen. Spoik appears
 sceneGS = -1;
 diaGS = -1;

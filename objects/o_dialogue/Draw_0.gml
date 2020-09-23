@@ -17,6 +17,7 @@ if(diaMaxTemp == -1){
 	show_debug_message("Check scenenum: " + string(scenenum));
 }
 
+
 //speak to determine the speaker image
 //also draw dialogue text
 if(dia <= diaMaxTemp){
@@ -25,7 +26,7 @@ if(dia <= diaMaxTemp){
 			instance_destroy(charTemp);
 			charTemp = -1;
 		}
-		
+		#region speaker set up
 		if(speak[scenenum,dia] == "Loady"){
 			charTemp = instance_create_layer(1350, 336, "inst_static_chars", o_loady);
 			if(scenenum > 3){
@@ -76,12 +77,16 @@ if(dia <= diaMaxTemp){
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}
+		#endregion
 	}
+	
+#region draw text
 	draw_set_font(font_dia2);
 	draw_set_color(c_black);
 	draw_text(x+60,y+55,speak[scenenum,dia]);
 	draw_set_font(font_dia);
 	draw_set_color(c_gray);
 	draw_text(x+50,y+200,string_copy(string_wordwrap_width(dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars));
+#endregion
 }
 diaPrev = dia;
