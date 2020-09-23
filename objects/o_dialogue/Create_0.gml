@@ -15,7 +15,6 @@ frwd = 0;
 image_speed = 0;
 arrOfDiaPerScene[15] = 0;
 maxScenes = -1;
-drawPrevent = false;
 //the next two are used for the fade in effect the first time Gen. Spoik appears
 sceneGS = -1;
 diaGS = -1;
@@ -373,7 +372,8 @@ dia = 0;
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "Now it's time to try out your new Earth powah. It's the most industrial.";
 
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion
@@ -381,7 +381,14 @@ dia = 0;
 #region scene 4-4
 //Slides + Challenge (Air)
 speak[scenenum,dia] = "Loady";
-dialogue[scenenum,dia++] = "Last but not least, you must practive your air power. It is the most unpredictable powah of them all.";
+dialogue[scenenum,dia++] = "Last but not least, you must practice your air power. It is the most unpredictable powah of them all.";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.notebook;
+o_nxtbtn.arrOfNotebookFlagCodes[scenenum, dia] = i ++;
+arrOfDiaPerScene[scenenum++] = dia;
+dia = 0;
+#endregion
+
+#region scene 4-5
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "You are ready now, this is as far as I can help. Go on and challenge Lord Dino.";
 speak[scenenum,dia] = "Loady";
