@@ -8,7 +8,8 @@
         "91efcd0a-05d5-4759-bf04-ccc840c05ccc",
         "0b27aea3-fede-4c01-97a8-aa93197af7e7",
         "d5d050a0-ce7d-4538-a1ed-131ab70f1f5b",
-        "c8fb4779-f8dd-4e75-a3a0-19ff13b2bb6d"
+        "c8fb4779-f8dd-4e75-a3a0-19ff13b2bb6d",
+        "f2debcb3-cb08-496c-a006-1f2a4ef18836"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_cal_demo",
