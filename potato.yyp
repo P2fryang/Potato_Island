@@ -1239,14 +1239,6 @@
             }
         },
         {
-            "Key": "85f05fcc-46fa-4675-b780-15754ceebaf8",
-            "Value": {
-                "id": "ed09956b-fe49-4015-b05c-bc629b3d175f",
-                "resourcePath": "sprites\/s_fanswerbar\/s_fanswerbar.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "87a11126-9977-43fc-a3f8-ffd67510b59a",
             "Value": {
                 "id": "fef5761c-78d1-4e66-9b07-1ebc4464f9d9",
@@ -1996,14 +1988,6 @@
                 "id": "d1bd6049-b921-4a4e-8c1f-a9cb5cee9797",
                 "resourcePath": "rooms\\rm_miniGame\\rm_miniGame.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "e7945b79-f28a-4aa3-925d-d2d277e250fa",
-            "Value": {
-                "id": "07fa21cc-3180-499f-a80c-c5dc424df5d8",
-                "resourcePath": "views\/e7945b79-f28a-4aa3-925d-d2d277e250fa.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
