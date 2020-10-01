@@ -2,7 +2,7 @@
 {
     "name": "rm_cal_chllng1",
     "id": "732b0442-d4d1-4beb-9451-d67e8786a1a5",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

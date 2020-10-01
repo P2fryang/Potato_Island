@@ -1,0 +1,10 @@
+if(glow){
+	draw_self();
+	draw_sprite_ext(s_notebook_widget,-1,x,y,1.04,1.04,0,c_aqua,.7); 
+	draw_sprite_ext(s_notebook_widget,-1,x,y,1.08,1.08,0,c_aqua,.49); 
+	draw_sprite_ext(s_notebook_widget,-1,x,y,1.12,1.12,0,c_aqua,.34);
+	draw_sprite_ext(s_notebook_widget,-1,x,y,1.17,1.17,0,c_aqua,.24); 
+}
+else{
+	draw_self();
+}
