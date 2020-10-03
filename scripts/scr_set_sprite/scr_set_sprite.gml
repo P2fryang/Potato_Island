@@ -6,6 +6,7 @@ if (waterKey) {
                 isWater = true;
         } else if (!isWater && sprite_index == spr_water_shield1) {
                 sprite_index = spr_potato;
+				
         } else {
                 sprite_index = spr_water_shield1;
                 isWater = false;

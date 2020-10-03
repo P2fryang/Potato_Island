@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "0c3dc3e1-badd-4ae6-aa62-ceaabf3c34b3",
+            "Value": {
+                "id": "b1210089-5ae2-4601-baec-ce411738551b",
+                "resourcePath": "views\\0c3dc3e1-badd-4ae6-aa62-ceaabf3c34b3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0c58e108-7dd3-4283-884e-8d6fa7ea1452",
             "Value": {
                 "id": "cb9e6925-f493-4f4e-8a29-083dda4361a4",
@@ -348,14 +356,6 @@
                 "id": "ca399ecf-0e23-483c-81f8-4941eb3f1bc5",
                 "resourcePath": "sprites\\spr_mg_button\\spr_mg_button.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1773063a-ea00-4439-a9cb-3fd4d628e791",
-            "Value": {
-                "id": "bf2a0189-3e70-40f4-84c7-09de3edff7a8",
-                "resourcePath": "datafiles_yy\\spr_earth\\spr_earth.yy.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -748,14 +748,6 @@
                 "id": "84667d56-d2c0-48c9-915a-0d9ba2a29ffa",
                 "resourcePath": "sprites\/bg_dino\/bg_dino.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "46929ba8-44f1-4923-9679-01b70f313c9b",
-            "Value": {
-                "id": "8a786bdb-b964-4194-b2c2-c36e336372bf",
-                "resourcePath": "datafiles_yy\\spr_earth\\layers\\4eeec2f6-86e5-47e1-9520-909207331827\\0bd038a5-7090-4ba4-88a8-705e118b564d.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2284,14 +2276,6 @@
                 "id": "0b8c00f9-27c7-446d-a24b-b7f2e2ec073d",
                 "resourcePath": "views\/ec84e928-e2b6-4941-ae7b-ed0eee0013b9.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "eca5967f-800d-427d-a980-5fb445d1ee61",
-            "Value": {
-                "id": "61802862-ed4c-4916-9ee8-37af5c1da49b",
-                "resourcePath": "datafiles_yy\\spr_earth\\4eeec2f6-86e5-47e1-9520-909207331827.png.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

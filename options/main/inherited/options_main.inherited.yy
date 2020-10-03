@@ -323,6 +323,21 @@
                     "mipsToGenerate": 0,
                     "scaled": true
                 }
+            },
+            {
+                "Key": 22,
+                "Value": {
+                    "id": "598ed366-f411-4897-9482-61d94f3a9171",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_minigame",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
             }
         ],
         "Checksum": "ࢺ懜璙ᓆ锯翋꤯맫",
