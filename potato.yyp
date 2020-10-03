@@ -346,7 +346,7 @@
             "Key": "17721d5a-bbbf-4f6e-a4b6-4a1445899a94",
             "Value": {
                 "id": "ca399ecf-0e23-483c-81f8-4941eb3f1bc5",
-                "resourcePath": "sprites\\sprite74\\sprite74.yy",
+                "resourcePath": "sprites\\spr_mg_button\\spr_mg_button.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1338,7 +1338,7 @@
             "Key": "88e9e98e-328d-4283-8277-b6aedf334900",
             "Value": {
                 "id": "a42dced2-dd33-4fc2-9103-f9e70436fb73",
-                "resourcePath": "objects\\object84\\object84.yy",
+                "resourcePath": "objects\\obj_minigame_button\\obj_minigame_button.yy",
                 "resourceType": "GMObject"
             }
         },
