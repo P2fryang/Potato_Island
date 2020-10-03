@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-//Several things: the notebook object MUST be the last room
 //the challenges MUST be the room after room/scene for the dialogue right before
+
 show_debug_message(string(global.rmnum) + " " + string(room));
 x = 32;
 y = 496;
@@ -64,6 +64,7 @@ speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Um...yeah sure. How do I fix you?";
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "JaVaL0P0Lis was created with Java. T0 fix, you must learn s0me Java. I will guide y0u with this n0teb00k.";
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.widget;
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "E-Everything y0u need will be in here and more pages will be added as we travel through JaVaL0P0Lis so be sure t0 check back 0ften.";
 

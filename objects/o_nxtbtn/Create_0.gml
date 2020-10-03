@@ -22,15 +22,21 @@ enum eventCodes {
 	transform = 10,
 	miniGame = 11,
 	bigShake = 12,
+	widget = 13,
 	endGame = 42
 }
-
 
 for(var i = 0; i < 27; i++){
 	for(var j = 0; j < 15; j++){
 		arrOfEventFlagCodes[i, j] = -1;
 	}
 }
+for(var i = 0; i < 27; i++){
+	for(var j = 0; j < 15; j++){
+		arrOfFinishedEvents[i, j] = false;
+	}
+}
+
 for(var m = 0; m < 27; m++){
 	for(var n = 0; n < 15; n++){
 		arrOfNotebookFlagCodes[m, n] = -1;

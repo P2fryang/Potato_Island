@@ -4,17 +4,19 @@ if(leftReleased){
 	#region All the stuff that should occur in the left pressed event
 	#region this stuff are the event triggers
 		eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
+		eventAllowed = !arrOfFinishedEvents[o_dialogue.scenenum, o_dialogue.dia + 1];
 		notebookCode = arrOfNotebookFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
-		if(eventFlag != -1 /*eventFlag >= 0 && eventFlag <= 10 || eventFlag == 42*/){
+		if(eventFlag != -1 && eventAllowed/*eventFlag >= 0 && eventFlag <= 10 || eventFlag == 42*/){
 			#region various codes
 			if(eventFlag == eventCodes.notebook){
 				global.scenenum ++;
 				global.rmnum ++;
+				o_notebook_widget.visible = false; //to prevent widget from accessed while in notebook
 				//if scenenum == blah blah blah, use scenenum to determine global.pagenum and global.pageMax (hard code)
 				if(notebookCode != -1){
 					global.pagenum = 1;
 					global.pageMax = 3;
-					room_goto(room_last);
+					room_goto(rm_not2);
 				}
 			}
 			else if(eventFlag == eventCodes.flash){
@@ -76,12 +78,16 @@ if(leftReleased){
 				global.rmnum ++;
 				room_goto_next();
 			}
+			else if(eventFlag == eventCodes.widget){
+				o_notebook_widget.visible = true;
+			}
 			else if(eventFlag == eventCodes.endGame){
 				instance_create_depth(0,0,-1001,o_blackScreen);
 			}
 			#endregion
 			notebookCode = -1;
 			eventFlag = -1;
+			arrOfFinishedEvents[o_dialogue.scenenum, o_dialogue.dia + 1] = true;
 		}
 	#endregion
 

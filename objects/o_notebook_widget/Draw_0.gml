@@ -1,9 +1,9 @@
 if(glow){
+	draw_sprite_ext(s_notebook_widget,-1,x,y,scale + .02,scale + .02,0,color,.7); 
+	draw_sprite_ext(s_notebook_widget,-1,x,y,scale + .04,scale + .04,0,color,.49); 
+	draw_sprite_ext(s_notebook_widget,-1,x,y,scale + .06,scale + .06,0,color,.34);
+	draw_sprite_ext(s_notebook_widget,-1,x,y,scale + .09,scale + .09,0,color,.24); 
 	draw_self();
-	draw_sprite_ext(s_notebook_widget,-1,x,y,1.04,1.04,0,c_aqua,.7); 
-	draw_sprite_ext(s_notebook_widget,-1,x,y,1.08,1.08,0,c_aqua,.49); 
-	draw_sprite_ext(s_notebook_widget,-1,x,y,1.12,1.12,0,c_aqua,.34);
-	draw_sprite_ext(s_notebook_widget,-1,x,y,1.17,1.17,0,c_aqua,.24); 
 }
 else{
 	draw_self();
