@@ -2,4 +2,4 @@
 // You can write your code in this editor
 transparency = 0;
 fade = 1;
-depth = -999;
+depth = -1600;

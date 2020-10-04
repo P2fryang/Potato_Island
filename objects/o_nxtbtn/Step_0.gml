@@ -81,6 +81,9 @@ if(leftReleased){
 			else if(eventFlag == eventCodes.widget){
 				o_notebook_widget.visible = true;
 			}
+			else if(eventFlag == eventCodes.fade){
+				instance_create_depth(0,0,-1600, obj_fade);
+			}
 			else if(eventFlag == eventCodes.endGame){
 				instance_create_depth(0,0,-1001,o_blackScreen);
 			}

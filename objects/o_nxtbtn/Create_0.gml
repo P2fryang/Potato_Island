@@ -10,19 +10,20 @@ leftReleased = false;
 //arrOfChallengeRooms[15] = " ";
 enum eventCodes {
 	notebook = 0,
-	next = 1,
-	chlg = 2,
-	flash = 3,
-	miniShake = 4,
-	miniMiniShake = 5,
-	smokingGQ = 6,
-	fadeGQ = 7,
-	openGate = 8,
-	fadeGS = 9,
-	transform = 10,
-	miniGame = 11,
-	bigShake = 12,
-	widget = 13,
+	next,
+	chlg,
+	flash,
+	miniShake,
+	miniMiniShake,
+	smokingGQ,
+	fadeGQ,
+	openGate,
+	fadeGS,
+	transform,
+	miniGame,
+	bigShake,
+	widget,
+	fade,
 	endGame = 42
 }
 

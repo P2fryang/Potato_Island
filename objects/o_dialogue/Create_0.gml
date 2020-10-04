@@ -211,7 +211,7 @@ dia = 0;
 speak[scenenum,dia] = "Loady";
 dialogue[scenenum,dia++] = "See? Make sure you keep a cool head. Now it is time to go somewhere else.";
 
-o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.next;
+o_nxtbtn.arrOfEventFlagCodes[scenenum, dia] = o_nxtbtn.eventCodes.fade;
 arrOfDiaPerScene[scenenum++] = dia;
 dia = 0;
 #endregion

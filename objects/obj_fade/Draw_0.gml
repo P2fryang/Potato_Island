@@ -10,6 +10,7 @@ if (transparency == 1){
 	
 if ((transparency == 0) && (fade == -1)){
 	instance_destroy();
+	scr_save();
 }
 
 draw_set_color(c_black);
