@@ -6,6 +6,7 @@ global.pagenum = 0;//used to set the notebook page you start at when opening not
 global.pageMax = -1;//used to set the maximum number of pages the player has access to in the notebook
 global.mc = 0;
 global.ignoreGreyArrow = false;
+//global.challengeY = 0;
 
 global.challenge[0] = "challenge 1 hello world";
 global.challenge[1] = "challenge fix loady";

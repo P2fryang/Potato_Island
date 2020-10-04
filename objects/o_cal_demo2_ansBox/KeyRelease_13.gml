@@ -27,6 +27,8 @@ for(var i=0; i<4; i++){
 }
 
 if( !instance_exists(o_cal_demo2_whiteBox)) {
-	instance_create_depth(room_width/2, room_height/2, -1500,o_cal_demo2_arrow_)
+	nextArrow = instance_create_depth(1696, 640, -1500,o_cal_demo2_arrow_);
+	nextArrow.image_xscale = .5;
+	nextArrow.image_yscale = .6;
 
 }

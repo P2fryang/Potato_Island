@@ -1,4 +1,4 @@
 /// @description move with chllng
 
 // move with challenge
-y = global.challengeY + yOffset;
+//y = global.challengeY + yOffset;

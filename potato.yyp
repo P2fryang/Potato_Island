@@ -1727,14 +1727,6 @@
             }
         },
         {
-            "Key": "b288c169-a073-4cb5-8fbe-9ef2878f2325",
-            "Value": {
-                "id": "36d3af47-75e8-45f3-8d69-c7c631ec2343",
-                "resourcePath": "objects\\o_cal_demo2_yellowBox\\o_cal_demo2_yellowBox.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b28be8fe-b02b-47b8-9876-822971a5d97a",
             "Value": {
                 "id": "e4b4617f-a9be-4239-9726-0580f63267de",
