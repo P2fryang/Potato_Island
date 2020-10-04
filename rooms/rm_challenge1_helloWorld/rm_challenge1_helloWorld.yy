@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_cal_chllng1",
+    "name": "rm_challenge1_helloWorld",
     "id": "732b0442-d4d1-4beb-9451-d67e8786a1a5",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

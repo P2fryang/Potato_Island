@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_cal_chllng1",
     "eventList": [
-        {
-            "id": "d622995d-1d1d-4438-98c4-1261f99b6746",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "d8c54495-e194-4de8-9de5-7e9d6b4cbe7c"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
