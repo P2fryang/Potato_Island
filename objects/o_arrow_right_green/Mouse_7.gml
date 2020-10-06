@@ -1,4 +1,4 @@
-if(o_not.image_index < o_not.maxAllowed && !o_play_vid.clicked){
+if(o_not.image_index < o_not.maxAllowed){
 	o_not.image_index++;
 }
 else{

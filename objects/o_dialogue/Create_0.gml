@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //the challenges MUST be the room after room/scene for the dialogue right before
 
-show_debug_message(string(global.rmnum) + " " + string(room));
+//show_debug_message(string(global.rmnum) + " " + string(room));
 x = 32;
 y = 496;
 charTemp = -1;
@@ -11,7 +11,8 @@ scenenum = 0;//For the intents of easier programming, each scene are the breaks 
 dia = 0;
 diaPrev = -1;
 scenenumPrev = 0;
-frwd = 0;
+frwd = global.dia;
+global.dia = 0;//reset so that the value isn't kept over multiple scenes
 image_speed = 0;
 arrOfDiaPerScene[15] = 0;
 maxScenes = -1;
@@ -492,4 +493,10 @@ dia = 0;
 //last lines of code
 maxScenes = scenenum - 1;
 scenenum = global.scenenum;
-dia = 0;
+dia = frwd;
+diaPrev = dia - 1;
+if(dia != 0){
+	scenenumPrev = scenenum;
+}
+//show_debug_message(dia);
+//show_debug_message(frwd);

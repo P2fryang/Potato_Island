@@ -13,5 +13,8 @@ else if(scenenum >= 18){
 else if(scenenum >= 4){
 	image_index = 1;
 }
-chars += 0.4;
-
+if(chars < 200){
+	chars += 0.4;
+	
+	//show_debug_message(string(dia) + " " + string(scenenum) + " " + string(scenenumPrev));
+}

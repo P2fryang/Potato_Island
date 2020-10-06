@@ -1,4 +1,4 @@
-if(ind>0 && !o_play_vid.clicked){
+if(ind > 0){
 	o_not.image_index--;
 }
 else{
