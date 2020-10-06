@@ -7,6 +7,7 @@ eventFlag = -1;
 notebookCode = -1;
 fadeAllowed = true;
 leftReleased = false;
+step = 0;
 //arrOfChallengeRooms[15] = " ";
 enum eventCodes {
 	notebook = 0,

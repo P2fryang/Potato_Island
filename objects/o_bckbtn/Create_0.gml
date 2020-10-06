@@ -3,6 +3,7 @@
 
 //set color initial color (not clickable color) (invisible)
 image_blend = make_color_rgb(255,255,255);
+step = 0;
 
 //flip the object
 image_xscale = -1;

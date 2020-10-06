@@ -21,6 +21,7 @@ sceneGS = -1;
 diaGS = -1;
 sceneGQ = -1;
 diaGQ = -1;
+diaMaxTemp = -1;
 var i = 0;//used for notebook code initialization
 
 #region The dialogue

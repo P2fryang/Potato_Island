@@ -13,9 +13,59 @@ if(leftReleased){
 				global.rmnum ++;
 				o_notebook_widget.visible = false; //to prevent widget from accessed while in notebook
 				//if scenenum == blah blah blah, use scenenum to determine global.pagenum and global.pageMax (hard code)
-				if(notebookCode != -1){
-					global.pagenum = 1;
+				if(notebookCode == 0){
+					global.pagenum = 0;
 					global.pageMax = 3;
+				}
+				else if(notebookCode == 1){
+					global.pagenum = 4;
+					global.pageMax = 7;
+				}
+				else if(notebookCode == 2){
+					global.pagenum = 8;
+					global.pageMax = 8;
+				}
+				else if(notebookCode == 3){
+					global.pagenum = 9;
+					global.pageMax = 13;
+				}
+				else if(notebookCode == 4){
+					global.pagenum = 14;
+					global.pageMax = 17;
+				}
+				else if(notebookCode == 5){
+					global.pagenum = 18;
+					global.pageMax = 21;
+				}
+				else if(notebookCode == 6){
+					global.pagenum = 22;
+					global.pageMax = 24;
+				}
+				else if(notebookCode == 7){
+					global.pagenum = 25;
+					global.pageMax = 26;
+				}
+				else if(notebookCode == 8){
+					global.pagenum = 27;
+					global.pageMax = 28;
+				}
+				else if(notebookCode == 9){
+					global.pagenum = 29;
+					global.pageMax = 32;
+				}
+				else if(notebookCode == 10){
+					global.pagenum = 33;
+					global.pageMax = 36;
+				}
+				else if(notebookCode == 11){
+					global.pagenum = 37;
+					global.pageMax = 41;
+				}
+				else if(notebookCode == 12){
+					global.pagenum = 42;
+					global.pageMax = 45;
+				}
+				if(notebookCode != -1){
 					room_goto(rm_not2);
 				}
 			}
@@ -114,15 +164,20 @@ if(leftReleased){
 		fadeAllowed = true;
 	#endregion
 	
+	
+	#endregion
+	leftReleased = false;
+}
+//if(variable_instance_exists(o_dialogue, o_dialogue.diaMaxTemp)){
 	#region random color stuff
 		//used to change color at the end of the dialogue
 		if(o_dialogue.dia == o_dialogue.diaMaxTemp){
-			image_blend = make_color_rgb(255,200,200);
+			if(image_blend != make_color_rgb(255,200,200)){
+				image_blend = make_color_rgb(255,200,200);
+			}
 		}
 		else{
 			image_blend = make_color_rgb(50,250,50);	
 		}
 	#endregion
-	#endregion
-	leftReleased = false;
-}
+//}

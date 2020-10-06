@@ -6,3 +6,4 @@ if(charTemp != -1){
 visible = true;
 o_nxtbtn.visible = true;
 o_bckbtn.visible = true;
+o_notebook_widget.visible = true;
