@@ -6,6 +6,12 @@ if( (keyboard_string + aft) == target){
 	aft = "";
 	target = false
 	feedback = "";
+	o_cal_chlng1_prompts.alarm[0] = -1;
+	o_cal_chlng1_prompts.delay = -1;
+	o_cal_chlng1_prompts.prompt = "Good job! Hit the green arrow below to move on.";
+	if(o_cal_chlng1_prompts.prompt2 != ""){
+		o_cal_chlng1_prompts.print = true;
+	}
 }
 else if( target == false){ 
 	feedback = "Click a blank space to check if your answer fits!"
