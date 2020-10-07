@@ -4,7 +4,7 @@ if (transparency == 1){
 	fade = -1.2; //speed of fade out
 }
 	
-if ((transparency == 0) && (fade == -1)){
+if ((transparency <= 0.0001) && (fade == -1)){
 	instance_destroy();
 }
 

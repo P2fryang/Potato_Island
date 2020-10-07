@@ -1,4 +1,4 @@
-if(!global.ignoreGreyArrow){
+if(!global.ignoreNextButton){
 	if(instance_exists(o_not.left_red)){
 		instance_destroy(o_not.left_red,false);
 	}
@@ -6,6 +6,9 @@ if(!global.ignoreGreyArrow){
 		instance_destroy(o_not.left_grey,false);
 	}
 	o_notebook_widget.visible = true;
-	instance_destroy(instance_id,false);
+	if(instance_exists(o_not.right_grey)){
+		instance_destroy(o_not.right_grey,false);
+	}
+	instance_destroy(instance_id);
 	room_goto(global.rmnum);
 }
