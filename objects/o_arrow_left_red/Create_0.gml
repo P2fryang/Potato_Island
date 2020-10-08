@@ -1,5 +1,5 @@
 ind = 0;
-x = -16;
-y = 912;
-image_xscale = .663;
-image_yscale = .725; 
+x = 80;
+y = room_height - 80;
+image_xscale = -1;
+image_blend = c_red;
