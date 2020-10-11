@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_challenge_2c_arrays",
+    "name": "rm_challenge2c_arrays",
     "id": "aaf19085-3a0c-4194-a547-064ea9c362fa",
     "creationCodeFile": "",
     "inheritCode": false,
