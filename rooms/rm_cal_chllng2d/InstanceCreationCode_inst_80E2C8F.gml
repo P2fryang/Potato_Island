@@ -1,0 +1,1 @@
+ds_map_add(global.destroy, id, "Ooo piece of candy!");

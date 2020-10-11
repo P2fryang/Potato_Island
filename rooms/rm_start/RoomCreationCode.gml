@@ -7,6 +7,7 @@ global.pageMax = -1;//used to set the maximum number of pages the player has acc
 global.mc = 0;
 global.ignoreNextButton = false;
 global.dia = 0//Used so that when returning from notebook widget, scene doesn't start from beginning
+global.destroy = ds_map_create();//used for storing unique print statements per instance.
 
 score = 3;
 global.challenge[3] = "challenge fix loady";
