@@ -130,6 +130,7 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.widget){
 				o_notebook_widget.visible = true;
+				o_notebook_widget.milquetoast = true;
 			}
 			else if(eventFlag == eventCodes.fade){
 				instance_create_depth(0,0,-1600, obj_fade);
