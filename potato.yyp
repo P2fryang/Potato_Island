@@ -794,7 +794,7 @@
             "Key": "51004f6a-a3eb-4a19-9adb-3b9080912c51",
             "Value": {
                 "id": "2706eb55-6287-4812-8c9b-52fc8034845f",
-                "resourcePath": "objects\\o_cal_demo2_challenge3\\o_cal_demo2_challenge3.yy",
+                "resourcePath": "objects\\o_challenge3b\\o_challenge3b.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -971,6 +971,14 @@
             "Value": {
                 "id": "9813a177-6159-48c0-85c6-e2dcc1c51410",
                 "resourcePath": "objects\\o_not\\o_not.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "701ebdb1-a2dc-4106-8a29-84cf72b04fd6",
+            "Value": {
+                "id": "64cf40d5-d201-443c-ad6d-3e60c6d37d7a",
+                "resourcePath": "objects\\o_challenge3a\\o_challenge3a.yy",
                 "resourceType": "GMObject"
             }
         },
