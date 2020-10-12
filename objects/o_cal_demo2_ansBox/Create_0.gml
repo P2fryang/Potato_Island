@@ -2,6 +2,7 @@ aft = "";
 
 allow = true;
 str = ""
+keyboard_string = "";
 
 cursor = "|";
 delay = 20;
