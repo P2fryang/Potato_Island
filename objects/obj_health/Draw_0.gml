@@ -9,5 +9,5 @@ draw_text(x, y, "Dino Powah");
 // Draw health bar
 var percent = (health / max_health) * 100;
 if (health <= max_health) {
-	draw_healthbar(1000, 150, 1250, 200, percent, c_black, c_red, c_lime, 0, true, true)
+	draw_healthbar(x, y, x+250, y+50, percent, c_black, c_red, c_lime, 0, true, true)
 }

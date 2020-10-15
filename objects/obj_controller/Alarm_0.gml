@@ -7,4 +7,4 @@ with (element) {
 	direction = move_towards_point(room_width, room_height, 5)
 }
 
-alarm[0] = room_speed * random_range(1/global.speedModifier, 3/global.speedModifier);
+alarm[0] = room_speed * random_range(1/global.speedModifier, 1.5/global.speedModifier);

@@ -9,5 +9,5 @@ isAir = false;		// check if player is using air shield
 isEarth = false;	// check if player is using earth shield
 isFire = false;		// check if player is using fire shield
 //rescale the potato sizes
-image_xscale = 0.42105;
-image_yscale = 0.42105;
+image_xscale = 0.6;
+image_yscale = 0.6;
