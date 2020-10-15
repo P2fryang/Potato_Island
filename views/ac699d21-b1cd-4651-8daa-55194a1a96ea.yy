@@ -10,7 +10,9 @@
         "b4d49bfc-a078-4488-aff1-974eb50f3ba1",
         "a3711c2a-47b7-4f87-b288-aa52f1c5bcf4",
         "88e9e98e-328d-4283-8277-b6aedf334900",
-        "98a933d5-f937-4f51-b8b0-6148956384a2"
+        "98a933d5-f937-4f51-b8b0-6148956384a2",
+        "dc726495-6685-432a-9193-e76f4b569faf",
+        "e1c22fb7-8b28-483c-969e-dab2ddace915"
     ],
     "filterType": "GMObject",
     "folderName": "og_minigame",
