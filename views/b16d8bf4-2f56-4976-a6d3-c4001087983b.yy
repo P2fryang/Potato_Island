@@ -15,7 +15,8 @@
         "7ecb727a-a360-46f6-b03f-7907956871d8",
         "cc72758c-c5a9-4550-9dfb-47fbd947d462",
         "e3020994-f074-4520-9ab1-4038c2a49956",
-        "2cb03da5-a826-4575-9233-1da8ef3e4673"
+        "2cb03da5-a826-4575-9233-1da8ef3e4673",
+        "c2a2d130-7bdb-49ad-bf31-7ca44e6131dc"
     ],
     "filterType": "GMObject",
     "folderName": "og_vid+notebook",

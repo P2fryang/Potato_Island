@@ -1719,6 +1719,14 @@
             }
         },
         {
+            "Key": "c2a2d130-7bdb-49ad-bf31-7ca44e6131dc",
+            "Value": {
+                "id": "32890fcb-449a-4636-b4cb-5f455128f947",
+                "resourcePath": "objects\\o_method_basics\\o_method_basics.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c374d5a1-c30a-48c4-abb0-a8ab398b68ab",
             "Value": {
                 "id": "1969279a-d9a3-4a81-b440-8ca87c2fa2a5",

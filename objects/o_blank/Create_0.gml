@@ -15,3 +15,4 @@ vids[45] = o_pass_var;
 vids[41] = o_adv_method_return;
 vids[43] = o_adv_method_param1;
 vids[43] = o_adv_method_param2;
+vids[21] = o_method_basics;

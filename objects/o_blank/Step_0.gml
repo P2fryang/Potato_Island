@@ -15,8 +15,9 @@ if(vids[o_not.image_index] != -1 && vidInst == id){
 }
 
 if(vidInst != id){//stop the video
-	if(vidInst.image_index>vidInst.image_number-1){
+	if(vidInst.image_index > vidInst.image_number-1){
 		vidInst.image_speed = 0;
+		o_play_vid.image_index = 0;
 	}
 }
 prevNot = o_not.image_index;
