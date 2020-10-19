@@ -1,0 +1,35 @@
+///void scr_move_next(string room, bool forward)
+//
+//string room: should accept built in variable 'room'
+//bool forward: true if move forward, false if backwards
+//
+
+var roomInd = argument0;
+var forward = argument1;
+var name = room_get_name(roomInd);
+if(string_pos("rm_scene", name) || string_pos("rm_opening_dialogue", name)){
+	scr_move(forward, true);
+	show_debug_message(string(name) + "1" + " " + string(string_pos("rm_scene", name)) + " " + string(string_pos("rm_opening_dialogue", name)));
+}
+else if(string_pos("rm_challenge", name)){
+	if(instance_exists(o_cal_demo2_ansBox)){
+		ds_map_destroy(o_cal_demo2_ansBox.answers);
+	}
+	scr_move(forward, false);
+	show_debug_message(string(name) + "2" + " " + string(string_pos("rm_challenge", name)));
+}
+else if(string_pos("rm_enter_computer", name)){
+	if(forward){
+		global.rmnum ++;
+		room_goto_next();
+	}
+	else{
+		global.scenenum --;
+		global.rmnum --;
+		room_goto_previous();
+	}
+}
+else{
+	scr_move(forward, false);
+	show_debug_message(string(name) + "3");
+}
