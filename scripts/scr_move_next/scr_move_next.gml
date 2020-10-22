@@ -29,6 +29,9 @@ else if(string_pos("rm_enter_computer", name)){
 		room_goto_previous();
 	}
 }
+else if(string_pos("rm_not2", name)){
+	return;
+}
 else{
 	scr_move(forward, false);
 	show_debug_message(string(name) + "3");

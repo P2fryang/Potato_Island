@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "0b29c39d-28bc-4f39-871b-14b28e4caf3c",
-            "Value": {
-                "id": "5a7782ad-b68e-422e-af4d-d4091493de19",
-                "resourcePath": "rooms\/rm_challenge3b_while\/rm_challenge3b_while.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "0c3dc3e1-badd-4ae6-aa62-ceaabf3c34b3",
             "Value": {
                 "id": "b1210089-5ae2-4601-baec-ce411738551b",
@@ -338,7 +330,7 @@
             "Key": "18f786f3-b416-4bc8-aa56-e7c1eb375214",
             "Value": {
                 "id": "756d0cc0-56dc-42a8-b787-dbb5d0f5dc4d",
-                "resourcePath": "rooms\/rm_cal_chllng3b\/rm_cal_chllng3b.yy",
+                "resourcePath": "rooms\\rm_challenge3b_while\\rm_challenge3b_while.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -578,7 +570,7 @@
             "Key": "3c995b7f-efa6-419d-a6d7-f8045bccc0aa",
             "Value": {
                 "id": "240b8cb1-b17f-4474-9c6f-001ce1bda3f2",
-                "resourcePath": "rooms\/rm_cal_chllng3a\/rm_cal_chllng3a.yy",
+                "resourcePath": "rooms\\rm_challenge3a_conditionals\\rm_challenge3a_conditionals.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1231,14 +1223,6 @@
             }
         },
         {
-            "Key": "81660034-6240-42c9-93fb-dfeecdeec2de",
-            "Value": {
-                "id": "30282ffc-5d59-4a99-b10b-7eb0fdbced90",
-                "resourcePath": "rooms\/rm_challenge2e_call_methods\/rm_challenge2e_call_methods.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "81ed82b2-0193-4b4e-8dfe-d9794b058c17",
             "Value": {
                 "id": "31e6d85b-c5d5-4115-92f1-8aefa667bf9e",
@@ -1348,14 +1332,6 @@
                 "id": "994e4d09-d0f6-40d3-8259-333cb8a03aaf",
                 "resourcePath": "sprites\/s_challenge3b\/s_challenge3b.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9279d3b5-2ce7-4ec7-90cb-f69c219bc4a6",
-            "Value": {
-                "id": "ee1c1bd1-d261-4c69-a796-99c37160fe0e",
-                "resourcePath": "rooms\/rm_challenge3a_conditionals\/rm_challenge3a_conditionals.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2322,7 +2298,7 @@
             "Key": "fe1a7042-2900-43b1-8fe4-36655b9a08b8",
             "Value": {
                 "id": "f07e0c8b-79b1-433f-befb-568f84f4548e",
-                "resourcePath": "rooms\/rm_cal_chllng2e\/rm_cal_chllng2e.yy",
+                "resourcePath": "rooms\\rm_challenge2e_call_methods\\rm_challenge2e_call_methods.yy",
                 "resourceType": "GMRoom"
             }
         }
