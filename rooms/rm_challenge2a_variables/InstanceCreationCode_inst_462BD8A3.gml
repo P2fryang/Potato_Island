@@ -1,1 +1,1 @@
-//ds_map_add(global.destroy, id, "Bye");
+//ds_stack_push(global.consoleStack, "Bye");

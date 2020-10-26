@@ -1,1 +1,2 @@
-ds_map_add(global.destroy, id, "Hello, World!");
+
+ds_stack_push(global.consoleStack, "Hello, World!");

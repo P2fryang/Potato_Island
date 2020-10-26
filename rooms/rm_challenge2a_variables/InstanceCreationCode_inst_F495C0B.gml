@@ -1,1 +1,1 @@
-ds_map_add(global.destroy, id, "Javalopolis Has Color: true");
+ds_stack_push(global.consoleStack, "Javalopolis Has Color: true");
