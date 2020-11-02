@@ -42,7 +42,7 @@ if(dia <= diaMaxTemp){
 			charTemp.image_yscale = .6;
 		}
 		else if(speak[scenenum,dia] == "Rimac"){
-			charTemp = instance_create_layer(1568, 336, "inst_static_chars", o_fpotat);
+			charTemp = instance_create_layer(1568, 160, "inst_static_chars", o_fpotat);
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}

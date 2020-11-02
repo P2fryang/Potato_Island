@@ -12,7 +12,8 @@
         "24e04562-62fe-480f-96b7-63c8288c1fa4",
         "42e74c86-ed88-490a-a8ad-242d49a83a71",
         "5e7dc2a9-7885-4ac0-8c5f-7b8d899ed020",
-        "bd884894-5965-44a5-8172-db20277394ca"
+        "bd884894-5965-44a5-8172-db20277394ca",
+        "445649d7-82f7-447e-8476-c0c3bf8697cb"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_characters",

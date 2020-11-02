@@ -353,6 +353,21 @@
                     "mipsToGenerate": 0,
                     "scaled": true
                 }
+            },
+            {
+                "Key": 24,
+                "Value": {
+                    "id": "b1dd3733-b97c-4769-996f-64a4f0c8b5fe",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "txg_drawCanvas",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
             }
         ],
         "Checksum": "ࢺ懜璙ᓆ锯翋꤯맫",
