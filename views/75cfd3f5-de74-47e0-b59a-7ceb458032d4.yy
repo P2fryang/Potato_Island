@@ -15,7 +15,9 @@
         "4e2d0666-fede-479b-8ea5-7785a8afd180",
         "7c9fb6ed-681d-4907-879a-a0feb993136b",
         "bfdc501f-9490-4682-9436-8a51b8c89e35",
-        "01dcdf53-85bb-47c8-b579-d3ccbb130a94"
+        "01dcdf53-85bb-47c8-b579-d3ccbb130a94",
+        "ad51ac8b-8386-4f3b-bfcd-3ea007c03b41",
+        "590d1b47-711f-48bd-a57e-0142de3dc50d"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_graphics",
