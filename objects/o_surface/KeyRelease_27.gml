@@ -1,5 +1,5 @@
 surface_save(surface, "surface.png");
-buffer_delete(buffer);
+//buffer_delete(buffer);
 if(surface_exists(surface)){
 	surface_free(surface);
 }

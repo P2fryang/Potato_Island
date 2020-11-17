@@ -10,7 +10,8 @@
         "a5b9427c-49ab-442f-8f7f-decc28b708f8",
         "6d3782bc-3018-46a9-80d7-e69bbdb8da75",
         "5daf1021-b5fb-4d5f-849a-847e71b54211",
-        "8f00fa59-2021-49b8-8f34-a736ba244cf4"
+        "8f00fa59-2021-49b8-8f34-a736ba244cf4",
+        "eb1e8bcb-831d-4e4a-8dbb-5efaef02a41e"
     ],
     "filterType": "GMObject",
     "folderName": "og_potatSkin",

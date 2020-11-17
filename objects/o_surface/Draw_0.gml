@@ -13,6 +13,8 @@ draw_text(1286, 109, color_get_red(color));
 draw_text(1286, 197, color_get_green(color));
 draw_text(1286, 280, color_get_blue(color));
 
+draw_text(size_x + 3, size_y + 5, size);
+
 draw_set_font(prevFont);
 draw_set_color(prevColor);
 

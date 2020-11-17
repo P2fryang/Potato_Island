@@ -2359,6 +2359,14 @@
             }
         },
         {
+            "Key": "eb1e8bcb-831d-4e4a-8dbb-5efaef02a41e",
+            "Value": {
+                "id": "798d6944-5a4d-4064-b4be-3c34c73ec255",
+                "resourcePath": "objects\\o_brushSize\\o_brushSize.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec84e928-e2b6-4941-ae7b-ed0eee0013b9",
             "Value": {
                 "id": "0b8c00f9-27c7-446d-a24b-b7f2e2ec073d",
@@ -2492,6 +2500,14 @@
                 "id": "c74358da-54ae-490a-8ce4-ec8e541c8e64",
                 "resourcePath": "rooms\/rm_potat\/rm_potat.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fc04ada2-6d9d-46ee-a089-cc8607d7aeae",
+            "Value": {
+                "id": "108166ec-7ef8-4818-a27b-744c349c7cdd",
+                "resourcePath": "sprites\\s_potatSkinBrushSize\\s_potatSkinBrushSize.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
