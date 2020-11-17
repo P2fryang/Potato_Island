@@ -1,7 +1,7 @@
 speed = -20 * global.speedModifier;
 
 if (health == 0) {
-        game_restart()
+        room_goto_next();
 }
 
 // destroy instance when goes off frame
