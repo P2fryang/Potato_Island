@@ -11,7 +11,7 @@ global.destroy = ds_map_create();//used for storing unique print statements per 
 global.consoleStack = ds_stack_create();//used to print the things
 
 //set up potato and skin sprite
-var spr = sprite_add("surface.png", 1, true, true, 0, 0);
+var spr = sprite_add("surface.png", 1, false, true, 0, 0);
 var surf;
 surf = surface_create(583, 888);
 surface_set_target(surf);
@@ -20,6 +20,7 @@ draw_sprite(s_potat, 0, 294, 198);
 draw_sprite(spr, 0, 0, 0);
 global.potatSprite = sprite_create_from_surface(surf, 0, 0, 583, 888, false, true, 292, 0);
 surface_reset_target();
+sprite_delete(spr);
 surface_free(surf);
 
 score = 3;
