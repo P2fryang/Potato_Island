@@ -1,0 +1,1 @@
+speedModifier = global.speedModifier; //save the current speedModifier to this instance

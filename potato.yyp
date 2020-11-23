@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "1ebe73a9-963a-4093-a23f-e85c36ebf4f5",
+            "Value": {
+                "id": "272a9c74-8375-4699-8679-f396d8b3be2c",
+                "resourcePath": "sprites\\s_victory\\s_victory.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "201819e8-c401-4003-838f-a512732e4c2b",
             "Value": {
                 "id": "0922c039-ab80-4e5e-8e2d-dd8025e5dc7c",

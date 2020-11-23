@@ -13,7 +13,13 @@ if (place_meeting(x, y+1, obj_block)) {
 // not touching ground
 else {
         if (vspd < termVelocity) {
+			if(!falling){
                 vspd += grav;
+			}
+			else{
+				vspd += fgrav;
+			}
+				
         }
 
         if (sign(vspd) == 1) {

@@ -7,7 +7,7 @@ global.pageMax = -1;//used to set the maximum number of pages the player has acc
 global.mc = 0;
 global.ignoreNextButton = false;
 global.dia = 0//Used so that when returning from notebook widget, scene doesn't start from beginning
-global.destroy = ds_map_create();//used for storing unique print statements per instance.
+//global.destroy = ds_map_create();//used for storing unique print statements per instance.
 global.consoleStack = ds_stack_create();//used to print the things
 
 //set up potato and skin sprite
@@ -19,6 +19,7 @@ draw_clear_alpha(c_black, 0);
 draw_sprite(s_potat, 0, 294, 198);
 draw_sprite(spr, 0, 0, 0);
 global.potatSprite = sprite_create_from_surface(surf, 0, 0, 583, 888, false, true, 292, 0);
+sprite_save(global.potatSprite, 0, "potatSprite.png");
 surface_reset_target();
 sprite_delete(spr);
 surface_free(surf);

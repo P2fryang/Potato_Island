@@ -4,7 +4,7 @@
 draw_set_font(fnt_health); 
 draw_set_color(c_black);
 draw_set_halign(fa_center);
-draw_text(x, y, "Dino Powah");
+draw_text(x - 50, y, "Dino Powah");
 
 // Draw health bar
 var percent = (health / max_health) * 100;

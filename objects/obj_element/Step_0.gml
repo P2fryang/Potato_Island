@@ -1,4 +1,4 @@
-speed = -20 * global.speedModifier;
+speed = -20 * speedModifier;
 
 if (health == 0) {
         room_goto_next();

@@ -73,9 +73,9 @@ if(dia <= diaMaxTemp){
 			charTemp.image_yscale = .8;
 		}
 		else if(speak[scenenum, dia] == "Small Serious Lord Dino"){
-			charTemp = instance_create_layer(1300, 300, "inst_static_chars", o_smolLordDino);
-			charTemp.image_xscale = .8;
-			charTemp.image_yscale = .8;
+			charTemp = instance_create_layer(1500, 400, "inst_static_chars", o_smolLordDino);
+			charTemp.image_xscale = 1;
+			charTemp.image_yscale = 1;
 		}
 		#endregion
 	}

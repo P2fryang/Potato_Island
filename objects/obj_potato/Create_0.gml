@@ -1,4 +1,5 @@
 grav = 7;	// gravity
+fgrav = 6;// falling gravity
 jspd = 65;	// jump speed
 vspd = 0;	// vertical speed
 jumping = false;	// check if player is jumping
