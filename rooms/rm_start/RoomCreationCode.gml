@@ -1,14 +1,22 @@
 //initialize the global variables
+
+/*something[0] = 1;
+something[2] = 2;
+something[3] = ["Hi", "Bye", "Two"];
+temp = something[3];
+temp1 = something[0];
+show_debug_message(temp[1]);*/
+//show_debug_message(temp1[0]);
 //global.chlg = 1;
-global.scenenum = 0;//for the dialogue, change when change to the dialogue scene
-global.rmnum = 0;//used by notebook to determine where to return back to
-global.pagenum = 0;//used to set the notebook page you start at when opening notebook
-global.pageMax = -1;//used to set the maximum number of pages the player has access to in the notebook
+global.scenenum = 0;					//for the dialogue, change when change to the dialogue scene
+global.rmnum = 1;						//used by notebook to determine where to return back to
+global.pagenum = 0;						//used to set the notebook page you start at when opening notebook
+global.pageMax = -1;					//used to set the maximum number of pages the player has access to in the notebook
 global.mc = 0;
 global.ignoreNextButton = false;
-global.dia = 0//Used so that when returning from notebook widget, scene doesn't start from beginning
-//global.destroy = ds_map_create();//used for storing unique print statements per instance.
+global.dia = 0;							//Used so that when returning from notebook widget, scene doesn't start from beginning
 global.consoleStack = ds_stack_create();//used to print the things
+global.consoleQueue = ds_queue_create();// Used to print to console for challenges
 
 //set up potato and skin sprite
 var spr = sprite_add("surface.png", 1, false, true, 0, 0);
@@ -36,25 +44,3 @@ global.challenge[10] = "challenge4a adv fire";
 global.challenge[11] = "challenge4b water";
 global.challenge[12] = "challenge4c earth";
 global.challenge[13] = "challenge4d air";
-
-global.mcq[0] = "MCQ 10";
-
-global.mcq[1] = "MCQ 1";
-global.mcq[2] = "MCQ 9";
-global.mcq[3] = "MCQ 11";
-global.mcq[4] = "MCQ 12";
-
-global.mcq[5] = "MCQ 7";
-global.mcq[6] = "MCQ 8";
-
-global.mcq[7] = "MCQ 3";
-
-global.mcq[8] = "MCQ 5";
-
-global.mcq[9] = "MCQ 6";
-
-global.mcq[10] = "MCQ 2";
-global.mcq[11] = "MCQ 4";
-global.mcq[12] = "MCQ 13";
-global.mcq[13] = "MCQ 14";
-global.mcq[14] = "MCQ 15";

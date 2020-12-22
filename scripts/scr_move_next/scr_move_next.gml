@@ -1,4 +1,4 @@
-///void scr_move_next(string room, bool forward)
+///scr_move_next(room,forward)
 //
 //string room: should accept built in variable 'room'
 //bool forward: true if move forward, false if backwards

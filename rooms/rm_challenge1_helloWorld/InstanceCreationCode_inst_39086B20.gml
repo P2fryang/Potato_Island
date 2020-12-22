@@ -1,2 +1,1 @@
-
-ds_stack_push(global.consoleStack, "Hello, World!");
+ds_queue_enqueue(global.consoleQueue, "Hello, World!");

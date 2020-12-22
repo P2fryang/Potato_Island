@@ -1,1 +1,1 @@
-ds_stack_push(global.consoleStack, "French Fry Side Kick!");
+ds_queue_enqueue(global.consoleQueue, "French Fry Side Kick!");

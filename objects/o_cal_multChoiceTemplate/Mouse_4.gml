@@ -1,20 +1,20 @@
 /// @description check Letters pressed
 // You can write your code in this editor
-if(grn_arrow != "green"){
+/*if(grn_arrow != "green"){
 	if(instance_exists(grn_arrow)){
 		instance_destroy(grn_arrow);
 	}
 	grn_arrow = "green";
 	correct = false;
-}
-if(red_x != "red"){
+}*/
+/*if(red_x != "red"){
 	//if(instance_exists(red_x)){
 	//	instance_destroy(red_x);
 	//}
 	red_x = "red";
 	correct = false;
-}
-if(!correct){
+}*/
+if(!correct){ // can only select the correct answer once
 	// check A pressed
 	if point_in_rectangle(mouse_x, mouse_y, x + sprite_width*0.56098, y + sprite_height*0.11481, x + sprite_width*0.61765, y + sprite_height*0.18704)
 	{

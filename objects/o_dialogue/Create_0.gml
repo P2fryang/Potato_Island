@@ -46,7 +46,7 @@ dia = 0;
 //scene 2
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "Woah, what is this place. How did I get here? And why is everything black and white? What happened to my vision?";
-speak[scenenum,dia] = "Loady";
+speak[scenenum,dia] = "	";
 sceneL = scenenum;
 diaL = dia;
 dialogue[scenenum,dia++] = "N-N0thing is...wr0ng with y0ur...visi0n, the w0rld is...b-black and white. It has b-been ever since...L0rd Din0...t00k 0ver.";

@@ -1,1 +1,1 @@
-ds_stack_push(global.consoleStack, "Javalopolis Has Color: true");
+ds_queue_enqueue(global.consoleQueue, "Javalopolis Has Color: true");

@@ -1,6 +1,6 @@
 //using step instead of left pressed because I'm jank and need to do this
 if(leftReleased){
-	show_debug_message("scenenum: " + string(o_dialogue.scenenum) + " dia " + string(o_dialogue.dia));
+	show_debug_message("scenenum: " + string(o_dialogue.scenenum) + " dia " + string(o_dialogue.dia) + " " + string(room));
 	#region All the stuff that should occur in the left pressed event
 	#region this stuff are the event triggers
 		eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
@@ -91,7 +91,7 @@ if(leftReleased){
 			else if(eventFlag == eventCodes.miniMiniShake){
 				o_shake.miniMini = true;
 				o_shake.shake = true;
-							}
+			}
 			else if(eventFlag == eventCodes.fadeGQ && fadeAllowed){
 				o_GQ.fade = true;
 				fadeAllowed = false;

@@ -1,1 +1,1 @@
-ds_stack_push(global.consoleStack, "Ba da bing ba da boom we have arrived at spike #4");
+ds_queue_enqueue(global.consoleQueue, "Ba da bing ba da boom we have arrived at spike #4");

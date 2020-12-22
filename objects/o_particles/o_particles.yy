@@ -1,14 +1,14 @@
 {
-    "id": "e029a041-3a6e-49c4-b2e2-bd20b3d54fb3",
+    "id": "b7b1c495-68e8-4ec4-93d5-f3ad0be99928",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_challenge2e",
+    "name": "o_particles",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "852319d4-7d75-49c1-9e5c-6ec31c94da2a",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "47106ca2-4fef-4eb8-b89c-18b99e7643d7",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

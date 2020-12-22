@@ -1,1 +1,1 @@
-ds_stack_push(global.consoleStack, "Ooo piece of candy!");
+ds_queue_enqueue(global.consoleQueue, "Ooo piece of candy!");
