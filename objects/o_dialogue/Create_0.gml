@@ -23,6 +23,7 @@ sceneGQ = -1;
 diaGQ = -1;
 diaMaxTemp = -1;
 var i = 0;//used for notebook code initialization
+draw_set_halign(fa_left);
 
 #region The dialogue
 #region scene 1-1

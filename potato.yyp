@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "31fec86f-f287-463e-9900-355065b35d30",
+            "Value": {
+                "id": "51582237-2a40-454f-b1ab-75a84bcbcdab",
+                "resourcePath": "objects\\o_victoryRoomObject\\o_victoryRoomObject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35006376-c1e4-4448-9f44-7f90b8711765",
             "Value": {
                 "id": "2b6b3eed-6ad6-4865-8fdd-fb4dff1f2710",
@@ -2324,14 +2332,6 @@
                 "id": "9ba400b2-157a-49fe-89dc-1e2dd3d5a850",
                 "resourcePath": "views\/e6702aa6-aa01-4df6-8214-0bfc64d8d7b5.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e7304de5-cebb-46af-8295-c4c2041cd855",
-            "Value": {
-                "id": "d1bd6049-b921-4a4e-8c1f-a9cb5cee9797",
-                "resourcePath": "rooms\/rm_miniGame\/rm_miniGame.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

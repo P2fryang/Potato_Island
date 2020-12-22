@@ -68,7 +68,7 @@ if(dia <= diaMaxTemp){
 			charTemp.image_yscale = .8;
 		}
 		else if(speak[scenenum, dia] == "Giant Meme Lord Dino"){
-			charTemp = instance_create_layer(1300, 150, "inst_static_chars", o_lordDino);
+			charTemp = instance_create_layer(1200, 150, "inst_static_chars", o_lordDino);
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}
