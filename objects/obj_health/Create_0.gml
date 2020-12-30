@@ -1,2 +1,2 @@
-health = 100;
-max_health = 100;
+health = 20;
+max_health = 150;

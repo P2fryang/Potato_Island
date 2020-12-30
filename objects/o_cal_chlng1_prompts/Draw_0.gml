@@ -12,7 +12,7 @@ if(print) {
 	
 	var tempCounter = 1;
 	while(!ds_queue_empty(global.consoleQueue)){
-		consoleArr[tempCounter] = ds_queue_dequeue(global.consoleQueue);
+		consoleArr[tempCounter++] = ds_queue_dequeue(global.consoleQueue);
 	}
 	//draw_text(x + 30, y + sprite_height - 30 - string_height(prompt) - array_length_1d(consoleArr) * string_height(prompt), "Console");
 	for(var i = array_length_1d(consoleArr) - 1; i + 1 > 0; i--){

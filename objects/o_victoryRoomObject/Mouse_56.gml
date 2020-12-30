@@ -1,1 +1,1 @@
-room_goto_next();
+room_goto(rm_scene6_1);

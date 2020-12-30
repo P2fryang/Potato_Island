@@ -2,7 +2,7 @@ speed = -20 * speedModifier;
 
 if (health == 0) {
 	room_goto(rm_victory);
-        //room_goto_next();
+	instance_destroy();
 }
 
 // destroy instance when goes off frame

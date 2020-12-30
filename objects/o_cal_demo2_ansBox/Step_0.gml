@@ -10,4 +10,8 @@ if(global.selectedID != false){
 	}
 }
 
-str = keyboard_string + cursor + aft;
+if(string_length(str) < 174){	// HARDCODED, with the current font size, the absolute maximum amount
+								// of characters that can fit is 174 characters,**with spacing only at
+								// the end of lines
+	str = keyboard_string + cursor + aft;
+}

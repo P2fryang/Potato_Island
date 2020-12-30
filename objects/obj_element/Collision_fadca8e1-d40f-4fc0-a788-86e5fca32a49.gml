@@ -4,7 +4,8 @@ with (obj_health) {
         scr_element_collision()
 
         if (health == 0) {
-                game_restart()
+		        room_goto_next();
+				show_debug_message("Other here");
         }
 }
 

@@ -5,6 +5,14 @@ with (element) {
 	direction = move_towards_point(room_width, room_height, 5);
 }
 
-global.speedModifier = clamp(global.speedModifier + random_range(-.05, .05), .85, 1.35);
+if(irandom(2)){
+	// lower modifier = slower
+	global.speedModifier = clamp(global.speedModifier + random_range(-.05, .05), .6, .9);
+}
+else{
+	global.speedModifier = clamp(global.speedModifier + random_range(-.05, .05), 1.4, 1.6);
+}
+
+global.speedModifier = 1.5;
 
 alarm[0] = room_speed * random_range(1/global.speedModifier, 1.5/global.speedModifier);
