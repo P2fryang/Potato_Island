@@ -2,7 +2,7 @@
 {
     "name": "rm_challenge2a_variables",
     "id": "07e192f3-6ffc-41db-9b20-1123bd03fab8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

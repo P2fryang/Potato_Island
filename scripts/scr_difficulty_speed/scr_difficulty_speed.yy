@@ -1,8 +1,8 @@
 {
-    "id": "677480e5-b404-4555-be65-210af189a0f6",
+    "id": "ad04d620-3a62-4cad-9a0b-481f7d6f8aff",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_flood_fill",
+    "name": "scr_difficulty_speed",
     "IsCompatibility": false,
     "IsDnD": false
 }

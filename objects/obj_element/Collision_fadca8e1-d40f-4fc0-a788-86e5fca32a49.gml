@@ -5,7 +5,6 @@ with (obj_health) {
 
         if (health == 0) {
 		        room_goto_next();
-				show_debug_message("Other here");
         }
 }
 

@@ -1,4 +1,4 @@
-if(visible){
+if(visible && image_alpha){
 	show_debug_message("pressed");
 	global.pagenum = 0;
 	global.ignoreNextButton = true;

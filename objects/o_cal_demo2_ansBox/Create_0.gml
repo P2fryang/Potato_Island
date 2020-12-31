@@ -1,5 +1,5 @@
 aft = "";
-flag = true
+flag = true;
 selectedPrev = "NOT ME";
 
 allow = true;

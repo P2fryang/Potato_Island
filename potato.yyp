@@ -1039,14 +1039,6 @@
             }
         },
         {
-            "Key": "677480e5-b404-4555-be65-210af189a0f6",
-            "Value": {
-                "id": "07fd905d-4062-4c08-a8d1-6e12a5468458",
-                "resourcePath": "scripts\/scr_flood_fill\/scr_flood_fill.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "687f6267-94a5-4bf5-a8e3-23a40c29918e",
             "Value": {
                 "id": "35b0db9c-bc02-4ea8-8bbd-24d953c36d62",
@@ -1215,6 +1207,14 @@
             }
         },
         {
+            "Key": "764e31df-f2ab-4ee4-b999-36c9575b453c",
+            "Value": {
+                "id": "c291becb-c5c5-4e5e-9e96-138cba90d86a",
+                "resourcePath": "objects\\o_checkbox\\o_checkbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "765bc71d-e901-4847-abbe-d4f994aac7b3",
             "Value": {
                 "id": "d899922d-db41-4ceb-9b6b-597bbb3dc768",
@@ -1244,14 +1244,6 @@
                 "id": "f5c4e0d1-1ec8-4f6d-a408-f1549fcd0c3b",
                 "resourcePath": "objects\/o_nxtbtn\/o_nxtbtn.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "791d80f5-b0f8-495c-b344-611b5d8780db",
-            "Value": {
-                "id": "3840625c-9c5b-489d-a201-4a359b4015cd",
-                "resourcePath": "scripts\/scr_floodfill\/scr_floodfill.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1703,6 +1695,14 @@
             }
         },
         {
+            "Key": "ad04d620-3a62-4cad-9a0b-481f7d6f8aff",
+            "Value": {
+                "id": "cb96491a-bd42-4f6a-a74d-7b2191aa19dc",
+                "resourcePath": "scripts\\scr_difficulty_speed\\scr_difficulty_speed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ad51ac8b-8386-4f3b-bfcd-3ea007c03b41",
             "Value": {
                 "id": "aa7e48ef-0534-4c89-9abb-e68542a2eed6",
@@ -1811,6 +1811,14 @@
             "Value": {
                 "id": "a73faced-9752-43a6-a65c-5ab79aea1a96",
                 "resourcePath": "sprites\/spr_air_shield1\/spr_air_shield1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5e374a9-ed23-4b18-b4bc-6e19f2d905d3",
+            "Value": {
+                "id": "dbac86a1-af07-4fbe-ad42-636205f8be00",
+                "resourcePath": "sprites\\s_checkbox\\s_checkbox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2578,8 +2586,7 @@
         "05a48a8f-db63-4dc1-a0de-a4ae55f30db7",
         "82fd15d7-6b10-4300-ae0a-b32386eeed2e",
         "50ba2423-c0b2-4cf4-9d01-e94fc6fb507f",
-        "791d80f5-b0f8-495c-b344-611b5d8780db",
-        "677480e5-b404-4555-be65-210af189a0f6"
+        "ad04d620-3a62-4cad-9a0b-481f7d6f8aff"
     ],
     "tutorial": ""
 }

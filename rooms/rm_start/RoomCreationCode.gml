@@ -1,21 +1,16 @@
 //initialize the global variables
 
-/*something[0] = 1;
-something[2] = 2;
-something[3] = ["Hi", "Bye", "Two"];
-temp = something[3];
-temp1 = something[0];
-show_debug_message(temp[1]);*/
-//show_debug_message(temp1[0]);
-//global.chlg = 1;
 global.scenenum = 0;					//for the dialogue, change when change to the dialogue scene
 global.rmnum = 1;						//used by notebook to determine where to return back to
+global.dia = 0;							//Used so that when returning from notebook widget, scene doesn't start from beginning
+
 global.pagenum = 0;						//used to set the notebook page you start at when opening notebook
 global.pageMax = -1;					//used to set the maximum number of pages the player has access to in the notebook
-global.mc = 0;
 global.ignoreNextButton = false;
-global.dia = 0;							//Used so that when returning from notebook widget, scene doesn't start from beginning
-global.consoleStack = ds_stack_create();//used to print the things
+
+global.mc = 0;
+
+global.consoleStack = ds_stack_create();// NO LONGER USED
 global.consoleQueue = ds_queue_create();// Used to print to console for challenges
 
 //set up potato and skin sprite
