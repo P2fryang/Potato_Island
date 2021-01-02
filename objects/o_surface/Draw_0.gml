@@ -20,7 +20,7 @@ draw_set_color(prevColor);
 
 //create the surface if needed and draw
 if(surface_exists(surface)){
-	//buffer_set_surface(buffer, surface, 0, 0, 0);
+	buffer_set_surface(buffer, surface, 0, 0, 0);
 	if(mouse_check_button(mb_left)){//while mouse is clicked
 		surface_set_target(surface);
 		if(drawMode == "pencil"){
@@ -41,7 +41,7 @@ if(surface_exists(surface)){
 			gpu_set_blendmode(bm_normal);
 			draw_set_color(prevColor);
 		}
-		//buffer_get_surface(buffer, surface, 0, 0, 0);
+		buffer_get_surface(buffer, surface, 0, 0, 0);
 		surface_reset_target();
 	}
 	draw_surface(surface, xOffset, yOffset);
@@ -51,7 +51,7 @@ if(surface_exists(surface)){
 else{
 	surface = surface_create(surface_width, surface_height);
 	surface_set_target(surface);
-	//buffer_set_surface(buffer, surface, 0, 0, 0);
+	buffer_set_surface(buffer, surface, 0, 0, 0);
 	draw_clear_alpha(c_black, 0);
 	surface_reset_target();//go back to application surface
 }

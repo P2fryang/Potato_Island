@@ -5,16 +5,6 @@
     "name": "o_cal_challenge2",
     "eventList": [
         {
-            "id": "cd6ae71c-21ee-4a45-b13b-c002e0e50476",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "852319d4-7d75-49c1-9e5c-6ec31c94da2a"
-        },
-        {
             "id": "a04d5962-a608-43fa-aa13-6c39ea07d296",
             "modelName": "GMEvent",
             "mvc": "1.0",

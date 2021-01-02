@@ -43,9 +43,12 @@ yellow_x2 = 862;
 yellow_y1 = 431;
 yellow_y2 = 475;
 
+// start up the two autosave alarms
+alarm[0] = 10;
+alarm[1] = 50;
 
-//buffer for saving the surface temp
-//buffer = buffer_create(4*surface_width*surface_height, buffer_grow, 1);
+//buffer for saving the surface temp (for window resizing)
+buffer = buffer_create(4*surface_width*surface_height, buffer_grow, 1);
 
 //set up ds grid for fill
 /*arr = ds_grid_create(583, 888);
