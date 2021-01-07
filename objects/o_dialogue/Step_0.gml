@@ -1,20 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-//if(keyboard_check_released(vk_space) && scenenum < maxScenes){
-//	scenenum ++;
-//	dia = 0;
-//}
-if(scenenum == 0){
+
+if(global.scenenum == 0){
 	image_index = 0;
 }
-else if(scenenum >= 18){
+else if(global.scenenum >= 18){
 	image_index = 2;
 }
-else if(scenenum >= 4){
+else if(global.scenenum >= 4){
 	image_index = 1;
 }
 if(chars < 200){
 	chars += 0.4;
-	
-	//show_debug_message(string(dia) + " " + string(scenenum) + " " + string(scenenumPrev));
 }

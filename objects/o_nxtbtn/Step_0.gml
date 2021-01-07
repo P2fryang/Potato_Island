@@ -1,71 +1,78 @@
 //using step instead of left pressed because I'm jank and need to do this
 if(leftReleased){
-	show_debug_message("scenenum: " + string(o_dialogue.scenenum) + " dia " + string(o_dialogue.dia) + " " + string(room));
+	show_debug_message("scenenum: " + string(global.scenenum) + " dia: " + string(o_dialogue.dia) + " " + string(room));
 	#region All the stuff that should occur in the left pressed event
 	#region this stuff are the event triggers
-		eventFlag = arrOfEventFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
-		eventAllowed = !arrOfFinishedEvents[o_dialogue.scenenum, o_dialogue.dia + 1];
-		notebookCode = arrOfNotebookFlagCodes[o_dialogue.scenenum, o_dialogue.dia + 1];
-		if(eventFlag != -1 && eventAllowed/*eventFlag >= 0 && eventFlag <= 10 || eventFlag == 42*/){
+		var eventFlag		= global.arrOfEventFlagCodes[global.scenenum, o_dialogue.dia + 1];
+		var eventAllowed	= !global.arrOfFinishedEvents[global.scenenum, o_dialogue.dia + 1];
+		var notebookCode	= global.arrOfNotebookFlagCodes[global.scenenum, o_dialogue.dia + 1];
+		var scenenumPrev	= global.scenenum;		// for updating finished events arr but if scenenum changed
+		if(eventFlag != -1 && eventAllowed){
 			#region various codes
 			if(eventFlag == eventCodes.notebook){
-				global.scenenum ++;
-				global.rmnum ++;
-				o_notebook_widget.visible = false; //to prevent widget from accessed while in notebook
-				//if scenenum == blah blah blah, use scenenum to determine global.pagenum and global.pageMax (hard code)
-				if(notebookCode == 0){
+				global.scenenum++;
+				global.rmnum++;
+				o_notebook_widget.visible = false;	//to prevent widget from accessed while in notebook
+				//if correct scenenum, use notebookCode to determine global.pagenum and global.pageMax (hard code)
+				switch(notebookCode){
+				case 0:
 					global.pagenum = 0;
 					global.pageMax = 3;
-				}
-				else if(notebookCode == 1){
+					break;
+				case 1:
 					global.pagenum = 4;
 					global.pageMax = 7;
-				}
-				else if(notebookCode == 2){
+					break;
+				case 2:
 					global.pagenum = 8;
 					global.pageMax = 8;
-				}
-				else if(notebookCode == 3){
+					break;
+				case 3:
 					global.pagenum = 9;
 					global.pageMax = 13;
-				}
-				else if(notebookCode == 4){
+					break;
+				case 4:
 					global.pagenum = 14;
 					global.pageMax = 17;
-				}
-				else if(notebookCode == 5){
+					break;
+				case 5:
 					global.pagenum = 18;
 					global.pageMax = 21;
-				}
-				else if(notebookCode == 6){
+					break;
+				case 6:
 					global.pagenum = 22;
 					global.pageMax = 24;
-				}
-				else if(notebookCode == 7){
+					break;
+				case 7:
 					global.pagenum = 25;
 					global.pageMax = 26;
-				}
-				else if(notebookCode == 8){
+					break;
+				case 8:
 					global.pagenum = 27;
 					global.pageMax = 28;
-				}
-				else if(notebookCode == 9){
+					break;
+				case 9:
 					global.pagenum = 29;
 					global.pageMax = 32;
-				}
-				else if(notebookCode == 10){
+					break;
+				case 10:
 					global.pagenum = 33;
 					global.pageMax = 36;
-				}
-				else if(notebookCode == 11){
+					break;
+				case 11:
 					global.pagenum = 37;
 					global.pageMax = 41;
-				}
-				else if(notebookCode == 12){
+					break;
+				case 12:
 					global.pagenum = 42;
 					global.pageMax = 45;
+					break;
+				default:
+					global.pagenum = 0;
+					global.pageMax = 1;
+					show_debug_message("o_nxtbtn | notebookCode: " + string(notebookCode));
 				}
-				if(notebookCode != -1){
+				if(notebookCode != -1){ // redundant check for 
 					room_goto(rm_not2);
 				}
 			}
@@ -138,11 +145,20 @@ if(leftReleased){
 			}
 			else if(eventFlag == eventCodes.endGame){
 				instance_create_depth(0,0,-1001,o_blackScreen);
+				show_error("What happened?", false);
+			}
+			else{
+				show_error("nonexistent eventCode", false);
 			}
 			#endregion
+			if(scenenumPrev == global.scenenum){
+				global.arrOfFinishedEvents[global.scenenum, o_dialogue.dia + 1] = true;
+			}
+			else{
+				global.arrOfFinishedEvents[global.scenenum - 1, o_dialogue.dia + 1] = true;
+			}
 			notebookCode = -1;
 			eventFlag = -1;
-			arrOfFinishedEvents[o_dialogue.scenenum, o_dialogue.dia + 1] = true;
 		}
 	#endregion
 
@@ -150,18 +166,21 @@ if(leftReleased){
 	//is the functionality of the character by character appearing effect
 	//and the effect of not char by char on every run through after the first
 	#region char by char appearing effect in dialogue
-		o_dialogue.chars = 0;
-		if(o_dialogue.dia < o_dialogue.diaMaxTemp){
+		if(o_dialogue.dia < array_length_2d(global.dialogue, global.scenenum) - 1){
 			if(o_dialogue.dia < o_dialogue.frwd){
-				o_dialogue.chars = string_length(o_dialogue.dialogue[o_dialogue.scenenum, ++ o_dialogue.dia]);
+				o_dialogue.chars = string_length(global.dialogue[global.scenenum, ++ o_dialogue.dia]);
 			}
 			else{
+				o_dialogue.chars = 0;
 				o_dialogue.frwd = ++ o_dialogue.dia;
 			}
 		}
-		else{
-			o_dialogue.chars = string_length(o_dialogue.dialogue[o_dialogue.scenenum, o_dialogue.dia]);
+		else if(o_dialogue.dia == array_length_2d(global.dialogue, global.scenenum) - 1){
+			o_dialogue.chars = string_length(global.dialogue[global.scenenum, o_dialogue.dia]);
 			image_blend = make_color_rgb(160, 65, 13);
+		}
+		else{
+			show_debug_message("something is wrong, scene:" + string(global.scenenum) + " dia: " + string(o_dialogue.dia)); 
 		}
 		fadeAllowed = true;
 	#endregion
@@ -170,16 +189,15 @@ if(leftReleased){
 	#endregion
 	leftReleased = false;
 }
-//if(variable_instance_exists(o_dialogue, o_dialogue.diaMaxTemp)){
-	#region random color stuff
-		//used to change color at the end of the dialogue
-		if(o_dialogue.dia == o_dialogue.diaMaxTemp){
-			if(image_blend != make_color_rgb(255,200,200)){
-				image_blend = make_color_rgb(255,200,200);
-			}
+
+#region update color
+	//used to change color at the end of the dialogue
+	if(o_dialogue.dia == array_length_2d(global.dialogue, global.scenenum) - 1){
+		if(image_blend != make_color_rgb(255,200,200)){
+			image_blend = make_color_rgb(255,200,200);
 		}
-		else{
-			image_blend = make_color_rgb(50,250,50);	
-		}
-	#endregion
-//}
+	}
+	else{
+		image_blend = make_color_rgb(50,250,50);	
+	}
+#endregion

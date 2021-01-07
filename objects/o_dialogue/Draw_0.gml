@@ -1,78 +1,64 @@
 /// @description Insert description here
 // You can write your code in this editor 
-
 draw_self();
+var scenenum = global.scenenum;
 
-if (scenenum != scenenumPrev){
-	dia = 0;
-	frwd = 0;
-	scenenumPrev = scenenum;
+if(!array_length_2d(global.dialogue, scenenum)){
+	show_error("global.dialogue doesn't exist here", false);
 }
 
-//diaMaxTemp in order to maintain the limit of the dialogue per scene
-//to prevent accessing dialogue that doesn't exist
-//diaMaxTemp should be total lines minus one (indexing)
-diaMaxTemp = arrOfDiaPerScene[scenenum] - 1;
-if(diaMaxTemp == -1){
-	show_debug_message("Check scenenum: " + string(scenenum));
-}
-
-
-//speak to determine the speaker image
-//also draw dialogue text
-if(dia <= diaMaxTemp){
+//global.speak to determine the speaker image
+//also draw global.dialogue text
+if(dia <= array_length_2d(global.dialogue, scenenum)){
 	if(dia != diaPrev){
 		if(charTemp != -1){
 			instance_destroy(charTemp);
 			charTemp = -1;
 		}
 		#region speaker set up
-		if(speak[scenenum,dia] == "Loady"){
+		if(global.speak[scenenum,dia] == "Loady"){
 			charTemp = instance_create_layer(1350, 336, "inst_static_chars", o_loady);
 			if(scenenum > 3){
 				charTemp.image_index = 1;
 			}
 			else{
 				charTemp.image_index = 0;
-				if(scenenum == sceneL && dia == diaL){
-					charTemp.fade = true;
-				}
 			}
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
 		}
-		else if(speak[scenenum,dia] == "Rimac"){
+		else if(global.speak[scenenum,dia] == "Rimac"){
 			charTemp = instance_create_layer(1568, 160, "inst_static_chars", o_fpotat);
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}
-		else if(speak[scenenum,dia] == "General Quack"){
+		else if(global.speak[scenenum,dia] == "General Quack"){
 			charTemp = instance_create_layer(1150, 200, "inst_static_chars", o_GQ);
-			if(scenenum == sceneGQ && dia == diaGQ){
+			if(scenenum == global.sceneGQ && dia == global.diaGQ){
 				charTemp.smoke = true;
 			}
 			charTemp.image_xscale = .3;
 			charTemp.image_yscale = .3;
 		}
-		else if(speak[scenenum,dia] == "Sun God"){
+		else if(global.speak[scenenum,dia] == "Sun God"){
 			charTemp = instance_create_layer(1280, 240, "inst_static_chars", o_SG);
 			charTemp.image_xscale = .6;
 			charTemp.image_yscale = .6;
 		}
-		else if(speak[scenenum, dia] == "General Spoik"){
+		else if(global.speak[scenenum, dia] == "General Spoik"){
 			charTemp = instance_create_layer(1300, 200, "inst_static_chars", o_GS);
-			if(scenenum == sceneGS && dia == diaGS){
+			if(scenenum == global.sceneGS && dia == global.diaGS){
 				charTemp.fade = true;
 			}
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}
-		else if(speak[scenenum, dia] == "Giant Meme Lord Dino"){
+		else if(global.speak[scenenum, dia] == "Giant Meme Lord Dino"){
 			charTemp = instance_create_layer(1200, 150, "inst_static_chars", o_lordDino);
 			charTemp.image_xscale = .8;
 			charTemp.image_yscale = .8;
 		}
-		else if(speak[scenenum, dia] == "Small Serious Lord Dino"){
+		else if(global.speak[scenenum, dia] == "Small Serious Lord Dino"){
 			charTemp = instance_create_layer(1700, 600, "inst_static_chars", o_smolLordDino);
 			charTemp.image_xscale = 1;
 			charTemp.image_yscale = 1;
@@ -83,10 +69,10 @@ if(dia <= diaMaxTemp){
 #region draw text
 	draw_set_font(font_dia2);
 	draw_set_color(c_black);
-	draw_text(x+60,y+55,speak[scenenum,dia]);
+	draw_text(x+60,y+55,global.speak[scenenum,dia]);
 	draw_set_font(font_dia);
 	draw_set_color(c_gray);
-	draw_text(x+50,y+200,string_copy(string_wordwrap_width(dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars));
+	draw_text(x+50,y+200,string_copy(string_wordwrap_width(global.dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars));
 #endregion
 }
 diaPrev = dia;

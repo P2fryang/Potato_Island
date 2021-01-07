@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "58eba4e5-c619-47fa-b3c9-ee3c4fbfb5b0",
+            "Value": {
+                "id": "c95f7bd8-4714-48f8-8391-9d2e8ea50a97",
+                "resourcePath": "scripts\\scr_global_initalizations\\scr_global_initalizations.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "590d1b47-711f-48bd-a57e-0142de3dc50d",
             "Value": {
                 "id": "37cd2fb4-651c-4ae6-ba14-bf7e391c1084",
@@ -2319,6 +2327,14 @@
             }
         },
         {
+            "Key": "e3f78985-2d4e-445c-9620-46af7a917eef",
+            "Value": {
+                "id": "993c16cd-9404-417f-89ba-7cf6b9cadf8e",
+                "resourcePath": "scripts\\scr_initialize_dialogue\\scr_initialize_dialogue.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e49aec8f-5beb-4910-8f89-5bf3e5aa7560",
             "Value": {
                 "id": "2bb05e34-7007-4ae7-a4aa-3eea5d042e72",
@@ -2372,6 +2388,14 @@
                 "id": "c79b4d15-c234-4444-9d34-38ffc0fe52eb",
                 "resourcePath": "sprites\/s_adv_method_param2\/s_adv_method_param2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9339998-900a-4b99-ba0f-7996478f91eb",
+            "Value": {
+                "id": "e5698e78-7f14-48dd-9730-2d0ec29cb1f1",
+                "resourcePath": "objects\\o_global_initializer\\o_global_initializer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2586,7 +2610,9 @@
         "05a48a8f-db63-4dc1-a0de-a4ae55f30db7",
         "82fd15d7-6b10-4300-ae0a-b32386eeed2e",
         "50ba2423-c0b2-4cf4-9d01-e94fc6fb507f",
-        "ad04d620-3a62-4cad-9a0b-481f7d6f8aff"
+        "ad04d620-3a62-4cad-9a0b-481f7d6f8aff",
+        "e3f78985-2d4e-445c-9620-46af7a917eef",
+        "58eba4e5-c619-47fa-b3c9-ee3c4fbfb5b0"
     ],
     "tutorial": ""
 }
