@@ -2034,7 +2034,7 @@
             "Key": "cb205daf-a32b-4840-aa24-90e9120112fa",
             "Value": {
                 "id": "8b5174e5-3bc7-4bcc-8f52-52833883fc2a",
-                "resourcePath": "objects\/o_toc\/o_toc.yy",
+                "resourcePath": "objects\\o_toc_panel\\o_toc_panel.yy",
                 "resourceType": "GMObject"
             }
         },

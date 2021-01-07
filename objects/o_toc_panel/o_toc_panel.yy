@@ -2,7 +2,7 @@
     "id": "cb205daf-a32b-4840-aa24-90e9120112fa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_toc",
+    "name": "o_toc_panel",
     "eventList": [
         {
             "id": "c6f5c4d5-e498-44e8-ac42-d39670e6e2da",
@@ -72,16 +72,6 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 56,
             "eventtype": 6,
-            "m_owner": "cb205daf-a32b-4840-aa24-90e9120112fa"
-        },
-        {
-            "id": "39562629-c573-44c9-9400-a1cb50c4df55",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 2,
             "m_owner": "cb205daf-a32b-4840-aa24-90e9120112fa"
         }
     ],

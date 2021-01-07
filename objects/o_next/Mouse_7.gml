@@ -6,6 +6,6 @@ if(!global.ignoreNextButton){
 		instance_destroy(o_not.right,false);
 	}
 	o_notebook_widget.visible = true;
-	instance_destroy(instance_id);
+	instance_destroy();
 	room_goto(global.rmnum);
 }

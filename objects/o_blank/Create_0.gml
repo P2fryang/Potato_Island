@@ -3,9 +3,8 @@ vidInst = id;
 playInst = id;
 restartInst = id;
 
-for(i = 0;i<47;i++){
-	vids[i] = -1;//index should match with the notebook image_index
-}
+vids = array_create(48, -1);
+
 vids[37] = o_adv_method_scope1;
 vids[38] = o_adv_method_scope2;
 vids[39] = o_adv_method_scope3;
