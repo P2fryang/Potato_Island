@@ -72,7 +72,8 @@ if(dia <= array_length_2d(global.dialogue, scenenum)){
 	draw_text(x+60,y+55,global.speak[scenenum,dia]);
 	draw_set_font(font_dia);
 	draw_set_color(c_gray);
-	draw_text(x+50,y+200,string_copy(string_wordwrap_width(global.dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars));
+	//draw_text(x+50,y+200,string_copy(string_wordwrap_width(global.dialogue[scenenum,dia],sprite_width-80,"\n",true),1,chars));
+	draw_text_ext(x+50,y+200,string_copy(global.dialogue[scenenum,dia],1,chars), -1, sprite_width - 90);
 #endregion
 }
 diaPrev = dia;
