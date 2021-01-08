@@ -7,11 +7,6 @@
 
 var scenenum = 0;				//For the intents of easier programming, each scene are the breaks in storyline
 var dia = 0;
-//the next four are for 
-global.sceneGS = -1;
-global.diaGS = -1;
-global.sceneGQ = -1;
-global.diaGQ = -1;
 var i = 0;//used for notebook code initialization
 
 #region The dialogue

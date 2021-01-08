@@ -147,9 +147,6 @@ if(leftReleased){
 				instance_create_depth(0,0,-1001,o_blackScreen);
 				show_error("What happened?", false);
 			}
-			else{
-				show_error("nonexistent eventCode", false);
-			}
 			#endregion
 			if(scenenumPrev == global.scenenum){
 				global.arrOfFinishedEvents[global.scenenum, o_dialogue.dia + 1] = true;

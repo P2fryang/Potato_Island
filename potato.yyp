@@ -930,7 +930,7 @@
             "Key": "58eba4e5-c619-47fa-b3c9-ee3c4fbfb5b0",
             "Value": {
                 "id": "c95f7bd8-4714-48f8-8391-9d2e8ea50a97",
-                "resourcePath": "scripts\\scr_global_initalizations\\scr_global_initalizations.yy",
+                "resourcePath": "scripts\\scr_global_initializations\\scr_global_initializations.yy",
                 "resourceType": "GMScript"
             }
         },
