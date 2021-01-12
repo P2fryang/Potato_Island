@@ -8,29 +8,39 @@
 var	maxHealth = obj_health.max_health;
 
 // if using air shield and element is NOT water --> shield isn't effective
-if (obj_potato.sprite_index == spr_air_shield1 && obj_element.sprite_index != spr_water_elem) {
-        if (health != maxHealth) {
-                health += 5;
-        }
+if (obj_potato.sprite_index == spr_air_shield1) {
+	if(obj_element.sprite_index != spr_water_elem){
+        scr_add_health(maxHealth);
+	}
+	else{
+		health -= 2;
+	}
 } // if using water shield and element is NOT fire --> shield isn't effective
-else if (obj_potato.sprite_index == spr_water_shield1 && obj_element.sprite_index != spr_fire_elem) {
-        if (health != maxHealth) {
-                health += 5;
-        }
+else if (obj_potato.sprite_index == spr_water_shield1) {
+	if(obj_element.sprite_index != spr_fire_elem){
+        scr_add_health(maxHealth);
+	}
+	else{
+		health -= 2;
+	}
 } // if using fire shield and element is NOT earth --> shield isn't effective
-else if (obj_potato.sprite_index == spr_fire_shield1 && obj_element.sprite_index != spr_earth_elem) {
-        if (health != maxHealth) {
-                health += 5;
-        }
+else if (obj_potato.sprite_index == spr_fire_shield1) {
+	if(obj_element.sprite_index != spr_earth_elem){
+        scr_add_health(maxHealth);
+	}
+	else{
+		health -= 2;
+	}
 } // if using earth shield and element is NOT air --> shield isn't effective
-else if (obj_potato.sprite_index == spr_earth_shield1 && obj_element.sprite_index != spr_air_elem) {
-        if (health != maxHealth) {
-                health += 5;
-        }
+else if (obj_potato.sprite_index == spr_earth_shield1) {
+	if(obj_element.sprite_index != spr_air_elem){
+        scr_add_health(maxHealth);
+	}
+	else{
+		health -= 2;
+	}
 } // if player doesn't use shield, health goes up
 else if (obj_potato.sprite_index == spr_potato) {
-        if (health != maxHealth) {
-                health += 5;
-        }
+	scr_add_health(maxHealth);
 }
 
