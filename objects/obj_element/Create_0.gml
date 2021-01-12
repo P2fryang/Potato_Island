@@ -1,3 +1,3 @@
 speedModifier = global.speedModifier; //save the current speedModifier to this instance
-theKey = "NA";
+theKey = " ";
 alarm[0] = 1;
