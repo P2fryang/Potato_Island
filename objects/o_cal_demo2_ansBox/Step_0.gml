@@ -1,5 +1,5 @@
 if(global.selectedID != false){
-	target = answers[? global.selectedID];
+	target = global.answers[? global.selectedID];
 	if(selectedPrev != global.selectedID){
 		flag = true;
 		selectedPrev = global.selectedID;

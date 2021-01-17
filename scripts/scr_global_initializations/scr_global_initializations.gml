@@ -29,6 +29,7 @@ global.mcq_answers[13]	= "1";
 
 global.consoleQueue		= ds_queue_create();	// Used to print to console for challenges
 global.selectedID		= 0;					// selected white box in challenges
+global.answers			= ds_map_create();		// Stores the answers for every challenge
 
 global.speedModifier	= 0;					// affects frequency and speed of the projectiles for minigame
 

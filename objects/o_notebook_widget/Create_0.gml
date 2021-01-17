@@ -1,3 +1,4 @@
+depth = -400;
 visible = false;
 glow = false;
 notebook = false;
@@ -7,3 +8,13 @@ image_yscale = scale;
 color = c_gray;
 milquetoast = false;
 //***PERSISTENT
+
+challengeArr[8] = o_cal_challenge4;
+challengeArr[0] = o_cal_chllng1;
+challengeArr[1] = o_cal_challenge2;
+challengeArr[2] = o_cal_challenge2b;
+challengeArr[3] = o_cal_challenge2c;
+challengeArr[4] = o_challenge2d;
+challengeArr[5] = o_challenge2e;
+challengeArr[6] = o_challenge3a;
+challengeArr[7] = o_challenge3b;

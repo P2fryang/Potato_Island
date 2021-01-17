@@ -2,7 +2,7 @@
     "id": "b4bfa72f-8f68-4547-8fa8-9ba361031d4e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "reset",
+    "name": "o_reset",
     "eventList": [
         {
             "id": "026593d7-09c6-43cb-af1a-10b65edbb2a8",

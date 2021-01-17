@@ -12,9 +12,6 @@ if(string_pos("rm_scene", name) || string_pos("rm_opening_dialogue", name)){
 	show_debug_message(string(name) + "1" + " " + string(string_pos("rm_scene", name)) + " " + string(string_pos("rm_opening_dialogue", name)));
 }
 else if(string_pos("rm_challenge", name)){
-	if(instance_exists(o_cal_demo2_ansBox)){
-		ds_map_destroy(o_cal_demo2_ansBox.answers);
-	}
 	scr_move(forward, false);
 	show_debug_message(string(name) + "2" + " " + string(string_pos("rm_challenge", name)));
 }

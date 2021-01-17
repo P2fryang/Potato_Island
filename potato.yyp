@@ -1802,7 +1802,7 @@
             "Key": "b4bfa72f-8f68-4547-8fa8-9ba361031d4e",
             "Value": {
                 "id": "71121356-1405-4a4a-bedc-265bf2b9434d",
-                "resourcePath": "objects\/reset\/reset.yy",
+                "resourcePath": "objects\\o_reset\\o_reset.yy",
                 "resourceType": "GMObject"
             }
         },
