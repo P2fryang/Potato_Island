@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "1511350f-22db-4c40-b40f-876b44137534",
+            "Value": {
+                "id": "dfa0184c-0fae-4870-9366-08402c5177c5",
+                "resourcePath": "sprites\\s_speechBubble\\s_speechBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1618930f-bf8b-438b-a685-e65b45f9a4d0",
             "Value": {
                 "id": "337bf9bc-a3d4-4a90-b10a-6c9115ca4bd6",
@@ -844,6 +852,14 @@
                 "id": "67361e88-0644-4eee-a4ec-f20a72a60dbf",
                 "resourcePath": "sprites\/spr_titleimage\/spr_titleimage.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f908d0b-13bd-46dc-a996-52de539ac20a",
+            "Value": {
+                "id": "ed37ff8d-6142-43fe-977a-2bfb64914fd6",
+                "resourcePath": "objects\\o_speechBubble\\o_speechBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {

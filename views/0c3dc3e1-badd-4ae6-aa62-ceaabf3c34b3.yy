@@ -20,7 +20,8 @@
         "9736f56c-96a0-47cc-a51f-79fe1e75a7b6",
         "aec9fcc7-d0d0-47b1-b009-ed864c3ce8a9",
         "1ebe73a9-963a-4093-a23f-e85c36ebf4f5",
-        "b5e374a9-ed23-4b18-b4bc-6e19f2d905d3"
+        "b5e374a9-ed23-4b18-b4bc-6e19f2d905d3",
+        "1511350f-22db-4c40-b40f-876b44137534"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_minigame",
