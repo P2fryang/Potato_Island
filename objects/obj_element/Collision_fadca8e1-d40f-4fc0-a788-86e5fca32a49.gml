@@ -3,7 +3,7 @@
 with (obj_health) {
         scr_element_collision()
 
-        if (health == 0) {
+        if (health <= 0) {
 		        room_goto_next();
         }
 }

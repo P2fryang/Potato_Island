@@ -1,13 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-fireworksX = 960;
-fireworksY = 540;
+//set up the 0, 0 position
+xOrigin		= 0;
+yOrigin		= 0;
+xOffset		= x;
+yOffset		= y;
+scale		= 0;
+t			= 0; // for for x, y calculation
+posOffset	= 100;
 
-rangeXMin = 100;
-rangeXMax = 1880;
-rangeYMin = 10;
-rangeYMax = 700;
+fireworksX	= 960;
+fireworksY	= 540;
+
+rangeXMin	= 100;
+rangeXMax	= 1880;
+rangeYMin	= 10;
+rangeYMax	= 700;
 
 part_system=part_system_create();
 var theSprite = s_whiteBlock;
