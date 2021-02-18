@@ -1887,6 +1887,14 @@
             }
         },
         {
+            "Key": "bba246ec-f615-40ce-be60-dc83eb90947d",
+            "Value": {
+                "id": "f70b9323-b90c-45c4-852b-d2d2d3eb1ba1",
+                "resourcePath": "objects\\o_continue\\o_continue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bcbefb14-64c7-4f4a-bc44-078fae0f73ae",
             "Value": {
                 "id": "17ddddb7-d947-4364-bf66-96c15b244fce",

@@ -1,38 +1,38 @@
 {
-    "id": "d26b214d-5e52-43ed-bdea-d0eb053645a2",
+    "id": "bba246ec-f615-40ce-be60-dc83eb90947d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_falling_potato",
+    "name": "o_continue",
     "eventList": [
         {
-            "id": "c95454b2-8b5e-4376-9b78-0368f6d019ff",
+            "id": "9cc06203-73be-441c-b8ea-fba8dcaafc69",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d26b214d-5e52-43ed-bdea-d0eb053645a2"
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "bba246ec-f615-40ce-be60-dc83eb90947d"
         },
         {
-            "id": "9de83fba-f263-4553-8a9d-bb650f61aa07",
+            "id": "e386b60a-073e-42fa-90aa-97f15582b5af",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d26b214d-5e52-43ed-bdea-d0eb053645a2"
+            "m_owner": "bba246ec-f615-40ce-be60-dc83eb90947d"
         },
         {
-            "id": "074054d6-07ed-417d-ae14-d2239198062c",
+            "id": "cde0219b-0858-4e71-9bd2-86a4b2d3f526",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "d26b214d-5e52-43ed-bdea-d0eb053645a2"
+            "eventtype": 12,
+            "m_owner": "bba246ec-f615-40ce-be60-dc83eb90947d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00ed47a1-3ab1-4004-ab8b-c41d49616178",
+    "spriteId": "87ac49f6-cfe0-4d38-b25c-0d9d3e5bd5a4",
     "visible": true
 }
