@@ -1,1 +1,0 @@
-room_goto(rm_scene6_1);

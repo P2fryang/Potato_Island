@@ -141,7 +141,7 @@ if(leftReleased){
 				o_notebook_widget.milquetoast = true;
 			}
 			else if(eventFlag == eventCodes.fade){
-				//global.scenenum ++;
+				global.scenenum ++;
 				instance_create_depth(0,0,-1600, obj_fade);
 			}
 			else if(eventFlag == eventCodes.endGame){

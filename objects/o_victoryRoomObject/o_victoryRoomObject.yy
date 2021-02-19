@@ -5,16 +5,6 @@
     "name": "o_victoryRoomObject",
     "eventList": [
         {
-            "id": "79581d1a-29f5-498d-8b6d-80762963e592",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 56,
-            "eventtype": 6,
-            "m_owner": "31fec86f-f287-463e-9900-355065b35d30"
-        },
-        {
             "id": "4eb4bc78-177f-412e-99b4-8b43fdb939e6",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -82,6 +72,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
+            "m_owner": "31fec86f-f287-463e-9900-355065b35d30"
+        },
+        {
+            "id": "95ca0680-31c8-4253-8799-b5c7d8633281",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
             "m_owner": "31fec86f-f287-463e-9900-355065b35d30"
         }
     ],

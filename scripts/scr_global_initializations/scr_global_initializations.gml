@@ -53,18 +53,18 @@ surface_free(surf);
 #region dialogue
 
 // initialize to -1 (-1 means no event)
-for(var i = 27; i != -1; i--){
+for(var i = 29; i != -1; i--){
 	for(var j = 15; j != -1; j--){
 		arrOfEventFlagCodes[i, j] = -1;
 	}
 }
 // initialize to -1 (-1 means no notebook)
-for(var i = 27; i != -1; i--){
+for(var i = 29; i != -1; i--){
 	for(var j = 15; j != -1; j--){
 		arrOfNotebookFlagCodes[i, j] = -1;
 	}
 }
-for(var i = 27; i != -1; i--){
+for(var i = 29; i != -1; i--){
 	for(var j = 15; j != -1; j--){
 		global.arrOfFinishedEvents[i, j] = false;
 	}
