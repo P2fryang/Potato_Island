@@ -1,1 +1,1 @@
-//scr_global_initalizations();
+scr_global_initializations();

@@ -4,5 +4,4 @@ surface_save(surface, "surface.png");
 if(surface_exists(surface)){
 	surface_free(surface);
 }
-scr_global_initializations();
-room_goto_next();
+room_goto(rm_start);
