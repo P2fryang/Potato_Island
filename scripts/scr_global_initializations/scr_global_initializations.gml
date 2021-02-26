@@ -3,7 +3,7 @@
 //	do all global variable initializations
 
 global.scenenum			= 0;					// for the dialogue, change when change to the dialogue scene
-global.rmnum			= 1;					// used by notebook to determine where to return back to
+global.rmnum			= 0;					// used by notebook to determine where to return back to
 global.dia				= 0;					// Used so that when returning from notebook widget, scene doesn't start from beginning
 
 global.pagenum			= 0;					// used to set the notebook page you start at when opening notebook
@@ -32,6 +32,8 @@ global.selectedID		= 0;					// selected white box in challenges
 global.answers			= ds_map_create();		// Stores the answers for every challenge
 
 global.speedModifier	= 0;					// affects frequency and speed of the projectiles for minigame
+
+global.musicMuted		= false;
 
 //global.sliderBars;							// stores the id's of the slider bars for potato skin drawing
 // ^ not used because called after the values of the array already set

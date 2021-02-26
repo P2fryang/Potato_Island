@@ -1,3 +1,4 @@
+show_debug_message("I think therefore I'm dying");
 depth = -400;
 visible = false;
 glow = false;

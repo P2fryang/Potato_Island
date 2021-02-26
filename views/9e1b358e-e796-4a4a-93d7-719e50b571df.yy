@@ -7,7 +7,8 @@
         "48c0d0b3-682f-4e9e-bb6e-fdc3d66ec159",
         "7e886c9e-7668-4a1f-9693-c83b9e4afced",
         "74e0daf6-cd93-4eca-9a89-54ae5121549b",
-        "29d8eef4-72e9-49db-ad2f-fe7fc1632ca9"
+        "29d8eef4-72e9-49db-ad2f-fe7fc1632ca9",
+        "7a9a05e8-3377-4c9b-b448-98e976a9779b"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_menu",

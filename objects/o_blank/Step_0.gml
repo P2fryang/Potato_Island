@@ -10,8 +10,8 @@ if(prevNot != o_not.image_index && vidInst != id){
 if(vids[o_not.image_index] != -1 && vidInst == id){
 	vidInst = instance_create_depth(0,0,-1501,vids[o_not.image_index]);
 	vidInst.image_speed = 0;
-	playInst = instance_create_depth(1664,0,-1500,o_play_vid);
-	restartInst = instance_create_depth(1776,0,-1500,o_restart);
+	playInst = instance_create_depth(1664 - offset, 0, -1500, o_play_vid);
+	restartInst = instance_create_depth(1776 - offset, 0, -1500, o_restart);
 }
 
 if(vidInst != id){//stop the video

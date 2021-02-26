@@ -3,6 +3,8 @@ vidInst = id;
 playInst = id;
 restartInst = id;
 
+offset = 120;
+
 vids = array_create(48, -1);
 
 vids[37] = o_adv_method_scope1;

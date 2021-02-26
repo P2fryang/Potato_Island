@@ -1,4 +1,4 @@
-if(room == rm_start){
+if(room == rm_start || room == rm_potat){
 	visible = false;
 }
 else if(!visible){
