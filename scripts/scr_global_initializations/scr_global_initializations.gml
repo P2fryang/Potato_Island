@@ -34,6 +34,9 @@ global.answers			= ds_map_create();		// Stores the answers for every challenge
 global.speedModifier	= 0;					// affects frequency and speed of the projectiles for minigame
 
 global.musicMuted		= false;
+global.paused			= false;				// disallow left clicks when in menu or for multiple choice
+global.pausedMCQ		= false;				// pauses the MCQ if menu pressed on mcq
+
 
 //global.sliderBars;							// stores the id's of the slider bars for potato skin drawing
 // ^ not used because called after the values of the array already set

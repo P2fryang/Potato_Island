@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(o_not.image_index < o_not.maxAllowed){
 	o_not.image_index ++;
 }

@@ -1,4 +1,6 @@
-
+if(global.paused){
+	exit;
+}
 if((keyboard_string + aft) == target){
 	instance_destroy(global.selectedID)
 	str = "";

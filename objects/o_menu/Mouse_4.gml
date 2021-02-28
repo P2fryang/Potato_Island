@@ -3,11 +3,16 @@
 show_debug_message("menu pressed");
 if(menu_open){
 	scr_close_menu();
+	global.paused = false;
+	global.pausedMCQ = false;
 	exit;
 }
-else if(room == rm_start || room == rm_potat){
+else if(room == rm_start || room == rm_potat || room == rm_victory){
+	// also change the condition in the step function for the menu to not be visible
 	exit;
 }
+global.paused = true;
+global.pausedMCQ = true;
 menu_open = true;
 // "pause" the background (don't let anything in the background be pressed)
 

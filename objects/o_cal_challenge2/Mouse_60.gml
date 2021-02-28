@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description scroll up
 // You can write your code in this editor
 

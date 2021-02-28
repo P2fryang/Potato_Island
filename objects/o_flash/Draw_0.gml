@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 transparency = clamp(transparency + (fade * 0.01), 0, 1);
 
 if (transparency == 1){

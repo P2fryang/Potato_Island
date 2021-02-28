@@ -1,3 +1,7 @@
+if(global.paused){
+	alarm[0] = 60;
+	exit;
+}
 var element = instance_create_layer(x, y, "Elements", obj_element);
 element.sprite_index = choose(spr_water_elem, spr_fire_elem, spr_earth_elem, spr_air_elem);
 

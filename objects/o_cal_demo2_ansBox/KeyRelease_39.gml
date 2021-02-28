@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description right arrow
 // You can write your code in this editor
 if(allow){

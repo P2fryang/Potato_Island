@@ -11,7 +11,9 @@
         "6d3782bc-3018-46a9-80d7-e69bbdb8da75",
         "5daf1021-b5fb-4d5f-849a-847e71b54211",
         "8f00fa59-2021-49b8-8f34-a736ba244cf4",
-        "eb1e8bcb-831d-4e4a-8dbb-5efaef02a41e"
+        "eb1e8bcb-831d-4e4a-8dbb-5efaef02a41e",
+        "7b5ab49b-bf28-4787-a15a-bb08e9c34c0c",
+        "e26632b7-6210-494a-8cfb-f82eddf887ad"
     ],
     "filterType": "GMObject",
     "folderName": "og_potatSkin",

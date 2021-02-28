@@ -1,3 +1,7 @@
+if(global.paused){
+	speed = 0;
+	exit;
+}
 speed = -20 * speedModifier;
 
 if (health == 0) {

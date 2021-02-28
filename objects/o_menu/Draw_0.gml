@@ -1,6 +1,5 @@
-draw_self();
-
 if(!menu_open){
+	draw_self();
 	exit;
 }
 
@@ -31,3 +30,4 @@ draw_roundrect_ext(320 + o, 128 + o, room_width - 320 - o, room_height - 128 - o
 // reset the alpha and color
 draw_set_alpha(alpha);
 draw_set_color(color);
+draw_self();

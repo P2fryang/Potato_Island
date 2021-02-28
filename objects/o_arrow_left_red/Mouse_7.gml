@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(ind > 0){
 	o_not.image_index--;
 }

@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(global.selectedID != false){
 	target = global.answers[? global.selectedID];
 	if(selectedPrev != global.selectedID){

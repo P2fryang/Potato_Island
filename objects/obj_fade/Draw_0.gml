@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description fade out
 
 transparency = clamp(transparency + (fade * 0.01), 0, 1);

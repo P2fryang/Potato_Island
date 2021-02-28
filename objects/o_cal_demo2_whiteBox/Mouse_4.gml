@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description set selection vars
 
 // set selected instance id

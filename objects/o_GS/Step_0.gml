@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(fade){
 	if(first){
 		image_alpha = 0;

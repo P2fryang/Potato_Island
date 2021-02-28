@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 global.rmnum++;
 if(instance_exists(o_run)){
 	instance_destroy(o_run);

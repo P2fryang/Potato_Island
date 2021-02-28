@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description trigger fade on mouse click
 // You can write your code in this editor
 if(flg){

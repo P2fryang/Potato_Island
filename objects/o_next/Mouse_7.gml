@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(!global.ignoreNextButton){
 	if(instance_exists(o_not.left)){
 		instance_destroy(o_not.left,false);

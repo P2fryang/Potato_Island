@@ -1,7 +1,13 @@
+if(global.paused){
+	speed = 0;
+	image_speed = 0;
+	exit;
+}
 /// @description move potato into view
 // You can write your code in this editor
 
 if(point_distance(obj_potato_walking.x, obj_potato_walking.y, 350, 196) > 1){
+	image_speed = 1;
 	move_towards_point(350, 196, 3);
 }else{
 	speed = 0;

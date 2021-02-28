@@ -1,3 +1,6 @@
+if(global.pausedMCQ){
+	exit;
+}
 /// @description check Letters pressed
 // You can write your code in this editor
 if(!correct){ // can only select the correct answer once

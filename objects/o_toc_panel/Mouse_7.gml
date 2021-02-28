@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 var pg = 0;
 var yOff = 0;
 var xOff = string_width(topics[pg]);

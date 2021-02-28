@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 var tempDiff = difficulty;
 with(o_checkbox){
 	image_index = 0;

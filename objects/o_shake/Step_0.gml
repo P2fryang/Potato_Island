@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 if(shake){
 	if(first){
 		first = false;

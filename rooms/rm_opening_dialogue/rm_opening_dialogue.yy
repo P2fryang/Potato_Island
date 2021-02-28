@@ -84,7 +84,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_48D44636","id": "a9caa8f9-fee8-4de9-8e24-04cd6fe61a8c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_48D44636","objId": "fc6e6b43-6c7a-4aa4-a817-3158982da914","properties": null,"rotation": 0,"scaleX": 1.16,"scaleY": 1.035556,"mvc": "1.1","x": -800,"y": 192}
+{"name": "inst_48D44636","id": "a9caa8f9-fee8-4de9-8e24-04cd6fe61a8c","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_48D44636.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_48D44636","objId": "fc6e6b43-6c7a-4aa4-a817-3158982da914","properties": null,"rotation": 0,"scaleX": 1.16,"scaleY": 1.035556,"mvc": "1.1","x": -800,"y": 192}
             ],
             "layers": [
 

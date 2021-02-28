@@ -1,3 +1,6 @@
+if(global.pausedMCQ){
+	exit;
+}
 global.rmnum++;
 global.scenenum++;
 global.mc++;

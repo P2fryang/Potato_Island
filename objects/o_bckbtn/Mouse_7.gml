@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 //change color of back button to (clickable button)
 if(o_dialogue.dia <= array_length_2d(global.dialogue, global.scenenum)){
 	o_nxtbtn.image_blend = make_color_rgb(50,250,50);	

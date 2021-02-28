@@ -5,7 +5,7 @@ draw_set_color(c_white);
 draw_set_font(font_not);
 //draw_text_color(1110, 950, drawMode, c_white, c_white, c_white, c_white, 1);
 draw_text(1110, 950, drawMode);
-draw_text(0, 0, string(mouse_x) + " " + string(mouse_y));
+//draw_text(0, 0, string(mouse_x) + " " + string(mouse_y));
 //draw_text(0, 80, string(color_get_red(color)) + " " + string(color_get_green(color)) + " " + string(color_get_blue(color)));
 
 draw_set_font(font_colors);

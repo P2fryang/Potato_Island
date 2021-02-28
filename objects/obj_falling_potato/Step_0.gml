@@ -1,3 +1,6 @@
+if(global.paused){
+	exit;
+}
 /// @description increase potato size
 // You can write your code in this editor
 var i = .995;

@@ -10,7 +10,10 @@
         "4d1baa3e-4cfe-404a-996c-93bd0232e327",
         "d772c620-8556-4adc-b8aa-4f89b045b5a8",
         "bcbefb14-64c7-4f4a-bc44-078fae0f73ae",
-        "fc04ada2-6d9d-46ee-a089-cc8607d7aeae"
+        "fc04ada2-6d9d-46ee-a089-cc8607d7aeae",
+        "4ec87178-c692-4d98-81d0-7595fb72b1ff",
+        "7af47d91-c0bd-4d00-b944-8166886ca12f",
+        "e26aa05a-cd00-4af3-a18c-ac6f22edacf8"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_potatSkins",

@@ -1,3 +1,8 @@
+if(global.paused){
+	o_blank.vidInst.image_speed = 0;
+	image_index = 0;
+	exit;
+}
 if(image_index == 1){
 	o_blank.vidInst.image_speed = 0;
 	image_index = 0;
