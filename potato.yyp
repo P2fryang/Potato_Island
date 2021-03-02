@@ -674,7 +674,7 @@
             "Key": "3f1ae5aa-ac71-4458-99c0-4c663556b93c",
             "Value": {
                 "id": "66bd9a1d-8ba4-488d-ae63-5ba64d63af04",
-                "resourcePath": "sprites\/s_challenge4\/s_challenge4.yy",
+                "resourcePath": "sprites\\s_challenge4a\\s_challenge4a.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "5b43fc36-4f50-4a31-b461-cf46158a3661",
+            "Value": {
+                "id": "6ef8d3d7-9dea-4805-a0fb-d261c9600a03",
+                "resourcePath": "objects\\o_challenge3c\\o_challenge3c.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5bb1a264-c669-420a-bbc0-3310d8da4122",
             "Value": {
                 "id": "0b0646dd-3ab7-4299-ab48-3fc12a8905b7",
@@ -1023,6 +1031,14 @@
             }
         },
         {
+            "Key": "5c61ca5c-6bc8-4b25-8024-84e385e85915",
+            "Value": {
+                "id": "6397e5ca-71d6-4ba3-a8b3-119d6a7a0029",
+                "resourcePath": "objects\\o_challenge4bii\\o_challenge4bii.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5d2e90ba-2f56-4814-8680-61dfb5aa0ab3",
             "Value": {
                 "id": "7ad9c07c-736c-46ba-be4a-40b339b6111d",
@@ -1036,6 +1052,14 @@
                 "id": "be523527-6e36-46a9-8c44-c8f8b22f0713",
                 "resourcePath": "objects\/o_sliderBar\/o_sliderBar.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5de5a0da-2218-42f8-9b82-3d6efd5556ef",
+            "Value": {
+                "id": "f111ffbd-1e49-4d2d-bf8f-93b91fb590e7",
+                "resourcePath": "rooms\\rm_challenge4bii_water\\rm_challenge4bii_water.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1082,7 +1106,7 @@
             "Key": "6656bc24-8f5a-4b35-9c48-e0ea9be6a5d7",
             "Value": {
                 "id": "f3bba4a1-cdc0-4ac0-a371-81f3d39a9e60",
-                "resourcePath": "objects\/o_cal_challenge4\/o_cal_challenge4.yy",
+                "resourcePath": "objects\\o_challenge4a\\o_challenge4a.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1107,6 +1131,14 @@
             "Value": {
                 "id": "35b0db9c-bc02-4ea8-8bbd-24d953c36d62",
                 "resourcePath": "sprites\/spr_potato\/spr_potato.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a6da2e3-f513-4834-afcf-5325f79f831c",
+            "Value": {
+                "id": "5a43f997-0f9b-48f3-b7b8-50c9152db3b7",
+                "resourcePath": "sprites\\s_challenge4bii\\s_challenge4bii.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1164,6 +1196,14 @@
                 "id": "9813a177-6159-48c0-85c6-e2dcc1c51410",
                 "resourcePath": "objects\/o_not\/o_not.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f4a4e10-971d-489b-b6f0-4b4e77a5d2f1",
+            "Value": {
+                "id": "0a701bc5-1092-4eca-aa0b-92fec74bb9d8",
+                "resourcePath": "sprites\\s_challenge4bi\\s_challenge4bi.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1628,6 +1668,14 @@
                 "id": "a8e72b20-4673-4473-bc71-faecf44d5b9e",
                 "resourcePath": "sprites\/s_notebook_widget\/s_notebook_widget.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9be382e3-0398-4447-b161-149f6105c852",
+            "Value": {
+                "id": "370c6948-ae90-421b-8154-4efa3a1cfd5c",
+                "resourcePath": "objects\\o_challenge4bi\\o_challenge4bi.yy",
+                "resourceType": "GMObject"
             }
         },
         {

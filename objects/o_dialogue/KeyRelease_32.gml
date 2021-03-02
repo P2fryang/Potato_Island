@@ -9,6 +9,6 @@ if(charTemp != -1){
 visible = true;
 o_nxtbtn.visible = true;
 o_bckbtn.visible = true;
-if(o_notebook_widget.milquetoast){
+if(global.notebookWidgetVisible){
 	o_notebook_widget.visible = true;
 }

@@ -138,7 +138,7 @@ if(leftReleased && !global.paused){
 			}
 			else if(eventFlag == eventCodes.widget){
 				o_notebook_widget.visible = true;
-				o_notebook_widget.milquetoast = true;
+				global.notebookWidgetVisible = true;
 			}
 			else if(eventFlag == eventCodes.fade){
 				global.scenenum ++;

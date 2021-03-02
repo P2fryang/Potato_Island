@@ -1,4 +1,3 @@
-show_debug_message("I think therefore I'm dying");
 depth = -400;
 visible = false;
 glow = false;
@@ -7,7 +6,7 @@ scale = 0.45;
 image_xscale = scale;
 image_yscale = scale;
 color = c_gray;
-milquetoast = false;
+show_debug_message("notebook widget created" + string(depth));
 //***PERSISTENT
 
 challengeArr[8] = o_cal_challenge4;

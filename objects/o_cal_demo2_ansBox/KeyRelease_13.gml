@@ -12,10 +12,10 @@ if((keyboard_string + aft) == target){
 		o_cal_chlng1_prompts.alarm[0] = -1;
 		o_cal_chlng1_prompts.delay = -1;
 		o_cal_chlng1_prompts.prompt = "Good job! Hit the green arrow below to move on.";
-		nextArrow = instance_create_depth(1696, 640, -1500,o_cal_demo2_arrow_);
+		nextArrow = instance_create_depth(1696, 680, -1500,o_cal_demo2_arrow_);
 		nextArrow.image_xscale = .5;
 		nextArrow.image_yscale = .6;
-		instance_create_depth(1475, 650, -1500, o_run);
+		instance_create_depth(1475, 689, -1500, o_run);
 	}
 	
 }
@@ -29,6 +29,12 @@ else if( target == false){
 	feedback = "Double check your parentheses!"
 } else if(string_count("<", target) != string_count(">",keyboard_string + aft) || string_count(">", target) != string_count(">",keyboard_string + aft)){
 	feedback = "Did you use the wrong comparison operator?"
+} else if(string_lower(target) == string_lower(keyboard_string + aft)){
+	feedback = "Double check your capitalization!"
+} else if(string_replace_all(target, " ", "") == string_replace_all(keyboard_string + aft, " ", "")){
+	feedback = "Double check your spacing!"
+} else if(string_lettersdigits(target) == string_lettersdigits(keyboard_string + aft)){
+	feedback = "Double check your punctuation!"
 } else {
 	var types = ["int", "double", "char", "String"];
 	var go = true;

@@ -19,7 +19,9 @@
         "508c3715-1860-4e11-9fab-2e3681a2d0d7",
         "91efcd0a-05d5-4759-bf04-ccc840c05ccc",
         "86ac5b3a-fbb7-44e0-9544-c96e8f1fa544",
-        "3f1ae5aa-ac71-4458-99c0-4c663556b93c"
+        "3f1ae5aa-ac71-4458-99c0-4c663556b93c",
+        "6f4a4e10-971d-489b-b6f0-4b4e77a5d2f1",
+        "6a6da2e3-f513-4834-afcf-5325f79f831c"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_cal_demo",

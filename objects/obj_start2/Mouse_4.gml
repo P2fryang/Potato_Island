@@ -5,6 +5,12 @@ if(flg){
 	instance_create_layer(0, 0, "inst_fade", obj_fade);
 	flg = false;
 	
+	//create notebook widget and home instance
+	instance_create_depth(1760, 48, 0, o_notebook_widget);
+	instance_create_depth(1840, 16, 0, o_menu);
+	o_menu.image_xscale = .68;
+	o_menu.image_yscale = .68;
+	
 	// make the potat sprite not have a skin
 	// scr_setup_no_skin_potat();
 	// ^ DO NOT DO
