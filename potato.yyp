@@ -1055,14 +1055,6 @@
             }
         },
         {
-            "Key": "5de5a0da-2218-42f8-9b82-3d6efd5556ef",
-            "Value": {
-                "id": "f111ffbd-1e49-4d2d-bf8f-93b91fb590e7",
-                "resourcePath": "rooms\\rm_challenge4bii_water\\rm_challenge4bii_water.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "5e7dc2a9-7885-4ac0-8c5f-7b8d899ed020",
             "Value": {
                 "id": "adedce7a-20cc-4c9a-824a-918b8ca8ab32",
