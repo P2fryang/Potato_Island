@@ -9,7 +9,7 @@ color = c_gray;
 show_debug_message("notebook widget created" + string(depth));
 //***PERSISTENT
 
-challengeArr[8] = o_cal_challenge4;
+challengeArr[8] = o_challenge4a;
 challengeArr[0] = o_cal_chllng1;
 challengeArr[1] = o_cal_challenge2;
 challengeArr[2] = o_cal_challenge2b;
