@@ -1,4 +1,4 @@
-if(room == rm_scene5_2){ // rm_scene5_2 is the ld transformation room
+if(room == rm_scene5_2 || room == rm_game || room == rm_victory){ // rm_scene5_2 is the ld transformation room
 	image_alpha = 0;
 }
 else{

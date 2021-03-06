@@ -37,6 +37,7 @@ global.musicMuted		= false;
 global.paused			= false;				// disallow left clicks when in menu or for multiple choice
 global.pausedMCQ		= false;				// pauses the MCQ if menu pressed on mcq
 global.notebookWidgetVisible = false;			// lets the notebook widget be visible
+global.game_finished	= false;				// hide the go to minigame until game is complete
 
 //global.sliderBars;							// stores the id's of the slider bars for potato skin drawing
 // ^ not used because called after the values of the array already set
@@ -102,6 +103,7 @@ enum eventCodes {
 	bigShake,
 	widget,
 	fade,
+	zoomLoady,
 	endGame
 }
 #endregion

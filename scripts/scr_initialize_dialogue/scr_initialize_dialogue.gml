@@ -452,7 +452,7 @@ scenenum++; dia = 0;
 speak[scenenum,dia] = "Rimac";
 dialogue[scenenum,dia++] = "That was crazy, but at least I learned some Java! Finally I can check that off the to-do list.";
 
-arrOfEventFlagCodes[scenenum, dia] = eventCodes.endGame;
+arrOfEventFlagCodes[scenenum, dia] = eventCodes.zoomLoady;
 scenenum++; dia = 0;
 #endregion
 

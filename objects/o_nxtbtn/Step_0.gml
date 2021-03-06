@@ -144,9 +144,13 @@ if(leftReleased && !global.paused){
 				global.scenenum ++;
 				instance_create_depth(0,0,-1600, obj_fade);
 			}
+			else if(eventFlag == eventCodes.zoomLoady){
+				if(instance_exists(o_zoomToLoady)){
+					o_zoomToLoady.flag = true;
+				}
+			}
 			else if(eventFlag == eventCodes.endGame){
-				instance_create_depth(0,0,-1001,o_blackScreen);
-				show_error("What happened?", false);
+				room_goto(rm_game_end);
 			}
 			#endregion
 			if(scenenumPrev == global.scenenum){
