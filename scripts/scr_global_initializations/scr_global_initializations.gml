@@ -42,13 +42,17 @@ global.game_finished	= false;				// hide the go to minigame until game is comple
 //global.sliderBars;							// stores the id's of the slider bars for potato skin drawing
 // ^ not used because called after the values of the array already set
 #region set up potato skin sprite
-var spr = sprite_add("surface.png", 1, false, true, 0, 0);
+if(file_exists("surface.png")){
+	var spr = sprite_add("surface.png", 1, false, true, 0, 0);
+}
 var surf;
 surf = surface_create(583, 888);
 surface_set_target(surf);
 draw_clear_alpha(c_black, 0);
 draw_sprite(s_potat, 0, 294, 198);
-draw_sprite(spr, 0, 0, 0);
+if(file_exists("surface.png")){
+	draw_sprite(spr, 0, 0, 0);
+}
 global.potatSprite = sprite_create_from_surface(surf, 0, 0, 583, 888, false, true, 292, 0);
 sprite_save(global.potatSprite, 0, "potatSprite.png");
 surface_reset_target();
