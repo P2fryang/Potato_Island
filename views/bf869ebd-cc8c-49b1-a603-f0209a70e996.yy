@@ -15,7 +15,10 @@
         "128adda5-c569-4221-94fe-52be416c9d6e",
         "7ac3077d-9cda-4615-828d-2f117263366c",
         "1bdfcf79-d87a-428b-b362-675b589be1a3",
-        "c64176e9-a2a8-4dce-ad5a-114d0db782c8"
+        "c64176e9-a2a8-4dce-ad5a-114d0db782c8",
+        "27559fc9-d841-4f36-bc55-0299cf14c4a6",
+        "ed52f9b8-30db-4761-8ae0-5b263c9219b6",
+        "3be369e2-b6c5-416e-999a-9fe97aab2af7"
     ],
     "filterType": "GMObject",
     "folderName": "og_graphics",

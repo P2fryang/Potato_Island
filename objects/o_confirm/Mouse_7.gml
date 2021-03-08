@@ -1,12 +1,5 @@
 /// @description trigger fade on mouse click
 // You can write your code in this editor
-if(file_exists("saveFile.dat")){
-	if(!instance_exists(o_confirm)){
-		instance_create_depth(544, 672, depth - 1, o_confirm);
-		instance_create_depth(1184, 672, depth - 1, o_cancel);
-		exit;
-	}
-}
 if(flg){
 	// start the fade that changes to the next room
 	instance_create_layer(0, 0, "inst_fade", obj_fade);

@@ -1,1 +1,3 @@
-scr_load();
+if(!instance_exists(o_confirm)){
+	scr_load();
+}
