@@ -74,6 +74,7 @@ if(leftReleased && !global.paused){
 					show_debug_message("o_nxtbtn | notebookCode: " + string(notebookCode));
 				}
 				if(notebookCode != -1){ // redundant check for 
+					global.notebookByDialogue = true;
 					room_goto(rm_not2);
 				}
 			}

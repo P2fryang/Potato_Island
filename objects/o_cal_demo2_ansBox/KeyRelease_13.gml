@@ -33,9 +33,10 @@ else if( target == false){
 	feedback = "Double check your capitalization!"
 } else if(string_replace_all(target, " ", "") == string_replace_all(keyboard_string + aft, " ", "")){
 	feedback = "Double check your spacing!"
-} else if(string_lettersdigits(target) == string_lettersdigits(keyboard_string + aft)){
-	feedback = "Double check your punctuation!"
-} else {
+} //else if(string_lettersdigits(target) == string_lettersdigits(keyboard_string + aft)){
+	//feedback = "Double check your punctuation!"
+//} behavior not as expected
+else {
 	var types = ["int", "double", "char", "String"];
 	var go = true;
 	for(var i=0; i<4; i++){

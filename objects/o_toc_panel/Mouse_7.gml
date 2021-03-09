@@ -15,4 +15,8 @@ while((img[++pg] <= global.pageMax) && (!found && pg < array_length_1d(img))){
 }
 if(found){
 	o_not.image_index = img[pg - 1];
+	if(instance_exists(o_next) && pg != global.pageMax){
+		o_not.next_button = " ";
+		instance_destroy(o_next);
+	}
 }
