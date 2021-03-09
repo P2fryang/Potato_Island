@@ -1183,14 +1183,6 @@
             }
         },
         {
-            "Key": "6a6da2e3-f513-4834-afcf-5325f79f831c",
-            "Value": {
-                "id": "5a43f997-0f9b-48f3-b7b8-50c9152db3b7",
-                "resourcePath": "sprites\\s_challenge4bii\\s_challenge4bii.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6acaa080-effc-4d0c-8b59-3e0a3cdc69f0",
             "Value": {
                 "id": "95bd4589-a66f-4d28-a87d-565ebd7d977c",

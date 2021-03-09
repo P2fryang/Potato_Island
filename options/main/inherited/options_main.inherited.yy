@@ -345,7 +345,7 @@
                     "id": "50aeca66-958c-474e-bb8c-92b0cfbbc0a4",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "txg_menu_widget",
+                    "groupName": "txg_menu",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
