@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "395227f9-808f-4947-a8f9-06cdd5f5eb42",
+            "Value": {
+                "id": "ad072c85-de9e-42ad-b688-61e0d2c5db38",
+                "resourcePath": "sprites\\s_challenge4c\\s_challenge4c.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "39b6178f-5ab6-40a1-a648-87c38ac97b7d",
             "Value": {
                 "id": "c2cb00bb-34ea-4a08-81cc-9aa29d4cde83",
@@ -1028,6 +1036,14 @@
                 "id": "37cd2fb4-651c-4ae6-ba14-bf7e391c1084",
                 "resourcePath": "sprites\/spr_loadButton\/spr_loadButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59553cd7-49b5-4516-958d-a0888bfd2c5e",
+            "Value": {
+                "id": "3cabfe02-5aa0-431c-a987-dd01b7061ec7",
+                "resourcePath": "objects\\o_challenge4c\\o_challenge4c.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1591,6 +1607,14 @@
             }
         },
         {
+            "Key": "8620b550-e14b-41b3-8ae8-a2e21e1b4402",
+            "Value": {
+                "id": "0b663b65-fe14-448e-9b78-3079c7665e25",
+                "resourcePath": "objects\\o_cal_challenge_fixLoady\\o_cal_challenge_fixLoady.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86ac5b3a-fbb7-44e0-9544-c96e8f1fa544",
             "Value": {
                 "id": "34c8891e-9904-4cca-a77c-7d2db6e519fe",
@@ -1683,6 +1707,14 @@
             "Value": {
                 "id": "994e4d09-d0f6-40d3-8259-333cb8a03aaf",
                 "resourcePath": "sprites\/s_challenge3b\/s_challenge3b.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "925fd44b-8c54-4270-9ae8-951e4f32268a",
+            "Value": {
+                "id": "f0966db1-7c60-493a-b230-6abd0fc21fb7",
+                "resourcePath": "sprites\\s_challenge_fixLoady\\s_challenge_fixLoady.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1780,6 +1812,14 @@
                 "id": "b346f8d0-f73e-42be-9108-fe7b1c881350",
                 "resourcePath": "views\\9e1b358e-e796-4a4a-93d7-719e50b571df.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9ec1b9d8-2c58-44ee-b2eb-e72a28802750",
+            "Value": {
+                "id": "0932e70b-e44e-46e2-a84a-d6319f88aef8",
+                "resourcePath": "sprites\\s_challenge4d\\s_challenge4d.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2044,6 +2084,14 @@
                 "id": "e4b4617f-a9be-4239-9726-0580f63267de",
                 "resourcePath": "sprites\/tredleftarrow\/tredleftarrow.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b40b945f-c7b8-476f-8220-5359c5628114",
+            "Value": {
+                "id": "6a04240d-6f04-479a-a639-00ba44f0ad13",
+                "resourcePath": "objects\\o_challenge4d\\o_challenge4d.yy",
+                "resourceType": "GMObject"
             }
         },
         {

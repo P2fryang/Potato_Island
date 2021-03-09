@@ -14,7 +14,7 @@ if(vids[o_not.image_index] != -1 && vidInst == id){
 	restartInst = instance_create_depth(1776 - offset, 0, -1500, o_restart);
 }
 
-show_message("if while loop, use the last sprite");
+// show_message("if while loop, use the last sprite");
 
 if(vidInst != id){//stop the video
 	if(vidInst.image_index > vidInst.image_number - 1){

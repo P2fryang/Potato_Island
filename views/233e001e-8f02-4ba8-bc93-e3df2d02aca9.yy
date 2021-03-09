@@ -11,6 +11,7 @@
         "f2debcb3-cb08-496c-a006-1f2a4ef18836",
         "d95eafa1-4861-4118-a9d8-92c18db3f4b9",
         "c8fb4779-f8dd-4e75-a3a0-19ff13b2bb6d",
+        "925fd44b-8c54-4270-9ae8-951e4f32268a",
         "04845dfe-ee4b-4d67-94cb-30e280b4f770",
         "f66a7820-de25-4da6-a898-f7df8860b617",
         "2a30cc16-2005-4188-825a-f81a0b0aae62",
@@ -21,7 +22,9 @@
         "86ac5b3a-fbb7-44e0-9544-c96e8f1fa544",
         "3f1ae5aa-ac71-4458-99c0-4c663556b93c",
         "6f4a4e10-971d-489b-b6f0-4b4e77a5d2f1",
-        "6a6da2e3-f513-4834-afcf-5325f79f831c"
+        "6a6da2e3-f513-4834-afcf-5325f79f831c",
+        "395227f9-808f-4947-a8f9-06cdd5f5eb42",
+        "9ec1b9d8-2c58-44ee-b2eb-e72a28802750"
     ],
     "filterType": "GMSprite",
     "folderName": "sg_cal_demo",
